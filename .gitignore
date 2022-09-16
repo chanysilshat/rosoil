@@ -55,3 +55,4 @@ bitrix/
 upload/
 .htaccess
 *.ico
+*.svg
