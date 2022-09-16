@@ -47,4 +47,11 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
-
+*.png
+*.jpeg
+*.jpg
+*.txt
+bitrix/
+upload/
+.htaccess
+*.ico
