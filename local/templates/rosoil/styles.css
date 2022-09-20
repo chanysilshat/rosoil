@@ -1339,5 +1339,183 @@ color: #000000;
   color: #000000;
   max-width: 439px;
 }
-
+.page-info{
+    /* основной текст */
+ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* or 144% */
+ 
+ 
+    /* Фирменный черный */
+ 
+    color: #1D1D1D;
+  }
+  .page-info{
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  .page-info-text{
+   max-width: 932px;
+   background: #D9D9D9;
+ 
+   padding-top: 48px;
+   padding-left: 192px;
+   padding-right: 129px;
+   padding-bottom: 66px;
+  }
+ 
+  .page-info-text-two{
+   max-width: 710px;
+   background: #F9D119;
+   padding-left: 192px;
+   padding-top: 25px;
+   padding-bottom: 16px;
+ 
+   border-bottom: 1px dashed #1D1D1D;
+  }
+ .page-info-text-two div{
+   max-width: 282px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+   /* or 144% */
+ 
+ 
+   color: #000000;
+ }
+  .line{
+   width: 705px;
+   height: 0px;
+   left: -2px;
+   top: 816px;
+ 
+   border: 2px dashed #1D1D1D;
+   transform: rotate(-0.08deg);
+ 
+  }
+ .block-left{
+   margin-top: 70px;
+ }
+  .page-info-text-three{
+  
+   max-width: 710px;
+   background: #F9D119;
+ 
+   padding-top: 13px;
+   padding-left: 192px;
+   
+   padding-bottom: 30px;
+  }
+  
+ .block-right{
+   display: flex;
+   justify-content: end;
+ }
+ .block-right .page-info{
+   width: 49%;
+ }
+ .block-right .page-info .page-info-text-two{
+   padding-left: 23px;
+ }
+ .block-right .page-info .page-info-text-three{
+   padding-left: 23px;
+ }
+ 
+ .polimer-PMB{
+ -webkit-text-size-adjust: 100%;
+ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ text-align: left;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 0px;
+ line-height: 36px;
+ color: #1d1d1d;
+ box-sizing: inherit;
+ margin: 50px;
+ padding-left: 182px;
+ padding-right: 508px;
+ }
+ 
+ .polimer-img{
+   margin-left: 140px;
+ }
+ 
+ .page-info-text-s{
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 23px;
+ 
+ margin-left: 183px;
+ margin-right: 487px;
+ 
+ color: #1D1D1D;
+ }
+ 
+ .polimer-txt div{
+   margin-left: 183px;
+   margin-right: 487px;
+   margin-bottom: 22px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+ }
+ 
+ .page-info-text-twos div{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+   margin-bottom: 40px;
+ }
+ 
+ .page-info-text-sl div{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+   margin-bottom: 40px;
+ }
+ 
+ .polimer-txt12 div{
+   margin-left: 185px;
+   margin-right: 591px;
+   margin-top: 13px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+   margin-bottom: 31px;
+ }
+ 
+ .passport-block{
+   position: relative;
+   left: -10px;
+   margin-bottom: 170px;
+ }
+ 
+ .text{
+   margin-bottom: 106px;
+ }
+ 
+ .implementation{
+   position: relative;
+   left: -75px;
+ }
+ 
+ 
 /**--develops--*/
