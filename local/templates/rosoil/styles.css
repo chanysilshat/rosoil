@@ -794,5 +794,844 @@ color: #000000;
    left: -75px;
  }
  
+ .logistics{
+  background-image: url(img/logistics.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.title-logistics{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+  
+
+  /* серый */
+
+  color: #FBFBFB;
+  padding: 135px 180px 48px;
+}
+.text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* серый */
+
+  color: #FBFBFB;
+  padding-left: 180px;
+  padding-right: 573px;
+  padding-bottom: 123px;
+}
+.sentence-container{
+ display: flex;
+}
+.logistics-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+
+
+  color: #000000;
+  width: 305px;
+  padding-top: 60px;
+
+}
+.sentence-item img{
+  width: 100px;
+  height: 100px;
+}
+.sentence-item{
+  display: flex;
+  justify-content: center;
+}
+.blok-sentence{
+  background: #D9D9D9;
+  display: flex;
+  gap: 98px;
+  padding:71px 57px 131px 186px ;
+}
+.blok-system{
+  padding-top: 71px;
+  padding-left: 26px;
+  padding-right: 183px;
+}
+.logistics-text.item{
+  width: 285px;
+}
+.process-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 44px;
+  /* or 183% */
+
+
+  /* Фирменный черный */
+
+  color: #1D1D1D;
+  padding: 57px 537px 85px 108px;
+}
+.process-block{
+  background: #F9D119;
+  margin-left: 186px;
+  
+}
+.consumption-item{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 26px;
+  /* identical to box height, or 36% */
+
+
+  /* Фирменный цвет */
+
+  color: #F9D119;
+  padding-right: 10px;
+}
+.consumption-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+
+
+  color: #000000;
+}
+.consumption-text span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+
+
+  color: #000000;
+}
+.demand{
+  display: flex;
+  padding: 0 525px 0 204px ;
+  align-items: center;
+  position: relative;
+  
+}
+.process{
+  position: relative;
+  bottom: 60px;
+}
+.demand::after, .formation::after, .organization::after, .creation::after{
+  content: "";
+  border-bottom: 1px dashed #000000;
+
+  position: absolute;
+
+  bottom: -10px;
+  width: 400px;
+  left: 0;
+}
+.formation::after{
+    left: 90px
+}
+.organization::after{
+    left: 180px
+}
+.creation::after{
+    left: 270px
+}
+.security::after{
+    left: 360px
+}
+.formation, .organization, .creation, .security{
+  position: relative;
+}
+.formation{
+  display: flex;
+  padding:40px 415px 0 304px ;
+  align-items: center;
+  position: relative;
+}
+.organization{
+  display: flex;
+  padding: 40px 502px 0 414px;
+  align-items: center;
+
+}
+.creation{
+  display: flex;
+  padding: 40px 298px 0 521px;
+  align-items: center;
+
+}
+.security{
+  display: flex;
+  align-items: center;
+  padding: 40px 187px 20px 632px;
+  border-bottom:  2px dashed #000000;
+  
+}
+.square{
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+.department-title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 44px;
+  
+
+  text-align: center;
+  color: #1D1D1D;
+
+}
+.department-item .department-title{
+  max-width: 600px;
+}
+.department-item{
+  background: #D9D9D9;
+  margin: 0 290px 0 290px;
+  width: 859px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+
+}
+.container .department-block{
+  width:859px;
+  margin: 0 290px 88px 290px;
+}
+.tasks-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* or 125% */
+
+
+  color: #000000;
+  width: 747px;
+}
+.tasks-block{
+  background: #F9D119;
+  padding: 46px 224px 45px 179px;
+  margin-right: 290px;
+  margin-bottom: 67px;
+}
+.services-item{
+  display: flex;
+  margin-right: 204px;
+  margin-left: 177px;
+}
+.services-block{
+  display: flex;
+  justify-content: space-evenly;
+}
+.services-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.solutions-block{
+  display: flex;
+  justify-content: center;
+}
+.solutions-text{
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+
+  text-align: center;
+
+  color: #000000;
+
+}
+.concept-text {
+  width: 688px;
+  text-align: justify;
  
+}
+
+.concept-block{
+  background: #F9D119;
+  margin: 72px 0 0 475px;
+  padding: 95px 213px 181px 64px;
+}
+.department-block{
+  display: flex;
+  justify-content: space-between;
+
+}
+.department-text{
+  border-left: 2px dashed #000000;
+  height: 717px;
+  margin-left: 62px;
+  padding-left: 97px;
+}
+
+
+
+.risk{
+  padding-bottom: 61px;
+  padding-top: 21px;
+  width: 309px;
+  
+}
+.risk span{
+  position: relative;
+}
+.risk span:after{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: 339px;
+}
+.monitoring{
+  padding-bottom: 61px;
+  width: 350px;
+}
+.monitoring span{
+  position: relative;
+}
+.monitoring span:after{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: 339px;
+}
+.agreement{
+  padding-bottom: 66px;
+  width: 329px;
+}
+.agreement span{
+  position: relative;
+}
+.agreement span:after{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: 339px;
+}
+.additionally{
+  padding-bottom: 50px;
+  width: 350px;
+}
+.additionally span{
+  position: relative;
+}
+.additionally span:after{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: 339px;
+}
+.cost{
+  width: 350px;
+}
+.cost span{
+  position: relative;
+  width: 350px;
+}
+.cost span:after{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: 339px;
+}
+
+.posting{
+  padding-bottom: 86px;
+  padding-top: 114px;
+  width: 338px;
+}
+.posting span{
+  position: relative;
+}
+.posting span:before{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: -96px;
+}
+.filling{
+  padding-bottom: 91px;
+  max-width: 350px;
+}
+.filling span{
+  position: relative;
+}
+.filling span:before{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: -96px;
+}
+.modern-level{
+  max-width:214px ;
+}
+.high-level{
+  max-width: 166px;
+}
+.delivery-time{
+  max-width: 156px;
+}
+.quality-assurance{
+  max-width: 183px;
+}
+.services-text{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+.level{
+  padding-bottom: 43px;
+  max-width: 350px;
+}
+.level span{
+  position: relative;
+}
+.level span:before{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: -96px;
+}
+
+.loading{
+  padding-bottom: 68px;
+  max-width: 329px;
+}
+.loading span{
+  position: relative;
+}
+.loading span:before{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: -96px;
+}
+.adaptation{
+  position: relative;
+  width: 329px;
+}
+.adaptation span:before{
+  display: block;
+  width:70px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px dashed #000000;;
+  top:50%;
+  left: -96px;
+}
+ 
+.aviation-fuel{
+  background-image: url(img/aviation-fuel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aviation-title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+  /* серый */
+
+  color: #FBFBFB;
+  padding:17px 0  35px 189px ;
+ 
+  
+
+}
+.aviation-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FBFBFB;
+}
+.aviation-block .aviation-text{
+  text-align: left;
+  padding-bottom: 34px;
+  padding-left: 186px;
+  
+}
+.aviation-block{
+  width:683px;
+}
+.fuel-turbine-item{
+  background:#D9D9D9; 
+  margin-right: 510px;
+}
+.fuel-turbine-item .aviation-text{
+  color: #1D1D1D;
+  padding: 55px 165px 42px 183px;
+}
+.type-block{
+  background: #F9D119;
+  margin-left: 442px;
+  padding: 29px 0 20px 68px;
+  margin-bottom: 31px;
+}
+.title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.type-item .aviation-text{
+  color: #000000;
+  padding-bottom: 25px;
+}
+.container-fuel{
+  
+  display: flex;
+  gap: 100px;
+
+}
+.type-block .title{
+  padding-bottom: 30px;
+}
+.title-item{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.type-item .title-item{
+  padding-bottom: 20px;
+}
+.engine{
+  width: 213px;
+  margin-bottom: 11px;
+}
+.you-want-item .aviation-text{
+  color: #1D1D1D;
+  width: 640px;
+}
+.you-want-blok{
+  padding-left: 180px;
+}
+.you-want-blok .title{
+  padding-bottom: 40px;
+}
+.you-want-item{
+  display: flex;
+  align-items: end;
+  padding-bottom: 31px;
+}
+.brand{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 112px;
+  
+  color: #000000;
+}
+.you-want-item .brand{
+  padding-left: 250px;
+}
+.you-want-text .aviation-text{
+  color: #1D1D1D;
+  padding: 0 387px 1px 400px;
+}
+.black-square{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 48px;
+}
+.jet-engine-blok .aviation-text{
+  color: #000000;
+  width: 750px;
+}
+.jet-engine {
+  padding-left: 180px;
+  padding-bottom: 80px;
+  
+
+}
+.jet-engine .title{
+  padding-bottom: 40px;
+  width: 722px;
+}
+.jet-engine-blok{
+  display: flex;
+  gap: 60px;
+}
+#square {
+  position: absolute;
+  width: 249px;
+  height: 664px;
+  background: #D9D9D9;
+  left: -179px;
+}
+
+.addition{
+  padding-bottom: 44px;
+  border-bottom: 2px dashed #1D1D1D;
+}
+.download-text .aviation-text{
+  color: #000000;
+  text-decoration-line: underline;
+}
+.download-block{
+  background: #F9D119;
+  margin-left: 583px;
+}
+.download-block{
+  display: flex;
+  gap: 11px;
+}
+.download-text .aviation-text{
+  padding-bottom: 20px;
+}
+.download-svg .download-list{
+  padding-bottom: 14px;
+}
+.download-text{
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
+.download-svg{
+  margin-top: 21px;
+  margin-left: 54px;
+}
+.container-blok{
+  background: #000000;
+  margin: 31px 717px 31px 0;
+  padding: 27px 233px 32px 183px;
+  display: flex;
+  gap: 14px;
+}
+.container-blok .aviation-text{
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+}
+.product-item{
+  border-bottom: 2px dashed #1D1D1D;
+}
+.fuel-item .title{
+  padding-top: 29px;
+  padding-left: 187px;
+  padding-bottom: 68px;
+}
+.fuel-blok{
+  display: flex;
+  gap: 51px;
+  
+}
+.fuel-TC-1{
+  border-bottom: 2px dashed #1D1D1D;
+}
+
+.choice-title{
+  display: flex;
+  padding-left: 367px;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.choice-item-list{
+  display: flex;
+  padding-left: 347px;
+  padding-right: 375px;
+  gap: 183px;
+}
+
+.choice-item-list .aviation-text{
+  color: #000000;
+}
+.choice-text .aviation-text{
+  min-width: 150px;
+  text-align: center;
+}
+.choice-text-item .aviation-text{
+  min-width: 189px;
+  padding-top: 35px;
+  text-align:center;
+}
+.choice{
+  margin-bottom: 73px;
+}
+.choice-item-block{
+  display: flex;
+  justify-content: center;
+}
+.jet-item{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1D1D1D;
+  padding: 24px 0 20px 190px ;
+
+
+}
+.jet-fuel{
+  margin-top: 57px;
+}
+.jet-fuel-text .aviation-text{
+  color: #1D1D1D;
+  padding:0 20px 51px 186px ;
+}
+.jet-fuel-block{
+  background: #F9D119;
+  margin-right: 360px;
+}
+.jet-fuel-item{
+  padding-bottom: 50px;
+}
+.fuel-export-text .aviation-text{
+  color: #000000;
+}
+
+.fuel-export-title{
+  margin-left: 184px;
+  padding-bottom: 32px;
+}
+.fuel-export-text{
+  margin-left: 185px;
+  padding-bottom: 40px;
+  max-width: 749px;
+}
+.curcle{
+  display: flex;
+  justify-content: space-evenly;
+}
+.curcle-item span{
+  position: relative;
+}
+.curcle-item span:after {
+  display: block;
+  width: 338px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid #AAA6A6;
+  top: 50%;
+  left: 31px;
+}
+.delivery-list .aviation-text{
+  color: #777777;
+  max-width: 166px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.fuel-truck .aviation-text{
+  color: #777777;
+  max-width: 114px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.tank-wagon .aviation-text{
+  color: #777777;
+  max-width: 139px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+
+}
+.fuel-export-item{
+  display: flex;
+  padding-left: 310px;
+  padding-top: 22px;
+  padding-bottom: 72px;
+  padding: 22px 0 72px 310px;
+}
+.tank-wagon{
+  display: flex;
+  gap: 19px;
+  margin-right: 18px;
+}
+.delivery-list{
+  display: flex;
+  gap: 4px;
+  margin-right: 68px;
+}
+.fuel-truck {
+  display: flex;
+  gap: 27px;
+}
+.fuel-truck-item{
+  display: flex;
+  align-items: center;
+}
+.fuel-list-item .aviation-text{
+  color: #000000;
+}
+.fuel-number{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 26px;
+  color: #F9D119;
+}
+.fuel-list-item{
+  display: flex;
+  align-items: center;
+  gap: 57px;
+}
+.fuel-TC-1{
+  padding-bottom: 66px;
+}
+
 /**--develops--*/

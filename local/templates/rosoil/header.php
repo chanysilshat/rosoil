@@ -13,22 +13,24 @@ $Asset = Asset::getInstance();
         <meta name="format-detection" content="telephone=no">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?
-            $Asset->addJs(SITE_TEMPLATE_PATH.'/js/app.js');
             $Asset->addCss(SITE_TEMPLATE_PATH.'/css/style.css');
+
+            $Asset->addJs(SITE_TEMPLATE_PATH.'/js/app.js');
+            $Asset->addJs(SITE_TEMPLATE_PATH.'/js//app.min.js');
 
             $APPLICATION->ShowHead();
         ?>
         
         <title><?=$APPLICATION->ShowTitle();?></title>
     </head>
-    <body class="body">
+    <body class="loaded">
         <div id="panel"><?=$APPLICATION->ShowPanel()?></div>
         <div class="wrapper">
-            <header data-scroll="50" data-scroll-show="50" class="header">
+            <header data-scroll="50" data-scroll-show="800" class="header">
                 <div class="header__top-block header-top-block">
                     <div data-da=".header-main-block__menu,991.98,last" class="header-top-block__container">
                         <a href="#" class="header-top-block__hotline _icon-hotline">Горячая линия для жалоб</a>
-                        <a href="team.html#" class="header-top-block__info _icon-info">Коротко о Rise Oil</a>
+                        <a href="sug.html#" class="header-top-block__info _icon-info">Коротко о Rise Oil</a>
                     </div>
                 </div>
                 <nav class="header__main-block header-main-block">
