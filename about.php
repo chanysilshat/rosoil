@@ -42,9 +42,172 @@ $APPLICATION->SetTitle("Главная");
                     Забота о Партнерах и клиентах является для компании приоритетной задачей, Мы берем полную ответственность за качество наших услуг в соответствии с Международными стандартами.
                 </div>
             </div>
+        </div>            
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:news.list",
+            "about_partners",
+            Array(
+                "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                "ADD_SECTIONS_CHAIN" => "Y",
+                "AJAX_MODE" => "N",
+                "AJAX_OPTION_ADDITIONAL" => "",
+                "AJAX_OPTION_HISTORY" => "N",
+                "AJAX_OPTION_JUMP" => "N",
+                "AJAX_OPTION_STYLE" => "Y",
+                "CACHE_FILTER" => "N",
+                "CACHE_GROUPS" => "Y",
+                "CACHE_TIME" => "36000000",
+                "CACHE_TYPE" => "A",
+                "CHECK_DATES" => "Y",
+                "DETAIL_URL" => "",
+                "DISPLAY_BOTTOM_PAGER" => "Y",
+                "DISPLAY_DATE" => "Y",
+                "DISPLAY_NAME" => "Y",
+                "DISPLAY_PICTURE" => "Y",
+                "DISPLAY_PREVIEW_TEXT" => "Y",
+                "DISPLAY_TOP_PAGER" => "N",
+                "FIELD_CODE" => array("",""),
+                "FILTER_NAME" => "",
+                "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                "IBLOCK_ID" => "13",
+                "IBLOCK_TYPE" => "content",
+                "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+                "INCLUDE_SUBSECTIONS" => "Y",
+                "MESSAGE_404" => "",
+                "NEWS_COUNT" => "20",
+                "PAGER_BASE_LINK_ENABLE" => "N",
+                "PAGER_DESC_NUMBERING" => "N",
+                "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                "PAGER_SHOW_ALL" => "N",
+                "PAGER_SHOW_ALWAYS" => "N",
+                "PAGER_TEMPLATE" => ".default",
+                "PAGER_TITLE" => "Новости",
+                "PARENT_SECTION" => "",
+                "PARENT_SECTION_CODE" => "",
+                "PREVIEW_TRUNCATE_LEN" => "",
+                "PROPERTY_CODE" => array("","HREF"),
+                "SET_BROWSER_TITLE" => "Y",
+                "SET_LAST_MODIFIED" => "N",
+                "SET_META_DESCRIPTION" => "Y",
+                "SET_META_KEYWORDS" => "Y",
+                "SET_STATUS_404" => "N",
+                "SET_TITLE" => "Y",
+                "SHOW_404" => "N",
+                "SORT_BY1" => "ACTIVE_FROM",
+                "SORT_BY2" => "SORT",
+                "SORT_ORDER1" => "DESC",
+                "SORT_ORDER2" => "ASC",
+                "STRICT_SECTION_CHECK" => "N"
+            )
+        );?>
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:news.list",
+            "about_partners",
+            Array(
+                "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                "ADD_SECTIONS_CHAIN" => "Y",
+                "AJAX_MODE" => "N",
+                "AJAX_OPTION_ADDITIONAL" => "",
+                "AJAX_OPTION_HISTORY" => "N",
+                "AJAX_OPTION_JUMP" => "N",
+                "AJAX_OPTION_STYLE" => "Y",
+                "CACHE_FILTER" => "N",
+                "CACHE_GROUPS" => "Y",
+                "CACHE_TIME" => "36000000",
+                "CACHE_TYPE" => "A",
+                "CHECK_DATES" => "Y",
+                "DETAIL_URL" => "",
+                "DISPLAY_BOTTOM_PAGER" => "Y",
+                "DISPLAY_DATE" => "Y",
+                "DISPLAY_NAME" => "Y",
+                "DISPLAY_PICTURE" => "Y",
+                "DISPLAY_PREVIEW_TEXT" => "Y",
+                "DISPLAY_TOP_PAGER" => "N",
+                "FIELD_CODE" => array("",""),
+                "FILTER_NAME" => "",
+                "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                "IBLOCK_ID" => "13",
+                "IBLOCK_TYPE" => "content",
+                "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+                "INCLUDE_SUBSECTIONS" => "Y",
+                "MESSAGE_404" => "",
+                "NEWS_COUNT" => "20",
+                "PAGER_BASE_LINK_ENABLE" => "N",
+                "PAGER_DESC_NUMBERING" => "N",
+                "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                "PAGER_SHOW_ALL" => "N",
+                "PAGER_SHOW_ALWAYS" => "N",
+                "PAGER_TEMPLATE" => ".default",
+                "PAGER_TITLE" => "Новости",
+                "PARENT_SECTION" => "",
+                "PARENT_SECTION_CODE" => "",
+                "PREVIEW_TRUNCATE_LEN" => "",
+                "PROPERTY_CODE" => array("","HREF"),
+                "SET_BROWSER_TITLE" => "Y",
+                "SET_LAST_MODIFIED" => "N",
+                "SET_META_DESCRIPTION" => "Y",
+                "SET_META_KEYWORDS" => "Y",
+                "SET_STATUS_404" => "N",
+                "SET_TITLE" => "Y",
+                "SHOW_404" => "N",
+                "SORT_BY1" => "ACTIVE_FROM",
+                "SORT_BY2" => "SORT",
+                "SORT_ORDER1" => "DESC",
+                "SORT_ORDER2" => "ASC",
+                "STRICT_SECTION_CHECK" => "N"
+            )
+        );?>
+    </div>
+    <div class="about-preview">
+        <div class="about-preview-item">
+            <div class="preview-item-head">
+                Структура холдинга 
+            </div>
+            <div class="preview-item-text">
+                Наши торговые офисы располагаются в ключевых точках по всему миру в Дубай ОАЭ, России, Кыргызстане, Узбекистане, Грузии
+            </div>
         </div>
-        <div class="about-title">
-            <h1>Нашими партнерами и являются: </h1>
+        <div class="about-preview-item">
+            <div class="preview-item-head">
+                Инвестиции
+            </div>
+            <div class="preview-item-text">
+                Мы инвестируем в энергетические активы, которые дополняют наше положение в центре мировых энергетических рынков и облегчают поток энергии с ключевых рынков по всему миру и через них
+            </div>
+        </div>
+    </div>
+</main>
+<main>
+    <div class="about-description-block">
+        <div class="about-description">
+            <div class="about-description-item left">
+                Светлые нефтепродукты
+            </div>
+            <div class="about-description-item">
+                Битумные материалы
+            </div>
+            <div class="about-description-item left">
+                LPG
+            </div>
+            <div class="about-description-item">
+                Бензин газовый стабильный
+            </div>
+            <div class="about-description-item left">
+                Нефтяной кокс
+            </div>
+        
+        </div>
+        <div class="left-background">
+        </div>
+        <div class="right-background">
+        </div>
+    </div>
+    <div class="about-save">
+        <div class="about-partners-head">
+            Хранение
+        </div>
+        <div class="save-text">
+            Оптимальное расположение нефтяных терминалов и складских возможностей, обеспечивают прочность торговых операций. Это позволяют нам своевременно удовлетворять потребности наших клиентов… 
         </div>
     </div>
 </main>

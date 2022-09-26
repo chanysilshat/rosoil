@@ -14,9 +14,11 @@ $Asset = Asset::getInstance();
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?
             $Asset->addCss(SITE_TEMPLATE_PATH.'/css/style.css');
+            $Asset->addCss(SITE_TEMPLATE_PATH.'/css/style.min-1.css');
             $Asset->addCss(SITE_TEMPLATE_PATH.'/css/styles.css');
             $Asset->addCss(SITE_TEMPLATE_PATH.'/css/mobile_styles.css');
             
+            $Asset->addJs(SITE_TEMPLATE_PATH.'/js/main.js');
             $Asset->addJs(SITE_TEMPLATE_PATH.'/js/app.js');
             $Asset->addJs(SITE_TEMPLATE_PATH.'/js//app.min.js');
 
