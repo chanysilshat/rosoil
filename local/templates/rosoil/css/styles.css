@@ -5,6 +5,44 @@
 .header{
     position: relative;
  }
+ .banner-page{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 350px;
+ }
+ .banner-title{
+  /* Заголовок веб страницы */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+  /* серый */
+
+  color: #FBFBFB;
+  max-width: 1050px;
+  width: 100%;
+  margin-bottom: 55px;
+ }
+ .banner-text{
+  /* основной текст */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  /* or 144% */
+
+
+  /* серый */
+
+  color: #FBFBFB;
+  max-width: 750px;
+  width: 100%;
+ }
  .page-info span{
    /* основной текст */
 
@@ -238,20 +276,20 @@
     padding: 30px 563px 66px 189px;
   }
   .polimer-PMB-text{
-    ont-family: 'Inter';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
     color: #000000;
     background: #D9D9D9;
-    padding: 29px 0px 28px 37px;
-    margin-left: 154px;
   }
   .polimer-conteiner{
     display: flex;
     padding-top: 58px;
     gap: 45px;
+    margin-left: 180px;
+    align-items: center;
   }
   .polimer-info-text{
     display: flex;
@@ -316,8 +354,7 @@
     /* серый */
   
     color: #FBFBFB;
-    float: left;
-    padding-left: 180px;
+    margin-left: 180px;
    }
    .text{
     font-family: 'Inter';
@@ -428,27 +465,52 @@
   
   .title-prewie.logistics{
     color: #1D1D1D;
-    float: none;
+
+  }
+  .contains .title-prewie{
+    max-width: 660px;
+  }
+  .contains  .text.logistics{
+    max-width: 750px;
   }
   .text.logistics{
     color:#1D1D1D;
-    padding: 40px 180px;
+    margin-top: 40px;
+    margin-left: 180px;
+
+    /* основной текст */
+    margin-bottom: 89px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* or 144% */
+
+
+    /* Фирменный черный */
+
+    color: #1D1D1D;
+
   }
   .delivery{
     display: flex;
     justify-content: space-between;
-    margin-left: 310px;
-    margin-right: 177px;
+    margin-left: 224px;
     margin-top: 17px;
     margin-bottom: 165px;
+    max-width: 900px;
+    display: none;
   }
   .delivery-item{
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    margin-left: 337px;
+    margin-left: 224px;
     margin-right: 337px;
+    max-width: 745px;
+    display: none;
     
   }
   .delivery-item-line{
@@ -504,22 +566,38 @@
   }
   .text.implementation{
     color: #1D1D1D;
-    padding: 0px 107px 79px 180px; 
+    padding: 0px 107px 220px 180px; 
     text-align: justify;
   
   }
   .implementation-item{
     background: #F9D119;
-    margin-right: 400px;
+    max-width: 1075px;
+  }
+  .implementation-item .black-line{
+    max-width: 632px;
+    width: 100%;
+    height: 61px;
+    position: absolute;
+    bottom: 73px;
+    background: #000000;
   }
   .implementation{
   }
+  
+  .oil-products{
+    border-top: 2px dashed #1D1D1D;
+    margin-top: 66px;
+    padding-top: 55px;
+  }
+  .oil-products .title-prewie{
+    max-width: 750px;
+    margin-bottom: 44px;
+  }
   .title-prewie.oil-products{
     color: #1D1D1D;
-    float: none;
-    padding-right: 508px;
+
     padding-bottom: 45px;
-    border-top: 2px dashed #1D1D1D;
     padding-top: 94px;
   
   }
@@ -695,9 +773,30 @@ color: #000000;
  .block-right{
    display: flex;
    justify-content: end;
+   
+ }
+ .block-huge .polimer-PMB{
+  max-width: 875px;
+ }
+ .block-huge .polimer-txt{
+  margin-top: 40px;
+  max-width: 770px;
+  margin-left: 183px;
+
+ }
+ .block-huge .block-right .page-info{
+  background: #D9D9D9;
+  max-width: 1040px;
+  width: 100%;
+  padding: 30px;
+ }
+ .block-left .page-info{
+  width: 49%;
+  background: #F9D119;
  }
  .block-right .page-info{
    width: 49%;
+   background: #F9D119;
  }
  .block-right .page-info .page-info-text-two{
    padding-left: 23px;
@@ -717,13 +816,13 @@ color: #000000;
  line-height: 36px;
  color: #1d1d1d;
  box-sizing: inherit;
- margin: 50px;
- padding-left: 182px;
- padding-right: 508px;
+ margin-left: 182px;
+ max-width: 750px;
+ margin-top: 50px;
  }
  
  .polimer-img{
-   margin-left: 140px;
+
  }
  
  .page-info-text-s{
@@ -740,8 +839,7 @@ color: #000000;
  }
  
  .polimer-txt div{
-   margin-left: 183px;
-   margin-right: 487px;
+
    margin-bottom: 22px;
    font-family: 'Inter';
    font-style: normal;
@@ -770,7 +868,7 @@ color: #000000;
  
  .polimer-txt12 div{
    margin-left: 185px;
-   margin-right: 591px;
+    max-width: 664px;
    margin-top: 13px;
    font-family: 'Inter';
    font-style: normal;
@@ -779,27 +877,23 @@ color: #000000;
    line-height: 23px;
    margin-bottom: 31px;
  }
- 
+ .contains .passport-block{
+  position: unset;
+  margin-top: 30px;
+  margin-bottom: 0;
+ }
  .passport-block{
    position: relative;
    left: -10px;
    margin-bottom: 170px;
  }
  
- .text{
-   margin-bottom: 106px;
- }
- 
  .implementation{
    position: relative;
-   left: -75px;
  }
  
  .logistics{
-  background-image: url(img/logistics.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+  margin-top: 57px;
 }
 .title-logistics{
   font-family: 'Inter';
@@ -824,9 +918,6 @@ color: #000000;
   /* серый */
 
   color: #FBFBFB;
-  padding-left: 180px;
-  padding-right: 573px;
-  padding-bottom: 123px;
 }
 .sentence-container{
   position: relative;
@@ -1826,10 +1917,6 @@ flex-grow: 0;
   color: #1D1D1D;
 }
 
-.logistics{
-  padding-top: 555px;
-  
-}
 
 .about-page{
   margin-left: 70px;
@@ -2222,5 +2309,49 @@ flex-grow: 0;
  }
  .about-save .about-partners-head{
   margin-bottom: 21px;
+ }
+ .about-productions{
+  margin-top: 100px;
+  margin-bottom: 50px;
+ }
+ .about-productions-head{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+  /* Фирменный черный */
+  text-decoration-line: underline;
+  color: #1D1D1D;
+  cursor: pointer;
+
+ }
+ .about-productions-items{
+  margin-top: 21px;
+  width: 864px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  display: none;
+ }
+ .about-productions-items ul li{
+  list-style: disc;
+    
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 162% */
+
+
+  /* Фирменный черный */
+
+  color: #1D1D1D;
+ }
+ .open .about-productions-items{
+  display: block;
  }
 /**--develops--*/

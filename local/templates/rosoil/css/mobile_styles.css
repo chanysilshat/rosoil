@@ -1,7 +1,11 @@
 @media (max-width: 1440px){
     .container {
+        width: 1440px;
+    }
+}
+@media (max-width: 1440px){
+    .container {
         width: 1200px;
-
     }
     .about-text-grid:first-child{
         grid-template-columns: 420px 1fr;
@@ -33,6 +37,9 @@
     .page-404{
         display: block;
     }
+    .textz{
+        width: 910px;
+    }
 }
 @media (max-width: 920px){
     .container {
@@ -49,6 +56,15 @@
     }
     .about-partners{
         grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+    .textz{
+        width: 750px;
+    }
+    .block-flex{
+        width: 750px;
+    }
+    .about-productions-items{
         width: 100%;
     }
 }
@@ -70,6 +86,15 @@
     }
     .about-description-item.left{
         padding: 40px 36px 40px 36px;
+    }
+    .textf{
+        width: 300px;
+    }
+    .textz{
+        width: 550px;
+    }
+    .block-flex{
+        width: 550px;
     }
 }
 @media (max-width: 576px){
@@ -99,10 +124,28 @@
     .page-404 span{
         font-size: 20px;
     }
+    .textf{
+        width: auto;
+    }
+    .textz{
+        width: 430px;
+    }
+    .block-flex{
+        width: 430px;
+    }
+    .zagk{
+        font-size: 25px;
+    }
 } 
 @media (max-width: 450px){
     .container {
         width: 400px;
+    }
+    .textz{
+        width: auto;
+    }
+    .block-flex{
+        width: auto;
     }
 } 
 @media (max-width: 400px){
