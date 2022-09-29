@@ -1,6 +1,6 @@
-@media (max-width: 1440px){
+@media (max-width: 1600px){
     .container {
-        width: 1440px;
+        width: 1200px;
     }
 }
 @media (max-width: 1440px){
@@ -40,6 +40,15 @@
     .textz{
         width: 910px;
     }
+    .you-want-text .aviation-text{
+        margin-left: auto;
+    }
+    .fuel-blok{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 @media (max-width: 920px){
     .container {
@@ -65,6 +74,25 @@
         width: 750px;
     }
     .about-productions-items{
+        width: 100%;
+    }
+    #square {
+        display: none;
+    }
+    .choice-item-list{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .choice-svg-item{
+        width: 100%;
+    }
+    .fuel-turbine-item{
+        padding: 50px;
+    }
+    .fuel-turbine-item .aviation-text{
+        width: auto;
+    }
+    .jet-fuel-item svg{
         width: 100%;
     }
 }
@@ -95,6 +123,12 @@
     }
     .block-flex{
         width: 550px;
+    }
+    .you-want-text .aviation-text{
+        width: auto;
+    }
+    .jet-engine .title{
+        width: auto;
     }
 }
 @media (max-width: 576px){
@@ -135,6 +169,23 @@
     }
     .zagk{
         font-size: 25px;
+    }
+    .you-want-item{
+        flex-wrap: wrap;
+    }
+    .jet-engine-blok{
+        flex-wrap: wrap;
+    }
+    .container-blok{
+        padding: 32px;
+        display: flex;
+        justify-content: center;
+    }
+    .jet-item{
+        padding: 24px;
+    }
+    .jet-fuel-text .aviation-text{
+        padding: 24px;
     }
 } 
 @media (max-width: 450px){

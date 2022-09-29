@@ -2,10 +2,11 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Главная");
 ?>
+
 <main class="container">
     <div class="about-page">
         <div class="about-title">
-            <h1>Добро пожаловать в компанию!</h1>
+            <h1><?=GetMessage("WELCOME")?></h1>
         </div>
         <div class="about-text-block">
             <div class="about-text-grid">
@@ -104,7 +105,7 @@ $APPLICATION->SetTitle("Главная");
     <div class="about-preview">
         <div class="about-preview-item">
             <div class="preview-item-head">
-                Структура холдинга 
+                <?=GetMessage("HOLDING_STRUCTURE")?>
             </div>
             <div class="preview-item-text">
                 Наши торговые офисы располагаются в ключевых точках по всему миру в Дубай ОАЭ, России, Кыргызстане, Узбекистане, Грузии

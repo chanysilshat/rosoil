@@ -2,32 +2,14 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Безниз");
 ?>
-<div class="motor-gasoline">
-    <div class="container">
-        <div class="motor-title">
-            Автомобильный бензин купить на экспорт
-        </div>
-        <div class="motor-text">
-            <div class="title-prewie">
-                Бензин автомобильный — 
-            </div>
-            <div class="text">
-                горючая смесь лёгких углеводородов с температурой кипения от +33 до +205 °C (в зависимости от примесей). Плотность около 0,71...0,76 г/см³. 
-                Теплотворная способность около 10 600 ккал/кг (44,4 МДж/кг, 32,7 МДж/литр). 
-                Температура замерзания около −60 °C – 71°C в случае использования специальных присадок
-            </div>
-        </div>
-    </div>
-</div>
+
 <div class="usage">
     <div class="usage-blok">
-        <div class="container">
-            <div class="usage-item">
-                <div class="text usage-text">
-                    Автомобильный бензин используют как для заправки транспортных средств, так и в качестве сырья для органического синтеза, изготовления этилена и парафина. 
-                    На основе бензина производят: краски, лаки, растворители, 
-                    мастики и другие вещества
-                </div>
+        <div class="usage-item">
+            <div class="text">
+                Автомобильный бензин используют как для заправки транспортных средств, так и в качестве сырья для органического синтеза, изготовления этилена и парафина. 
+                На основе бензина производят: краски, лаки, растворители, 
+                мастики и другие вещества
             </div>
         </div>
     </div>
@@ -41,7 +23,7 @@ $APPLICATION->SetTitle("Безниз");
     </div>  
     <div class="classification-block">
         <div class="classification-img">
-            <img src="local/templates/rosoil/img/classification.png">    
+            <img src="img/classification.png">    
         </div>
         <div class="classification-block-items">
             <div class="classification-item">
@@ -189,23 +171,21 @@ $APPLICATION->SetTitle("Безниз");
     </div>
 </div>
 <div class="implementation">
-    <div class="container">
-        <div class="implementation-item">
-            <div class="title-prewie implementation">
-                Реализация автомобильного бензина на экспорт 
-            </div>
-            <div class="text implementation">
-                Как оформить заказ и заключить контракт на поставку бензина и дизельного топлива?
-                Реализация автомобильного бензина производится на контрактной основе, согласно Инкотермс 2010 и/или Инкотермс 2020. Заключить контракт на поставку Вы можете, направить официальный запрос на e-mail: info@bitum-rise.ru, скачать образец заявки 
-                и далее связавшись с специалистами экспортного отдела светлых нефтепродуктов 
-                по телефону +7 800 222-92-25.
-            </div>
+    <div class="implementation-item">
+        <div class="title-prewie implementation">
+            Реализация автомобильного бензина на экспорт 
+        </div>
+        <div class="text implementation">
+            Как оформить заказ и заключить контракт на поставку бензина и дизельного топлива?
+            Реализация автомобильного бензина производится на контрактной основе, согласно Инкотермс 2010 и/или Инкотермс 2020. Заключить контракт на поставку Вы можете, направить официальный запрос на e-mail: info@bitum-rise.ru, скачать образец заявки 
+            и далее связавшись с специалистами экспортного отдела светлых нефтепродуктов 
+            по телефону +7 800 222-92-25.
         </div>
     </div>
 </div>
 <div class="oil-products">
     <div class="container">
-        <div class="title-prewie oil-products">
+        <div class="title-prewie">
             Сегодня к реализации предлагаются следующие виды сырья и нефтепродуктов:
         </div>
         <div class="kinds">

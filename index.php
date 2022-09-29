@@ -66,15 +66,13 @@ $APPLICATION->SetTitle("Главная");
         <section class="main-page__block-2 block-2">
             <div class="block-2__container">
                 <div class="block-2__content">
-                    <h2 data-da=".block-2,992,first" class="block-2__title">Заголовок</h2>
-                    <div class="block-2__text">В своём стремлении повысить качество жизни, они забывают, что современная
-                        методология разработки говорит о возможностях стандартных подходов. Имеется спорная точка зрения, гласящая
-                        примерно следующее: реплицированные</div>
-                    <a href="#" class="block-2__button">Перейти</a>
+                    <h2 data-da=".block-2,992,first" class="block-2__title"><?=GetMessage("HEADER")?></h2>
+                    <div class="block-2__text"><?=GetMessage("QUALITY-IMPRIVEMENT")?></div>
+                    <a href="#" class="block-2__button"><?=GetMessage("GO")?></a>
                 </div>
                 <div class="block-2__images">
-                    <a href="#" class="block-2__image"><picture><source srcset="img/main-page/block-2/1-1.webp" type="image/webp"><img src="img/main-page/block-2/1-1.jpg" alt="Image"></picture></a>
-                    <a href="#" class="block-2__image"><picture><source srcset="img/main-page/block-2/1-1.webp" type="image/webp"><img src="img/main-page/block-2/1-1.jpg" alt="Image"></picture></a>
+                    <a href="#" class="block-2__image"><picture><source srcset="/img/main-page/block-2/1-1.webp" type="image/webp"><img src="/img/main-page/block-2/1-1.jpg" alt="Image"></picture></a>
+                    <a href="#" class="block-2__image"><picture><source srcset="/img/main-page/block-2/1-1.webp" type="image/webp"><img src="/img/main-page/block-2/1-1.jpg" alt="Image"></picture></a>
                 </div>
             </div>
         </section>
@@ -200,101 +198,7 @@ $APPLICATION->SetTitle("Главная");
             )
         );?> 
 
-        <!--<section class="main-page__block-4 block-4">
-            <div class="block-4__container">
-                <div class="block-4__header">
-                    <h2 class="block-4__title">Услуги и продукты компании</h2>
-                    <a data-da=".block-4__container,768,last" href="#" class="block-4__button">Посмотреть всё</a>
-                </div>
-                <div class="block-4__text">Вот вам яркий пример современных тенденций - сложившаяся структура
-                    организации, а также свежий взгляд на привычные</div>
-                <div data-tabs="" class="block-4__tabs block-4-tabs">
-                    <nav data-tabs-titles="" class="block-4-tabs__navigation">
-                        <button type="button" class="block-4-tabs__title _tab-active">Категория раздела</button>
-                        <button type="button" class="block-4-tabs__title">Категория раздела</button>
-                        <button type="button" class="block-4-tabs__title">Категория раздела</button>
-                        <button type="button" class="block-4-tabs__title">Категория раздела</button>
-                    </nav>
-                    <div data-tabs-body="" class="block-4-tabs__content">
-                        <div class="block-4-tabs__body">
-                            <div class="block-4-tabs__slider swiper">
-                                <div class="block-4-tabs__wrapper swiper-wrapper">
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/1-1.webp" type="image/webp"><img src="img/main-page/block-4/1-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/2-1.webp" type="image/webp"><img src="img/main-page/block-4/2-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/3-1.webp" type="image/webp"><img src="img/main-page/block-4/3-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/1-1.webp" type="image/webp"><img src="img/main-page/block-4/1-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/1-1.webp" type="image/webp"><img src="img/main-page/block-4/1-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/1-1.webp" type="image/webp"><img src="img/main-page/block-4/1-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="block-4-tabs__body">
-                            <div class="block-4-tabs__slider swiper">
-                                <div class="block-4-tabs__wrapper swiper-wrapper">
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/2-1.webp" type="image/webp"><img src="img/main-page/block-4/2-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/2-1.webp" type="image/webp"><img src="img/main-page/block-4/2-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="block-4-tabs__body">
-                            <div class="block-4-tabs__slider swiper">
-                                <div class="block-4-tabs__wrapper swiper-wrapper">
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/1-1.webp" type="image/webp"><img src="img/main-page/block-4/1-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/2-1.webp" type="image/webp"><img src="img/main-page/block-4/2-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/3-1.webp" type="image/webp"><img src="img/main-page/block-4/3-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="block-4-tabs__body">
-                            <div class="block-4-tabs__slider swiper">
-                                <div class="block-4-tabs__wrapper swiper-wrapper">
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/1-1.webp" type="image/webp"><img src="img/main-page/block-4/1-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/2-1.webp" type="image/webp"><img src="img/main-page/block-4/2-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/3-1.webp" type="image/webp"><img src="img/main-page/block-4/3-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/1-1.webp" type="image/webp"><img src="img/main-page/block-4/1-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/1-1.webp" type="image/webp"><img src="img/main-page/block-4/1-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                    <div class="block-4-tabs__slide swiper-slide">
-                                        <a href="#" class="block-4-tabs__image"><picture><source srcset="img/main-page/block-4/1-1.webp" type="image/webp"><img src="img/main-page/block-4/1-1.jpg" alt="Image"></picture></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
+   
 
         <?$APPLICATION->IncludeComponent(
             "bitrix:news.list",
@@ -357,19 +261,18 @@ $APPLICATION->SetTitle("Главная");
         );?> 
         <section class="main-page__block-6 block-6">
             <div class="block-6__container">
-                <h2 class="block-6__title">Отправить заявку</h2>
+                <h2 class="block-6__title"><?=GetMessage("SEND-REQUEST")?></h2>
                 <form data-dev="" action="#" class="block-6__form">
-                    <input data-required="" autocomplete="off" type="text" name="form[]" data-error="" placeholder="Имя" class="block-6__input">
-                    <input data-required="" autocomplete="off" type="text" name="form[]" data-error="" placeholder="Телефон" class="block-6__input">
-                    <button type="submit" class="block-6__button">Отправить</button>
+                    <input data-required="" autocomplete="off" type="text" name="form[]" data-error="" placeholder="<?=GetMessage("NAME")?>" class="block-6__input">
+                    <input data-required="" autocomplete="off" type="text" name="form[]" data-error="" placeholder="<?=GetMessage("PHONE")?>" class="block-6__input">
+                    <button type="submit" class="block-6__button"><?=GetMessage("SEND")?></button>
                 </form>
                 <div class="block-6__privacy">
-                    Отправляя заявку. вы соглашаетесь с <a href="#" class="block-6__privacy-link">политикой
-                        конфиденциальности</a>
+                    <?=GetMessage("POLICY_PRIVACY")?>
                 </div>
                 <div class="block-6__requests">
-                    <a href="#" class="block-6__download">Скачать форму заявки</a>
-                    <a href="#" class="block-6__upload">Прикрепить заявку</a>
+                    <a href="#" class="block-6__download"><?=GetMessage("APPLICATION-FORM")?></a>
+                    <a href="#" class="block-6__upload"><?=GetMessage("ATTACH-AN-APPLICATION")?></a>
                 </div>
             </div>
         </section>
@@ -562,7 +465,7 @@ $APPLICATION->SetTitle("Главная");
         );?> 
         <section class="main-page__block-11 block-11">
             <div class="block-11__container">
-                <h2 class="block-11__title">Карта присутствия</h2>
+                <h2 class="block-11__title"><?=GetMessage("NEIGHBORHOOD-MAP")?></h2>
                 <div class="block-11__map">
                     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Adf0b1d230290ffbace89c706a5ba42ffaea805093dd9118d327c3b33d704a46c&source=constructor" width="100%" height="520" frameborder="0"></iframe>
                 </div>

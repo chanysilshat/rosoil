@@ -8,8 +8,16 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 
     let about_prod = document.querySelector(".about-productions .about-productions-head");
+    if (about_prod){
+        about_prod.addEventListener('click', function(){
+            this.closest('.about-productions').classList.toggle('open');
+        })
+    }
 
-    about_prod.addEventListener('click', function(){
-        this.closest('.about-productions').classList.toggle('open');
-    })
+    let lang = document.querySelector('.header-main-block__language');
+
+    lang.addEventListener('change', function(){
+        window.location.href = this.value;
+    });
+   
 })

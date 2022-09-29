@@ -5,7 +5,24 @@ use \Bitrix\Main\Page\Asset;
 
 $Asset = Asset::getInstance();
 
+$url = str_replace("/" . CURRENT_LANG, "", $_SERVER["REQUEST_URI"]);
+
+
+$fileName = substr($_SERVER["SCRIPT_FILENAME"],strrpos($_SERVER["SCRIPT_FILENAME"],'/'),strlen($_SERVER["SCRIPT_FILENAME"]));
+
+if (isset($_REQUEST["realPath"]) && !empty($_REQUEST["realPath"])){
+    $langPath = $_SERVER["DOCUMENT_ROOT"] . $_REQUEST["realPath"];
+}
+
+if (isset($_REQUEST["realPathChild"]) && !empty($_REQUEST["realPathChild"])){
+    $langPath = $_SERVER["DOCUMENT_ROOT"] . $_REQUEST["realPathChild"];
+}
+if (isset($_REQUEST["realPathIndex"]) && !empty($_REQUEST["realPathIndex"])){
+    $langPath = $_SERVER["DOCUMENT_ROOT"] . $_REQUEST["realPathIndex"];
+}
+__IncludeLang($langPath);
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,12 +38,12 @@ $Asset = Asset::getInstance();
             $Asset->addJs(SITE_TEMPLATE_PATH.'/js/main.js');
             $Asset->addJs(SITE_TEMPLATE_PATH.'/js/app.js');
             $Asset->addJs(SITE_TEMPLATE_PATH.'/js//app.min.js');
-
             $APPLICATION->ShowHead();
+    
         ?>
-        
         <title><?=$APPLICATION->ShowTitle();?></title>
     </head>
+    
     <body class="loaded">
         <div id="panel"><?=$APPLICATION->ShowPanel()?></div>
         <div class="wrapper">
@@ -39,7 +56,7 @@ $Asset = Asset::getInstance();
                 </div>
                 <nav class="header__main-block header-main-block">
                     <div class="header-main-block__container">
-                        <a href="index.html" class="header-main-block__logo"><img src="img/header/logo-1.svg" alt="Rise Oil"></a>
+                        <a href="index.html" class="header-main-block__logo"><img src="/img/header/logo-1.svg" alt="Rise Oil"></a>
                         <ul data-one-spoller="" data-spollers="" class="header-main-block__menu">
                             <li сlass="header-main-block__item">
                                 <a data-spoller-close="" data-spoller="" href="#" class="header-main-block__link">О компании</a>
@@ -172,9 +189,9 @@ $Asset = Asset::getInstance();
                         </ul>
                         <div class="header-main-block__actions">
                             <select class="header-main-block__language">
-                                <option value="ru" selected="">ru</option>
-                                <option value="en">en</option>
-                                <option value="ch">ch</option>
+                                <option <?if (CURRENT_LANG == "ru"):?>selected=""<?endif?> value="/ru<?=$url?>">ru</option>
+                                <option <?if (CURRENT_LANG == "en"):?>selected=""<?endif?> value="/en<?=$url?>">en</option>
+                                <option <?if (CURRENT_LANG == "ch"):?>selected=""<?endif?> value="/ch<?=$url?>">ch</option>
                             </select>
                             <a href="tel:1234" class="header-main-block__phone _icon-phone"></a>
                             <button type="button" class="header-main-block__share _icon-share"></button>
