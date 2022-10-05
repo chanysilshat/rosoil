@@ -15,6 +15,11 @@
     .container {
         width: 1024px;
     }
+    .banner-page{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
 }
 @media (max-width: 1024px){
     .container {
@@ -94,6 +99,9 @@
     }
     .jet-fuel-item svg{
         width: 100%;
+    }
+    .banner-page{
+        background-size: auto 100%;
     }
 }
 @media (max-width: 768px){

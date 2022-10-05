@@ -11,4 +11,6 @@ privacy</a>';
 $MESS["APPLICATION-FORM"] = "Download application form";
 $MESS["ATTACH-AN-APPLICATION"] = "Attach application";
 $MESS["NEIGHBORHOOD-MAP"] = "Neighborhood map";
+$MESS["WORK"] = "How we are working";
+$MESS["WORK-TEXT"] = "Our people are the heart of our business. We are proud of our meritocratic work environment, created in an atmosphere of integrity, ethical conduct, equal opportunity and mutual respect. We set high standards for ourselves and our partners in our daily activities.";
 ?>  

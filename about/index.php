@@ -14,17 +14,15 @@ $APPLICATION->SetTitle("Главная");
 
                 </div>
                 <div class="about-text">
-                    <b>RISE OIL GROUP</b> – трейдер нефти и нефтепродуктов.  Мы входим в число наиболее эффективных и лидирующих энергетических компаний в странах присутствия и активно способствуем развитию мировой энергетической отрасли.  Наши департаменты по закупкам, продажам, финансам и логистике формируют прочные отношения между производителями и конечными потребителями и делают цепочки поставок более эффективными, безопасными и устойчивыми.
+                    <?=GetMessage("OIL-TRADER")?>
                 </div>
             </div>
             <div class="about-text-head">
-                Что мы делаем
+                <?=GetMessage("WORK")?>
             </div>
             <div class="about-text-grid">
                 <div class="about-text">
-                    <b>RISE OIL GROUP</b>  поставляет нефть и нефтепродукты. Обладая логистическими и складскими возможностями, мы ежедневно совершаем торговые операции ответственно по всему миру.
-                    Наши специалисты по торговле нефти и нефтепродуктами обладают компетентными знаниями и опытом на рынках присутствия, поддержив. долгосрочные отношения с – клиентами и партнерами. 
-                    RISE OIL GROUP реализует и производит современные... <a href="">Раскрыть</a>
+                    <?=GetMessage("OIL-REPRESENTATION")?>
                 </div>
                 <div class="about-text-img">
                 
@@ -36,11 +34,9 @@ $APPLICATION->SetTitle("Главная");
                 </div>
                 <div class="about-text">
                     <div class="about-text-head">
-                        Наше видение
+                        <?=GetMessage("OUR-VISION")?>
                     </div>
-                    Наше видение – это все более процветающий мир, в котором нефть и нефтепродукты беспрепятственно доставляются из любой точки мира в места наибольшего спроса.
-                    Мы стараемся делать это быстро и ответственно.
-                    Забота о Партнерах и клиентах является для компании приоритетной задачей, Мы берем полную ответственность за качество наших услуг в соответствии с Международными стандартами.
+                        <?=GetMessage("OUR-VISION-TEXT")?>
                 </div>
             </div>
         </div>            
@@ -108,15 +104,15 @@ $APPLICATION->SetTitle("Главная");
                 <?=GetMessage("HOLDING_STRUCTURE")?>
             </div>
             <div class="preview-item-text">
-                Наши торговые офисы располагаются в ключевых точках по всему миру в Дубай ОАЭ, России, Кыргызстане, Узбекистане, Грузии
+                <?=GetMessage("HOLDING_STRUCTURE-TEXT")?>
             </div>
         </div>
         <div class="about-preview-item">
             <div class="preview-item-head">
-                Инвестиции
+                <?=GetMessage("INVESTMENTS")?>
             </div>
             <div class="preview-item-text">
-                Мы инвестируем в энергетические активы, которые дополняют наше положение в центре мировых энергетических рынков и облегчают поток энергии с ключевых рынков по всему миру и через них
+                <?=GetMessage("INVESTMENTS-TEXT")?>
             </div>
         </div>
     </div>
@@ -184,19 +180,19 @@ $APPLICATION->SetTitle("Главная");
     <div class="about-description-block">
         <div class="about-description">
             <div class="about-description-item left">
-                Светлые нефтепродукты
+                <?=GetMessage("LIGHT-PETROLEUM-PRODUCTS")?>
             </div>
             <div class="about-description-item">
-                Битумные материалы
+                <?=GetMessage("BITUMEN")?>
             </div>
             <div class="about-description-item left">
                 LPG
             </div>
             <div class="about-description-item">
-                Бензин газовый стабильный
+                <?=GetMessage("GAS-PETROL")?>
             </div>
             <div class="about-description-item left">
-                Нефтяной кокс
+                <?=GetMessage("PETROLEUM-COKE")?>
             </div>
         
         </div>
@@ -207,10 +203,10 @@ $APPLICATION->SetTitle("Главная");
     </div>
     <div class="about-save">
         <div class="about-partners-head">
-            Хранение
+            <?=GetMessage("STORAGE")?>
         </div>
         <div class="save-text">
-            Оптимальное расположение нефтяных терминалов и складских возможностей, обеспечивают прочность торговых операций. Это позволяют нам своевременно удовлетворять потребности наших клиентов… 
+            <?=GetMessage("STORAGE-TEXT")?>
         </div>
     </div>
 </main>

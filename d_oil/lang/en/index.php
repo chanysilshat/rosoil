@@ -1,0 +1,3 @@
+<?
+$MESS["FOR_D_OIL"] = "To obtain diesel fuel, oil is processed using distillation columns, where it is heated to the desired temperature and divided into fractions. The diesel fraction - about a quarter - is obtained by heating to 180-360 ° C. The rest is obtained from cracking processes with catalysts in the form of metal, hydrogen or temperature. At the cracking stage, up to 80% of the volume of diesel fuel is obtained. At the end, it is subjected to alkaline purification from impurities.";
+$MESS["MARKER_D_OIL"] = "Diesel fuel markings indicating climatic conditions of use:";

@@ -8,9 +8,9 @@
                     </div>
                 </div>
                 <div class="footer__main-block footer-main-block">
-                    <div data-spollers="991.98,max" data-one-spoller="" class="footer-main-block__container">
+                    <div data-spollers="991.98,max" data-one-spoller class="footer-main-block__container">
                         <div class="footer-main-block__column">
-                            <a data-spoller="" href="#" class="footer-main-block__title"><span>О компании</span></a>
+                            <div data-spoller class="footer-main-block__title"><span>О компании</span></div>
                             <ul class="footer-main-block__items">
                                 <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Как мы работаем?</a></li>
                                 <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">О нас</a></li>
@@ -26,8 +26,8 @@
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
-                            <a data-spoller="" href="#" class="footer-main-block__title"><span>Нефть и
-                                    нефтепродукты</span></a>
+                            <div data-spoller class="footer-main-block__title"><span>Нефть и
+                                    нефтепродукты</span></div>
                             <ul class="footer-main-block__items">
                                 <li class="footer-main-block__item"><a href="bitum.html" class="footer-main-block__link">Битумные
                                         материалы</a></li>
@@ -47,7 +47,7 @@
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
-                            <a data-spoller="" href="#" class="footer-main-block__title"><span>Логистика</span></a>
+                            <div data-spoller class="footer-main-block__title"><span>Логистика</span></div>
                             <ul class="footer-main-block__items">
                                 <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Что мы делаем в логистике</a>
                                 </li>
@@ -55,34 +55,36 @@
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
-                            <a data-spoller="" href="terminal.html" class="footer-main-block__title"><span>Терминалы</span></a>
+                            <div data-spoller class="footer-main-block__title"><span>Терминалы</span></div>
                             <ul class="footer-main-block__items">
                                 <li class="footer-main-block__item"><a href="terminal.html" class="footer-main-block__link">Терминалы</a></li>
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
-                            <a data-spoller="" href="#" class="footer-main-block__title"><span>Ответственная
-                                    работа</span></a>
+                            <div data-spoller class="footer-main-block__title"><span>Ответственная
+                                    работа</span></div>
                             <ul class="footer-main-block__items">
                                 <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Ответственная работа</a></li>
                                 <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Программа комплекса</a></li>
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
-                            <a data-spoller="" href="#" class="footer-main-block__title"><span>Новости</span></a>
+                            <div data-spoller class="footer-main-block__title"><span>Новости</span></div>
                             <ul class="footer-main-block__items">
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Новости</a></li>
+                                <li class="footer-main-block__item"><a href="news.html" class="footer-main-block__link">Новости</a></li>
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
-                            <a data-spoller="" href="#" class="footer-main-block__title"><span>Контакты</span></a>
+                            <div data-spoller class="footer-main-block__title"><span>Контакты</span></div>
                             <ul class="footer-main-block__items">
-                                <li class="footer-main-block__item"><a href="mailto:rise@info.com" class="footer-main-block__link footer-main-block__link_mail">rise@info.com</a></li>
+                                <li class="footer-main-block__item"><a href="mailto:rise@info.com"
+                                        class="footer-main-block__link footer-main-block__link_mail">rise@info.com</a></li>
                                 <li class="footer-main-block__item">
                                     <a href="tel:78002229225" class="footer-main-block__link footer-main-block__link_phone">+7 (800)
                                         222-92-25</a>
                                 </li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link footer-main-block__link_geo">450077, Россия,
+                                <li class="footer-main-block__item"><a href="#"
+                                        class="footer-main-block__link footer-main-block__link_geo">450077, Россия,
                                         Республика
                                         Башкортостан, г. Уфа, ул. Бакалинская, дом 64</a></li>
                                 <li class="footer-main-block__item footer-main-block__item_networks">

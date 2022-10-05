@@ -895,6 +895,119 @@ function initSliders() {
 			}
 		});
 	}
+	if (document.querySelector('.bitum-pg-page-block-8__slider')) { // Указываем скласс нужного слайдера
+		// Создаем слайдер
+		new Swiper('.bitum-pg-page-block-8__slider', { // Указываем скласс нужного слайдера
+			// Подключаем модули слайдера
+			// для конкретного случая
+			modules: [Navigation, Autoplay],
+			observer: true,
+			observeParents: true,
+			slidesPerView: 2,
+			spaceBetween: 16, //устанавливает расстояние между слайдами
+			//autoHeight: true, //устаналивает одинаковую высоту всем картинкам
+			speed: 2000,
+			grabCursor: true,
+			loop: true,
+			watchOverflow: true, //по умолчанию нет
+			freeMode: true,
+			loopAdditionalSlides: 50,
+
+
+			//slidesPerGroup: 1, //Для группового скольжения свайпера вместе с slidesPerView>1
+			//slidesOffsetBefore: 1500, //Добавляет смешение слайда в начале контейнера
+			//slidesOffsetAfter: 0, //Добавляет смешение слайда в конце контейнера
+			//direction: 'vertical', //делает вертикальный свайпер
+			//centeredSlides: true, //По умолчанию false
+			//touchRatio: 0, //устанавливает усилие свайпа. 0 - отключено, 1-обычный(по ум).
+			//simulateTouch: false, //запрещает двигать слайдер свайпом.
+			//touchAngle: 90; //угол при котором срабатывает свайп. 45- горизонтальный(по ум).
+			//slideToClickedSlide: true, //позволяет перейти к слайду при клике на него(??)
+			//preloadImages: false,
+			//lazy: true,
+			//parallax: true, //создаёт подолнительный параллакс эффект
+
+
+			// Эффекты
+			//effect: 'fade',
+			autoplay: {
+				//reverseDirection: true,
+				delay: 1000,
+				disableOnInteraction: false,
+				stopOnLastSlide: false,
+				//waitForTransition: false,
+				pauseOnMouseEnter: true
+			},
+			breakpoints: {
+				320: {
+					slidesPerView: 1,
+				},
+				650: {
+					slidesPerView: 2,
+				},
+			},
+
+
+			// Пагинация
+
+			// pagination: {
+			// 	el: '.block-1__slider .block-1__pagination',
+			// 	clickable: true,
+			// 	//dynamicBullets: true, //Позволяет буллетам увеSличиваться и уменьшаться при скоролле слайдов.
+			// 	//type: 'fraction', //делает пагинатор счётчиком страниц 5\7. Чтобы поменять текст, смотри FLS
+			// 	//type: 'progressbar', //делает пагинатор линией, которая заполняется при скролле
+
+			// 	//Добавляет в пагинатор нумерацию на каждый слайд.
+			// 	// renderBullet: function (index, className) { //
+			// 	// 	return '<span class="' + className + '">' + (index + 1) + '</span>';
+			// 	// },
+			// 	//
+
+			// },
+
+
+			// Скроллбар
+			/*
+			scrollbar: {
+				el: '.swiper-scrollbar',
+				draggable: true,
+			},
+			*/
+
+			// Кнопки "влево/вправо"
+			navigation: {
+				prevEl: '.bitum-pg-page-block-8__arrows .bitum-pg-page-block-8__arrow_prev',
+				nextEl: '.bitum-pg-page-block-8__arrows .bitum-pg-page-block-8__arrow_next',
+			},
+
+
+			//Включает переключение слайдов стрелками клавиаты и кнопка pgup-dwn. 
+			/*
+			keyboard: {
+				enabled: true,
+				onlyInViewport: true,
+				pageUpDown: true,
+			},
+			*/
+
+
+			//Включает перелистывание слайдов колесом мышки
+			/*
+			mousewheel: {
+				sensitivity: 1,
+				//eventsTarget: ".swiper-slide" //Включать если много слайдеров, чтобы не крутились дургие
+			},
+			*/
+
+
+			// Брейкпоинты
+
+			// События
+			on: {
+
+			}
+		});
+	}
 	if (document.querySelector('.news-page-block-2__slider')) { // Указываем скласс нужного слайдера
 		// Создаем слайдер
 		new Swiper('.news-page-block-2__slider', { // Указываем скласс нужного слайдера
@@ -947,6 +1060,128 @@ function initSliders() {
 				},
 				768: {
 					slidesPerView: 3,
+				},
+			},
+
+
+			// Пагинация
+
+			// pagination: {
+			// 	el: '.block-1__slider .block-1__pagination',
+			// 	clickable: true,
+			// 	//dynamicBullets: true, //Позволяет буллетам увеSличиваться и уменьшаться при скоролле слайдов.
+			// 	//type: 'fraction', //делает пагинатор счётчиком страниц 5\7. Чтобы поменять текст, смотри FLS
+			// 	//type: 'progressbar', //делает пагинатор линией, которая заполняется при скролле
+
+			// 	//Добавляет в пагинатор нумерацию на каждый слайд.
+			// 	// renderBullet: function (index, className) { //
+			// 	// 	return '<span class="' + className + '">' + (index + 1) + '</span>';
+			// 	// },
+			// 	//
+
+			// },
+
+
+			// Скроллбар
+			/*
+			scrollbar: {
+				el: '.swiper-scrollbar',
+				draggable: true,
+			},
+			*/
+
+			// Кнопки "влево/вправо"
+			// navigation: {
+			// 	prevEl: '.bitum-fas-page-block-9__arrows .bitum-fas-page-block-9__arrow_prev',
+			// 	nextEl: '.bitum-fas-page-block-9__arrows .bitum-fas-page-block-9__arrow_next',
+			// },
+
+
+			//Включает переключение слайдов стрелками клавиаты и кнопка pgup-dwn. 
+			/*
+			keyboard: {
+				enabled: true,
+				onlyInViewport: true,
+				pageUpDown: true,
+			},
+			*/
+
+
+			//Включает перелистывание слайдов колесом мышки
+			/*
+			mousewheel: {
+				sensitivity: 1,
+				//eventsTarget: ".swiper-slide" //Включать если много слайдеров, чтобы не крутились дургие
+			},
+			*/
+
+
+			// Брейкпоинты
+
+			// События
+			on: {
+
+			}
+		});
+	}
+	if (document.querySelector('.mails-page__slider')) { // Указываем скласс нужного слайдера
+		// Создаем слайдер
+		new Swiper('.mails-page__slider', { // Указываем скласс нужного слайдера
+			// Подключаем модули слайдера
+			// для конкретного случая
+			modules: [Autoplay],
+			observer: true,
+			observeParents: true,
+			slidesPerView: 4,
+			spaceBetween: 20, //устанавливает расстояние между слайдами
+			//autoHeight: true, //устаналивает одинаковую высоту всем картинкам
+			speed: 2000,
+			grabCursor: true,
+			loop: true,
+			watchOverflow: true, //по умолчанию нет
+			freeMode: true,
+			loopAdditionalSlides: 50,
+
+
+			//slidesPerGroup: 1, //Для группового скольжения свайпера вместе с slidesPerView>1
+			//slidesOffsetBefore: 1500, //Добавляет смешение слайда в начале контейнера
+			//slidesOffsetAfter: 0, //Добавляет смешение слайда в конце контейнера
+			//direction: 'vertical', //делает вертикальный свайпер
+			//centeredSlides: true, //По умолчанию false
+			//touchRatio: 0, //устанавливает усилие свайпа. 0 - отключено, 1-обычный(по ум).
+			//simulateTouch: false, //запрещает двигать слайдер свайпом.
+			//touchAngle: 90; //угол при котором срабатывает свайп. 45- горизонтальный(по ум).
+			//slideToClickedSlide: true, //позволяет перейти к слайду при клике на него(??)
+			//preloadImages: false,
+			//lazy: true,
+			//parallax: true, //создаёт подолнительный параллакс эффект
+
+
+			// Эффекты
+			//effect: 'fade',
+			autoplay: {
+				delay: 1000,
+				disableOnInteraction: false,
+				stopOnLastSlide: false,
+				//waitForTransition: false,
+				pauseOnMouseEnter: true
+			},
+
+			breakpoints: {
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 15,
+				},
+				600: {
+					slidesPerView: 2,
+					spaceBetween: 15,
+				},
+				900: {
+					slidesPerView: 3,
+					spaceBetween: 15,
+				},
+				1200: {
+					slidesPerView: 4,
 				},
 			},
 

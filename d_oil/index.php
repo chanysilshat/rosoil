@@ -2,16 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Дизельное топливо");
 ?>
-<div class="banner-page" style="background-image: url(/upload/banner.png)">
-    <div class="container">
-        <div class="banner-title">
-            Дизельное топливо на экспорт
-        </div>
-        <div class="banner-text">
-            Дизельное топливо (ДТ) — это нефтепродукт, состоящий из смеси углеводородов, которые получают методом перегонки и отбора из них определенных фракций.
-        </div>
-    </div>
-</div>
+
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
 	"banner_page",
@@ -37,9 +28,9 @@ $APPLICATION->SetTitle("Дизельное топливо");
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
 		"ELEMENT_CODE" => "",
-		"ELEMENT_ID" => $_REQUEST["ELEMENT_ID"],
+		"ELEMENT_ID" => 66,
 		"FIELD_CODE" => array("", ""),
-		"IBLOCK_ID" => "",
+		"IBLOCK_ID" => "16",
 		"IBLOCK_TYPE" => "content",
 		"IBLOCK_URL" => "",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
@@ -50,7 +41,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
 		"PAGER_SHOW_ALL" => "N",
 		"PAGER_TEMPLATE" => ".default",
 		"PAGER_TITLE" => "Страница",
-		"PROPERTY_CODE" => array("", ""),
+		"PROPERTY_CODE" => array("", "TITLE_EN"),
 		"SET_BROWSER_TITLE" => "Y",
 		"SET_CANONICAL_URL" => "N",
 		"SET_LAST_MODIFIED" => "N",
@@ -69,7 +60,8 @@ $APPLICATION->SetTitle("Дизельное топливо");
             <div class="page-info">
                 <div class="page-info-text">
                     <span>
-                        Для получения дизельного топлива нефть подвергают переработке с использованием ректификационных колонн, где она нагревается до нужной температуры и делится на фракции. Дизельная фракция — около четвертой части — получается при нагреве до 180-360 °C. Остальное получают в результате крекинг-процессов с катализаторами в виде металла, водорода или температуры. На этапе крекинга получают до 80% объема дизельного топлива. В конце его подвергают щелочной очистке от примесей.
+                        <?=GetMessage("FOR_D_OIL")?>
+                        
                     </span>
                 </div>
             </div>
@@ -77,7 +69,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                 <div class="page-info">
                     <div class="page-info-text-two">
                         <div>
-                            Маркировки дизельного топлива, обозначающие климатические условия применения:
+                            <?=GetMessage("MARKER_D_OIL")?>
                         </div>
                     </div>
                     

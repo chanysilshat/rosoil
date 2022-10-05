@@ -276,14 +276,12 @@ $APPLICATION->SetTitle("Главная");
                 </div>
             </div>
         </section>
-        <section class="main-page__block-7 block-7">
+        <section class="main-page__block-7 block-7" style="background: url(/img/main-page/block-7/bg-1.webp) 65%/cover no-repeat;">
             <div class="block-7__container">
                 <a href="#" class="block-7__link-title">
-                    <h2 class="block-7__title">Как мы работаем</h2>
+                    <h2 class="block-7__title"><?=GetMessage("WORK")?></h2>
                 </a>
-                <div class="block-7__text">Наши люди – это сердце нашего бизнеса. Мы гордимся нашей меритократической рабочей
-                    средой, созданной в атмосфере честности, этического поведения, равных возможностей и взаимного уважения. Мы
-                    устанавливаем высокие стандарты для себя и наших партнеров в нашей повседневной деятельности.</div>
+                <div class="block-7__text"><?=GetMessage("WORK-TEXT")?></div>
             </div>
         </section>
         <?$APPLICATION->IncludeComponent(

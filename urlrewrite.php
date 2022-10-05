@@ -100,6 +100,12 @@ $arUrlRewrite = array(
 		"RULE"	=>	"current_lang=ch&&realPathIndex=/lang/ch/index.php&request=$3",
 		"PATH"	=>	"/index.php",
 	),
+	array(
+		"CONDITION"	=>	"#^/news/#",
+		"RULE"	=>	"",
+		"ID"	=>	"bitrix:news",
+		"PATH"	=>	"/news/index.php",
+	),
 );
 
 ?>

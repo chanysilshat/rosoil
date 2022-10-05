@@ -2,7 +2,58 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Главная");
 ?>
-
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.detail",
+	"banner_page",
+	Array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"ADD_ELEMENT_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"BROWSER_TITLE" => "-",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "Y",
+		"DETAIL_URL" => "",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"ELEMENT_CODE" => "",
+		"ELEMENT_ID" => 67,
+		"FIELD_CODE" => array("", "TITLE_RU"),
+		"IBLOCK_ID" => "16",
+		"IBLOCK_TYPE" => "content",
+		"IBLOCK_URL" => "",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"MESSAGE_404" => "",
+		"META_DESCRIPTION" => "-",
+		"META_KEYWORDS" => "-",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Страница",
+		"PROPERTY_CODE" => array("", "TITLE_RU"),
+		"SET_BROWSER_TITLE" => "Y",
+		"SET_CANONICAL_URL" => "N",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_META_DESCRIPTION" => "Y",
+		"SET_META_KEYWORDS" => "Y",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "Y",
+		"SHOW_404" => "N",
+		"STRICT_SECTION_CHECK" => "N",
+		"USE_PERMISSIONS" => "N",
+		"USE_SHARE" => "N"
+	)
+);?>
 <div class="fuel-turbine">
     <div class="fuel-turbine-item">
         <div class="aviation-text">
@@ -13,7 +64,7 @@ $APPLICATION->SetTitle("Главная");
 <div class="type">  
     <div class="type-block">
         <div class="title">
-            Виды авиационного топлива:
+            <?=GetMessage("AVIATION-FUELS")?>
         </div>
         <div class="container-fuel">
             <div class="type-item">
@@ -21,13 +72,13 @@ $APPLICATION->SetTitle("Главная");
                     ТС-1
                 </div>
                 <div class="aviation-text">
-                    Высшего и первого сортов
+                    <?=GetMessage("HIGHEST-GRADE")?>
                 </div>
                 <div class="title-item">
                     РТ
                 </div>
                 <div class="aviation-text">
-                    Высшей категории качества
+                    <?=GetMessage("TOP-QUALITY")?>
                 </div>
             </div>
             <div class="type-item">
@@ -35,7 +86,7 @@ $APPLICATION->SetTitle("Главная");
                     JET A-1
                 </div>
                 <div class="aviation-text engine">
-                    Топливо авиационное для газотурбинных двигателей
+                    <?=GetMessage("GAS-TURBINE-ENGINES")?>
                 </div>
                 <div class="title-item">
                     JET FUEL JP-54
@@ -48,12 +99,11 @@ $APPLICATION->SetTitle("Главная");
     <div class="container">
         <div class="you-want-blok">
             <div class="title">
-                Авиационный керасин марки ТС-1
+                <?=GetMessage("AVIATION-KEROSENE")?>
             </div>
             <div class="you-want-item">
                 <div class="aviation-text">
-                    Авиационный керосин марки ТС-1 по ГОСТ 10227-86 производят по технологии прямой перегонки среднедистиллятных нефтяных фракций. Готовый продукт представляет собой смесь углеводородов с температурами кипения от 150
-                    до 250 °С. Качественный керосин имеет желтоватый оттенок, прозрачную консистенцию, характерный запах ароматических углеводородов.
+                    <?=GetMessage("AVIATION-TEXT")?>
                 </div>
                 <div class="brand">
                     ТС-1
@@ -62,7 +112,7 @@ $APPLICATION->SetTitle("Главная");
         </div>
         <div class="you-want-text">
             <div class="aviation-text">
-                Реактивное топливо выпускают разных марок и состава. Реактивные топлива создают для самолетов дозвуковой авиации по ГОСТ 10227-86 и для сверхзвуковой авиации по ГОСТ 12308-89. Первый документ предусматривает изготовление пяти марок топлива: ТС-1, Т-1, Т-1С, Т-2 и РТ. По второму документу создают две марки топлива: Т-6 иТ-8В. Наиболее часто сегодня применяются лишь две марки реактивного топлива.
+                <?=GetMessage("JET-FUEL")?>
             </div>
         </div>
     </div>
@@ -73,14 +123,11 @@ $APPLICATION->SetTitle("Главная");
     <div class="container">
         <div class="jet-engine">
             <div class="title">
-                Топливо Авиационное для газотурбинных двигателей джет А-1 / JET A-1
+                <?=GetMessage("AVIATION-FUEL-FOR-GAS-TURBINE")?>
             </div>
             <div class="jet-engine-blok">
                 <div class="aviation-text">
-                    Авиационное топливо для газотурбинных двигателей, также именуемое автур, — 
-                    это вид авиационного топлива, от бесцветного до соломенного цвета, предназначенный 
-                    для использования в газотурбинных двигателях воздушных судов. Наиболее часто используемые марки в коммерческой (гражданской) авиации — это Jet A и Jet A-1, 
-                    которые производятся в соответствии с установленными международными спецификациями. Существует еще лишь один вид авиационного топлива, применяемый в газотурбинных двигателях воздушных судов гражданской авиации, это — Jet B, применяемый за свои улучшенные показатели в условиях низких температур.
+                    <?=GetMessage("AVIATION-FUEL-FOR-GAS-TURBINE-TEXT")?>
                 </div>
                 <div id="square">
                 </div>
@@ -91,12 +138,11 @@ $APPLICATION->SetTitle("Главная");
         </div>
         <div class="jet-engine addition">
             <div class="title">
-                Реактивное топливо марки РТ
+                <?=GetMessage("FUEL-GRADE-RT")?>
             </div>
             <div class="jet-engine-blok">
                 <div class="aviation-text">
-                    Реактивное топливо РТ — продукт высшей категории качества. Его получают гидроочисткой прямогонных керосиновых фракций с пределами выкипания +135–280 °С. В процессе производства этого продукта удается снизить содержание серы и меркаптанов до показателей 0,1 % и 0,001 % соответственно. Но одновременно ухудшаются противоизносные свойства 
-                    и химическая стабильность состава. Для решения этой проблемы в топливо вводят антиокислительные и противоизносные присадки.
+                    <?=GetMessage("JET-FUEL-QUALITY")?>
                 </div>
                 <div class="brand item">
                     РТ
@@ -176,7 +222,7 @@ $APPLICATION->SetTitle("Главная");
                 </svg>
             </div>
             <div class="aviation-text">
-                Паспорт качества продукци
+                <?=GetMessage("QUALITY-PASSPORT")?>
             </div>
             <div class="passport-blok">
                 <svg width="28" height="35" viewBox="0 0 28 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -189,7 +235,7 @@ $APPLICATION->SetTitle("Главная");
 <div class="fuel-TC-1">
     <div class="fuel-item">
         <div class="title">
-            Основные преимущества топлива ТС-1
+            <?=GetMessage("MAIN-BENEFITS")?>
         </div>
     </div> 
     <div class="fuel-blok">
@@ -202,8 +248,7 @@ $APPLICATION->SetTitle("Главная");
                         01
                 </div>
                 <div class="aviation-text">
-                    Отсутствие водорастворимых кислот, щелочей, 
-                    воды, механических примесей, сероводорода.
+                    <?=GetMessage("01")?>
                 </div>
             </div>
             <div class="fuel-list-item">
@@ -211,8 +256,7 @@ $APPLICATION->SetTitle("Главная");
                      02
                 </div>
                 <div class="aviation-text">
-                    Массовая доля меркаптановых соединений 
-                    серы не более 0,003 %.
+                    <?=GetMessage("02")?>
                 </div>
             </div>
             <div class="fuel-list-item">
@@ -220,7 +264,7 @@ $APPLICATION->SetTitle("Главная");
                     03
                 </div>
                 <div class="aviation-text">
-                    Плотность не менее 780 г/см3 при 20 °С.
+                    <?=GetMessage("03")?>
                 </div>
             </div>
             <div class="fuel-list-item">
@@ -228,7 +272,7 @@ $APPLICATION->SetTitle("Главная");
                     04
                 </div>
                 <div class="aviation-text">
-                    Массовая доля общей серы не более 0,2 %.
+                    <?=GetMessage("04")?>
                 </div>
             </div>
             <div class="fuel-list-item">
@@ -236,8 +280,7 @@ $APPLICATION->SetTitle("Главная");
                     05
                 </div>
                 <div class="aviation-text">
-                    Содержание ароматических углеводородов 
-                    не выше 22 %.
+                    <?=GetMessage("05")?>
                 </div>
             </div>
             <div class="fuel-list-item">
@@ -245,7 +288,7 @@ $APPLICATION->SetTitle("Главная");
                     06
                 </div>
                 <div class="aviation-text">
-                    Хорошая прокачиваемость.
+                    <?=GetMessage("06")?>
                 </div>
             </div>
             <div class="fuel-list-item">
@@ -253,7 +296,7 @@ $APPLICATION->SetTitle("Главная");
                     07
                 </div>
                 <div class="aviation-text">
-                    Высокая испаряемость и полнота сгорания.
+                    <?=GetMessage("07")?>
                 </div>
             </div>
             <div class="fuel-list-item">
@@ -261,7 +304,7 @@ $APPLICATION->SetTitle("Главная");
                     08
                 </div>
                 <div class="aviation-text">
-                    Низкотемпературные свойства.
+                    <?=GetMessage("08")?>
                 </div>
             </div>
             <div class="fuel-list-item">
@@ -269,8 +312,7 @@ $APPLICATION->SetTitle("Главная");
                     09
                 </div>
                 <div class="aviation-text">
-                    Совместимость с антистатическими 
-                    и противоизносными присадками.
+                    <?=GetMessage("09")?>
                 </div>
             </div>
             <div class="fuel-list-item">
@@ -278,7 +320,7 @@ $APPLICATION->SetTitle("Главная");
                     10
                 </div>
                 <div class="aviation-text">
-                    Низкая склонность к образованию нагара.
+                    <?=GetMessage("LOW")?>
                 </div>
             </div>
         </div>
@@ -288,7 +330,7 @@ $APPLICATION->SetTitle("Главная");
     <div class="container">
         <div class="choice-title">
             <div class="title">
-                Почему выбирают «RISE OIL GROUP»
+                <?=GetMessage("WHY-CHOOSE")?>
             </div>
         </div>
         <div class="choice-block">
@@ -307,7 +349,7 @@ $APPLICATION->SetTitle("Главная");
                         </div>
                         <div class="choice-text-item">
                             <div class="aviation-text">
-                                Высокое качество обслуживания
+                                <?=GetMessage("QUALITY-OF-SERVICE")?>
                             </div>
                         </div>
                     </div>
@@ -324,7 +366,7 @@ $APPLICATION->SetTitle("Главная");
                         </div>
                         <div class="choice-text-item">
                             <div class="aviation-text">
-                                Гибкое рыночное ценообразование
+                                <?=GetMessage("MARKET-TRANSFORMATION")?>
                             </div>
                         </div>
                     </div>
@@ -343,7 +385,7 @@ $APPLICATION->SetTitle("Главная");
                         </div>
                         <div class="choice-text-item">
                             <div class="aviation-text">
-                                Своевременные поставки авиатоплива
+                                <?=GetMessage("ON-TIME-DELIVERY")?>
                             </div>
                         </div>
                     </div>
@@ -355,8 +397,8 @@ $APPLICATION->SetTitle("Главная");
 </div>
 <section class="bitum-page__block-8 bitum-page-block-8">
         <div class="bitum-page-block-8__container">
-            <h2 class="bitum-page-block-8__title">Логистика авиационное реактивное топливо на экспорт</h2>
-            <div class="bitum-page-block-8__text">Поставки осуществляются согласно ИНКОТЕРМС 2010 и/или 2020 (с последующими изменениями и дополнениями): FCA, CPT, CIP, DAT, DAP, FAS, FOB, CFR, CIF.</div>
+            <h2 class="bitum-page-block-8__title"><?=GetMessage("LOGISTICS-FOR-EXPORT")?></h2>
+            <div class="bitum-page-block-8__text"><?=GetMessage("DELIVERY-IS-CARRIED-OUT")?></div>
             <div class="bitum-page-block-8__decoration">
                 <div class="bitum-page-block-8__decoration_circle-big">
                     <div class="bitum-page-block-8__decoration_circle-small"></div>
@@ -372,17 +414,17 @@ $APPLICATION->SetTitle("Главная");
                 <div class="bitum-page-block-8__item">
                     <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
                     </div>
-                    <div class="bitum-page-block-8__info">Вагон-цистерна 60 тонн</div>
+                    <div class="bitum-page-block-8__info"><?=GetMessage("TANK-CAR")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
                     <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
                     </div>
-                    <div class="bitum-page-block-8__info">Морской танкер 2000 тонн</div>
+                    <div class="bitum-page-block-8__info"><?=GetMessage("SEA-TANKER")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
                     <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
                     </div>
-                    <div class="bitum-page-block-8__info">Автобензовоз 22 тонн</div>
+                    <div class="bitum-page-block-8__info"><?=GetMessage("FUEL-CARRIER")?></div>
                 </div>
             </div>
         </div>
@@ -392,12 +434,12 @@ $APPLICATION->SetTitle("Главная");
     <div class="jet-fuel-block">
         <div class="jet-fuel-title">
             <div class="jet-item">
-                Реализация авиационного реактивного топливо 
+                <?=GetMessage("FUEL-SALES")?> 
             </div>
         </div>
         <div class="jet-fuel-text">
             <div class="aviation-text">
-                Реализация авиационного реактивного топливо производиться на контрактной основе, согласно Инкотермс 2010 и/или Инкотермс 2020. Заключить контракт на поставку Вы можете, заполнить образец заявки и направить на e-mail: info@bitum-rise.ru. и /или связаться с Департаментом трейдинга темных нефтепродуктов по телефону: +7 800 222-92-25 
+                <?=GetMessage("FUEL-SALES-TEXT")?> 
             </div>
         </div>
         <div class="jet-fuel-item">
