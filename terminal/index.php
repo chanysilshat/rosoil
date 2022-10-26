@@ -109,9 +109,16 @@ $APPLICATION->SetTitle("Главная");
 			<section class="terminal-page__block-5 terminal-page-block-5">
 				<div class="terminal-page-block-5__container">
 					<div class="terminal-page-block-5__form-request-container">
-						@@include('html/_form-request.htm',{
-						"request__title":"Ваши предложения и пожелания"
-						})
+						<?$APPLICATION->IncludeComponent(
+							"bitrix:main.include",
+							"",
+							Array(
+								"AREA_FILE_SHOW" => "file",
+								"AREA_FILE_SUFFIX" => "inc",
+								"EDIT_TEMPLATE" => "",
+								"PATH" => "/include/form.php"
+							)
+						);?>
 					</div>
 				</div>
 			</section>

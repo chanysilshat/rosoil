@@ -55,56 +55,57 @@ $APPLICATION->SetTitle("Дизельное топливо");
 		"USE_SHARE" => "N"
 	)
 );?>
-    <main class="main">  
+    <main class="d-oil-page">  
         <section class="company-history">
             <div class="page-info">
-                <div class="page-info-text">
-                    <span>
-                        <?=GetMessage("FOR_D_OIL")?>
-                        
-                    </span>
+                <div class="container">
+                    <div class="page-info-text">
+                        <span>
+                            <?=GetMessage("FOR_D_OIL")?>
+                        </span>
+                    </div>
                 </div>
             </div>
             <div class="block-left">
                 <div class="page-info">
-                    <div class="page-info-text-two">
-                        <div>
-                            <?=GetMessage("MARKER_D_OIL")?>
+                    <div class="container">
+                        <div class="page-info-text-two">
+                            <div>
+                                <?=GetMessage("MARKER_D_OIL")?>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="page-info-text-three">
-                        <span>
-                            ДТ-Л, Сорт С — летнее (- 5°С);<br>
-                            ДТ-Е — межсезонное   (- 15 °С);<br>
-                            ДТ-З — зимнее               (- 20°С);<br>
-                            ДТ-А — арктическое     (- 38°С).
-                        </span>
+                    </div>  
+                    <div class="container">
+                        <div class="page-info-text-three">
+                            <span>
+                                <?=GetMessage("MARKER_D_OIL1")?>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="block-right">
+            <div class="block-right yellow">
                 <div class="page-info">
-                    <div class="page-info-text-two">
-                        <div>
-                            Маркировка дизельного топлива, обозначающие экологический класс дизельного топлива:
+                    <div class="container">
+                        <div class="page-info-text-two">
+                            <div>
+                                <?=GetMessage("MARKER_D_OIL2")?>
+                            </div>
                         </div>
                     </div>
-               
-                    <div class="page-info-text-three">
-                        <span>
-                            ДТ-Л, Сорт С — летнее (- 5°С);<br>
-                            ДТ-Е — межсезонное   (- 15 °С);<br>
-                            ДТ-З — зимнее               (- 20°С);<br>
-                            ДТ-А — арктическое     (- 38°С).
-                        </span>
+                    <div class="container">
+                        <div class="page-info-text-three">
+                            <span>
+                                <?=GetMessage("MARKER_D_OIL3")?>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="polimer-PMB">
                     <div class="polimer-PMB-text">
-                        Применение дизельного топлива характерно для заправки практически любых видов транспорта: 
+                        <?=GetMessage("PRIM_DIZ")?>
                     </div>
                 </div>
             </div>
@@ -120,7 +121,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 01
                             </div>
                             <div class="polimer-info-text-a">
-                                Легковых и грузовых автомобилей
+                                <?=GetMessage("PRIM_DIZ")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -128,7 +129,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 02
                             </div>
                             <div class="polimer-info-text-a">
-                                Водного транспорта
+                                <?=GetMessage("PRIM_DIZ")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -136,7 +137,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 03
                             </div>
                             <div class="polimer-info-text-a">
-                                Сельскохозяйственной спецтехники
+                                <?=GetMessage("PRIM_DIZ")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -144,7 +145,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 04
                             </div>
                             <div class="polimer-info-text-a">
-                                Железнодорожных составов
+                                <?=GetMessage("PRIM_DIZ")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -152,7 +153,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 05
                             </div>
                             <div class="polimer-info-text-a">
-                                Строительной спецтехники
+                                <?=GetMessage("PRIM_DIZ")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -160,7 +161,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 06
                             </div>
                             <div class="polimer-info-text-a">
-                                Военной техники
+                                <?=GetMessage("PRIM_DIZ")?>
                             </div>
                         </div>
                     </div>
@@ -174,31 +175,33 @@ $APPLICATION->SetTitle("Дизельное топливо");
                 <div class="container">
                     <div class="polimer-PMB">
                         <div class="polimer-PMB-text">
-                            Классификация дизельного топлива в Европе стандарт (EN 590), EURO 5 (Евро 5).
+                            <?=GetMessage("CLASS_OIL")?>
                         </div>
                     </div>
 
                     <div class="polimer-txt">
                         <div>
-                            Распространённая среди потребителей классификация Евро-5 первая после советских ГОСТов получила широкое распространение при маркировке российского дизеля. Связано это больше
-                            с тем, что по нашим дорогам ездит больше зарубежных автомобилей, чем отечественных. 
-                            На законодательном уровне евростандарт EN 590-2009 у нас не действует, но описанные в нём пункты лежат в основе российского ГОСТ 32511-2013
+                            <?=GetMessage("CLASS_OIL1")?>
                         </div>
                     </div>
                 </div>
                 <div class="block-right">
-                    <div class="page-info">
-
-                    <div class="page-info-text-twos">
-                        <div>
-                        Евро-5 или EN 590-2009 — принятые Европейским Союзом стандарт, определяющий допустимость применения тех или иных классов дизеля в определённых климатических зонах.
-                        </div>
-                    </div>
-               
-                    <div class="page-info-text-sl">
-                        <div>
-                            При классификации дизельного топлива для его маркировки для продажи в Российской Федерации и странах Таможенного союза руководствуются двумя параметрами: содержанием сернистых примесей (экологичностью) и температурой фильтруемости (допустимыми климатическими использованиями для использования). При этом в паспортах качества 
-                            на солярку, как и в случае с другими нефтепродуктами, обязательно указывают прочие характеристики партии — вязкость, содержание воды, цетановое число или воспламеняемость.
+                    <div class="container">
+                        <div class="page-info">
+                    
+                            <div class="page-info-text-twos">
+                                <div>
+                                    <?=GetMessage("CLASS_OIL2")?>
+                                </div>
+                            </div>
+                
+                    
+                
+                            <div class="page-info-text-sl">
+                                <div>
+                                    <?=GetMessage("CLASS_OIL3")?>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -206,17 +209,19 @@ $APPLICATION->SetTitle("Дизельное топливо");
             <div class="container">
                 <div class="polimer-txt12">
                     <div>
-                        Дизельное топливо соответствуют ГОСТам и СТО/ТУ и обеспечено сертификатами соответствия и паспортами качества заводов-производителей.  Вы можете ознакомиться в разделе Паспорта качеств и сертификаты соответствия
+                        <?=GetMessage("CLASS_OIL4")?>
                     </div>
                 </div>
             </div>
         </div>
 
     <div class="passport-block">
-        <div class="passport-text">
-            <img src="/img/PdfFile.png">
-            <span>Паспорт качества продукци</span>
-            <img src="/img/DownloadIcon.png">
+        <div class="container">
+            <div class="passport-text">
+                <img src="/img/PdfFile.png">
+                <span><?=GetMessage("PASS_Q")?></span>
+                <img src="/img/DownloadIcon.png">
+            </div>
         </div>
     </div>
 
@@ -227,10 +232,9 @@ $APPLICATION->SetTitle("Дизельное топливо");
 
 
     <section class="bitum-page__block-8 bitum-page-block-8">
-        <div class="bitum-page-block-8__container">
-            <h2 class="bitum-page-block-8__title">Особенности транспортировки и хранения дизельного топлива</h2>
-            <div class="bitum-page-block-8__text">Компания RISE OIL GROUP осуществляет транспортировку дизельного топлива на экспорт 
-по правилам перевозки опасных грузов. Каждый из указанных способов является безопасным и выбирается в зависимости от конкретных условий поставок. </div>
+        <div class="bitum-page-block-8__container container">
+            <h2 class="bitum-page-block-8__title"><?=GetMessage("OSOB_TRANS")?></h2>
+            <div class="bitum-page-block-8__text"><?=GetMessage("OSOB_TRANS1")?></div>
             <div class="bitum-page-block-8__decoration">
                 <div class="bitum-page-block-8__decoration_circle-big">
                     <div class="bitum-page-block-8__decoration_circle-small"></div>
@@ -246,17 +250,17 @@ $APPLICATION->SetTitle("Дизельное топливо");
                 <div class="bitum-page-block-8__item">
                     <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
                     </div>
-                    <div class="bitum-page-block-8__info">Вагон-цистерна 60 тонн</div>
+                    <div class="bitum-page-block-8__info"><?=GetMessage("OSOB_TRANS2")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
                     <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
                     </div>
-                    <div class="bitum-page-block-8__info">Морской танкер 2000 тонн</div>
+                    <div class="bitum-page-block-8__info"><?=GetMessage("OSOB_TRANS3")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
                     <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
                     </div>
-                    <div class="bitum-page-block-8__info">Автобензовоз 22 тонн</div>
+                    <div class="bitum-page-block-8__info"><?=GetMessage("OSOB_TRANS4")?></div>
                 </div>
             </div>
         </div>
@@ -264,88 +268,67 @@ $APPLICATION->SetTitle("Дизельное топливо");
 </div>
 
 <div class="implementation">
-
+    <div class="container-implementation container">
         <div class="implementation-item">
             <div class="title-prewie implementation">
-                Реализация автомобильного бензина на экспорт 
+                <?=GetMessage("REAL_AUTO")?>
             </div>
             <div class="text implementation">
-                Как оформить заказ и заключить контракт на поставку бензина и дизельного топлива?
-                Реализация автомобильного бензина производится на контрактной основе, согласно Инкотермс 2010 и/или Инкотермс 2020. Заключить контракт на поставку Вы можете, направить официальный запрос на e-mail: info@bitum-rise.ru, скачать образец заявки 
-                и далее связавшись с специалистами экспортного отдела светлых нефтепродуктов 
-                по телефону +7&nbsp;800&nbsp;222-92-25.
+                <?=GetMessage("REAL_AUTO1")?>
             </div>
-            <div class="black-line">
+            <div class="implementation-block">
             </div>
         </div>
-       
+    </div>
 </div>
-
+<div class="koks-form">
+    <div class="koks-form-item">
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            Array(
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "",
+                "PATH" => "/include/form.php"
+            )
+        );?>
+    </div>
+</div>
 <div class="oil-products">
     <div class="container">
         <div class="title-prewie">
-            Сегодня к реализации предлагаются следующие виды сырья и нефтепродуктов:
+            <?=GetMessage("TODAY_REAL")?>
         </div>
         <div class="kinds">
             <div class="kinds-item">
                 <div class="kinds-text">
-                    Дизельное топливо
+                    <?=GetMessage("TODAY_REAL1")?>
                 </div>  
             </div>
             <div class="kinds-item">
                 <div class="kinds-text">
-                    Битумные
-                    материалы
+                    <?=GetMessage("TODAY_REAL2")?>
                 </div>
             </div>
             <div class="kinds-item">
                 <div class="kinds-text">
-                    Газовый
-                    конденсат
+                    <?=GetMessage("TODAY_REAL3")?>
                 </div>
             </div>
             <div class="kinds-item">
                 <div class="kinds-text">
-                    Нафта
+                    <?=GetMessage("TODAY_REAL4")?>
                 </div>    
             </div>
             <div class="kinds-item">
                 <div class="kinds-text">
-                    Кокс
-                    нефтяной
+                    <?=GetMessage("TODAY_REAL5")?>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </section>
 

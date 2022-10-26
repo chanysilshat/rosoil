@@ -1,0 +1,337 @@
+img {
+   height: 100%;
+   width: 100%;
+}
+.howwork {
+   color: #1D1D1D;
+}
+.howwork-bcg {
+   height: 327px;
+}
+.howwork-container {
+   width: 860px;
+   margin: 0 auto;
+   position: relative;
+}
+.howwork-main {
+   padding: 35px 0 40px;
+}
+.howwork-title {
+   text-align: center;
+   margin-bottom: 96px;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 48px;
+}
+.howwork-descr p,
+.howwork-end-text p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+   margin-bottom: 20px;
+}
+.howwork-video {
+   margin-bottom: 79px;
+}
+.howwork-value {
+   padding-bottom: 68px;
+}
+.howwork-value-title {
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 36px;
+   margin-bottom: 12px;
+}
+.howwork-competitors {
+   padding-bottom: 59px;
+}
+.howwork-competitors-wrap {
+   padding-top: 11px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+.howwork-competitors-item {
+   display: flex;
+   justify-content: space-between;
+   background: #E8E8E8;
+   padding: 37px 30px 37px 36px;
+}
+.howwork-competitors-text {
+   background: #FFFFFF;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.22);
+   border-radius: 10px;
+   width: 380px;
+   min-height: 216px;
+   padding: 19px 13px;
+}
+
+.howwork-competitors-img {
+   border-radius: 10px;
+   width: 380px;
+   height: 216px;
+}
+.howwork-competitors-img img {
+   border-radius: 10px;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.22);
+}
+
+.howwork-competitors-text span {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   margin-bottom: 6px;
+}
+
+.howwork-competitors-text p {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 18px;
+}
+.howwork-staff {
+   padding-bottom: 71px;
+}
+.howwork-staff-title {
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 44px;
+   margin-bottom: 17px;
+}
+.howwork-descr ul {
+   padding-left: 25px;
+}
+.howwork-descr li {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+}
+.howwork-rules {
+   padding-bottom: 62px;
+}
+
+.howwork-rules p {
+   font-weight: 600;
+   font-size: 19px;
+   line-height: 29px;
+   margin-bottom: 40px;
+}
+.howwork-rules-download {
+   display: flex;
+   margin-bottom: 20px;
+
+}
+.howwork-rules-img {
+   width: 20.34px;
+   height: 26.16px;
+   align-self: flex-end;
+   margin-right: 18px;
+   padding-bottom: 2px;
+}
+.howwork-rules-item span {
+   font-weight: 400;
+   font-size: 19px;
+}
+.howwork-rules-lang {
+   display: flex;
+   margin-top: 15px;
+}
+.howwork-rules-lang a {
+   margin-right: 14px;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 15px;
+   text-decoration-line: underline;
+}
+
+.howwork-rules-lang a:hover {
+   color: #f9ae19;
+}
+
+.howwork-end {
+   display: grid;
+   grid-template-columns: 380px 1fr;
+   justify-content: space-between;
+   padding-bottom: 116px;
+   column-gap: 30px;
+}
+
+.howwork-end-text {
+   padding-top: 10px;
+}
+
+.howwork-end-text span {
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 39px;
+   margin-bottom: 22px;
+}
+
+.howwork-end-text p {
+   margin-top: 22px;
+}
+
+
+@media(max-width: 920px) {
+   .howwork-container {
+      width: 768px;
+   }
+   .howwork-title {
+      margin-bottom: 40px;
+  }
+  .howwork-main,
+  .howwork-video,
+  .howwork-value,
+  .howwork-competitors,
+  .howwork-staff,
+  .howwork-rules,
+  .howwork-end  {
+   padding-left: 70px;
+   padding-right: 70px;
+   }
+   .howwork-video__video {
+      width: 100%;
+   }
+   .howwork-competitors-item {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+  }
+  .howwork-competitors-item:nth-child(odd) {
+   flex-direction: column-reverse;
+  }
+  .howwork-end-text {
+      padding-top: 0;
+}
+
+
+}
+
+@media(max-width: 768px) {
+   .howwork-container {
+      width: 576px;
+   }
+   .howwork-main {
+      padding-bottom: 20px;
+  }
+   .howwork-title {
+      margin-bottom: 30px;
+  }
+  .howwork-video {
+      margin-bottom: 50px;
+   }
+   .howwork-value {
+      padding-bottom: 30px;
+  }
+  .howwork-staff {
+   padding-bottom: 40px;
+   }
+   .howwork-rules {
+      padding-bottom: 30px;
+  }
+   .howwork-rules p {
+      margin-bottom: 30px;
+  }
+  .howwork-end {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      padding-bottom: 70px;
+  }
+  .howwork-end-text {
+      width: 380px;
+  }
+}
+
+@media(max-width: 576px) {
+   .howwork-container {
+      width: 450px;
+   }
+   .howwork-title {
+      font-size: 35px;
+  }
+  .howwork-main,
+  .howwork-video,
+  .howwork-value,
+  .howwork-competitors,
+  .howwork-staff,
+  .howwork-rules,
+  .howwork-end  {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+   .howwork-video {
+      margin-bottom: 40px;
+  }
+  .howwork-competitors-item {
+      padding: 25px 0;
+  }
+  .howwork-competitors-text,
+   .howwork-competitors-img {
+      width: 90%;
+   }
+   .howwork-competitors-img {
+      height: 100%;
+   }
+   .howwork-competitors-text span {
+      font-size: 20px;
+   }
+   .howwork-staff-title {
+      font-size: 30px;
+   }
+   .howwork-end .howwork-competitors-img,
+   .howwork-end-text {
+      width: 100%;
+   }
+
+
+}
+
+@media(max-width: 450px) {
+   .howwork-container {
+      width: 400px;
+   }
+   .howwork-value-title {
+      font-size: 27px;
+   }
+
+}
+
+@media(max-width: 400px) {
+   .howwork-container {
+      width: 375px;
+   }
+   .howwork-value-title {
+      font-size: 25px;
+  }
+
+}
+
+@media(max-width: 375px) {
+   .howwork-container {
+      width: 320px;
+   }
+   .howwork-title {
+      font-size: 30px;
+  }
+  .howwork-competitors-text,
+  .howwork-competitors-img {
+      width: 100%;
+  }
+  .howwork-competitors-item {
+      padding: 25px;
+      gap: 25px;
+  }
+  .howwork-staff-title {
+      font-size: 27px;
+   }
+   .howwork-rules p,
+   .howwork-rules-item span {
+      font-size: 16px;
+   }
+}
+
+
+
+
+

@@ -60,33 +60,34 @@ $APPLICATION->SetTitle("История компании");
             <!--Серый и желтый блок-->
             <div class="contabs">
                 <div class="fabs">
-                    <p class="item-fabs">Система комплаенс «RISE OIL GROUP» гарантирует деятельность компании в соответствии с законодательством, отраслевыми стандартами и другими нормативными требованиями.</p>
-                    <p class="item-fabs">Соблюдение требований является неотъемлемой частью бизнес-процессовв Компании.Наша деятельность настолько же технически и коммерчески сложна, насколько географически и оперативно распределена. Чтобы торговать ответственно, «RISE OIL GROUP» должна соответствовать самым высоким стандартам во всей цепочке поставок и ставить вопросы здоровья, безопасности, сохранения окружающей среды и сообщества (HSEC)на передний план при планировании и принятии решений.</p>
+                    <p class="item-fabs"><?=GetMessage("GRAY_BLOCK1")?></p>
+                    <p class="item-fabs"><?=GetMessage("GRAY_BLOCK2")?></p>
                 </div>
 
                 <div class="sabs">
                     <div class="item-fabs2">
-                        СЛОВАРЬ: Комплаенс (англ. compliance — согласие, соответствие) — это внутренний контроль за соответствием деятельности компании законодательству. Его главная цель — исключить риски потери прибыли. К ним относятся штрафы, выплаты ущерба или невыполнение контрактов.
+                        <?=GetMessage("YELLOW_BLOCK")?>
                     </div>
                 </div>
             </div>
+            
 
             <!--Флекс блоки-->
             <div class="main-blockx-flex">
 
                 <div class="item-block-flexx">
-                    <div class="item1-block-flexx">Деловая деятельность</div>
-                    <div>Вся основа нашей бизнес-деятельности построена в соответствии с комплексной программой комплаенса</div>
+                    <div class="item1-block-flexx"><?=GetMessage("DEL_BLOCK1")?></div>
+                    <div><?=GetMessage("DEL_BLOCK2")?></div>
                 </div>
 
                 <div class="item-block-flexx">
-                    <div class="item1-block-flexx">Наша политика</div>
-                    <div>Наша политика устанавливает стандарты, ожидаемые от наших сотрудников в отношении деловой этики, поведения и соблюдения всех применимых законов и правил. Они были строго сопоставлены с соответствующими руководствами и рекомендациями</div>
+                    <div class="item1-block-flexx"><?=GetMessage("DEL_BLOCK3")?></div>
+                    <div><?=GetMessage("DEL_BLOCK4")?></div>
                 </div>
 
                 <div class="item-block-flexx">
-                    <div class="item1-block-flexx">Внедрение и мониторинг</div>
-                    <div>Комплаенс «RISE OIL GROUP» основан на принципе и практике сотрудничества на каждом этапе процесса. Комплаенс интегрирован и сотрудничает с функциями бизнеса, рисков и аудита по всей компании, в дополнение к использованию опыта других отделов по мере необходимости</div>
+                    <div class="item1-block-flexx"><?=GetMessage("DEL_BLOCK5")?></div>
+                    <div><?=GetMessage("DEL_BLOCK6")?></div>
                 </div>
 
             </div>
@@ -96,18 +97,18 @@ $APPLICATION->SetTitle("История компании");
             <!--Заголовок и текст-->
             <div class="hat">
                 <div class="mainh">
-                    Группа “RISE OIL” стимулирует экономический прогресс и строит более сильные общества
+                    <?=GetMessage("GROUP_RESP1")?>
                 </div>
 
                 <div class="maint">
-                    Наша способность эффективно управлять рисками, присущими торговле сырьевыми товарами, имеет основополагающее значение для дальнейшего развития и стабильности «RISE OIL GROUP». Финансовые, операционные и рыночные риски являются неотъемлемым элементом торговли сырьевыми товарами и логистики. Их невозможно полностью избежать, но их можно планировать и управлять ими. Мы поддерживаем сложные системы управления рисками, процессы и средства контроля. Политика в отношении рисков определяется централизованно, риски анализируются ежедневно, а наши процедуры постоянно пересматриваются и обновляются.
+                    <?=GetMessage("GROUP_RESP2")?>
                 </div>
             </div>
 
             <div class="mainh2">
-                Мы применяем ряд инструментов управления рисками для минимизации общего риска в любой момент времени
+                <?=GetMessage("ROW_INSTR1")?>
             </div>
-
+            
         <!--Цифры с картинкой-->
             <div class="polimer-conteiner">
         <div class="polimer-img">
@@ -119,7 +120,7 @@ $APPLICATION->SetTitle("История компании");
                     01
                 </div>
                 <div class="polimer-info-text-a">
-                    Финансовые инструменты для хеджирования рисков изменения цен на сырьевые товары и валютных курсов
+                    <?=GetMessage("ROW_INSTR2")?>
                 </div>
             </div>
             <div class="polimer-info-text">
@@ -127,7 +128,7 @@ $APPLICATION->SetTitle("История компании");
                     02
                 </div>
                 <div class="polimer-info-text-a">
-                    Уважение прав и свобод человека, забота о здоровье работников и охране труда
+                    <?=GetMessage("ROW_INSTR3")?>
                 </div>
             </div>
             <div class="polimer-info-text">
@@ -135,7 +136,7 @@ $APPLICATION->SetTitle("История компании");
                     03
                 </div>
                 <div class="polimer-info-text-a">
-                    Управление конфликтами интересов
+                    <?=GetMessage("ROW_INSTR4")?>
                 </div>
             </div>
             <div class="polimer-info-text">
@@ -143,7 +144,7 @@ $APPLICATION->SetTitle("История компании");
                     04
                 </div>
                 <div class="polimer-info-text-a">
-                    Противодействие коррупции
+                    <?=GetMessage("ROW_INSTR5")?>
                 </div>
             </div>
             <div class="polimer-info-text">
@@ -151,7 +152,7 @@ $APPLICATION->SetTitle("История компании");
                     05
                 </div>
                 <div class="polimer-info-text-a">
-                    Страхование различных операционных рисков, включая связанные с перевозками
+                    <?=GetMessage("ROW_INSTR6")?>
                 </div>
             </div>
             <div class="polimer-info-text">
@@ -159,7 +160,7 @@ $APPLICATION->SetTitle("История компании");
                     06
                 </div>
                 <div class="polimer-info-text-a">
-                    Комплексная проверка перед приобретением и эффективное управление после приобретения для хеджирования экологических рисков
+                    <?=GetMessage("ROW_INSTR7")?>
                 </div>
             </div>
             <div class="polimer-info-text">
@@ -167,7 +168,7 @@ $APPLICATION->SetTitle("История компании");
                     07
                 </div>
                 <div class="polimer-info-text-a">
-                    Соблюдение законодательства, общепринятых норм корпоративной и деловой этики
+                    <?=GetMessage("ROW_INSTR8")?>
                 </div>
             </div>
             <div class="polimer-info-text">
@@ -175,7 +176,7 @@ $APPLICATION->SetTitle("История компании");
                     08
                 </div>
                 <div class="polimer-info-text-a">
-                    Ответственная торговля
+                    <?=GetMessage("ROW_INSTR9")?>
                 </div>
             </div>
             <div class="polimer-info-text">
@@ -183,7 +184,7 @@ $APPLICATION->SetTitle("История компании");
                     09
                 </div>
                 <div class="polimer-info-text-a">
-                    Защита конфиденциальной и инсайдерской информации
+                    <?=GetMessage("ROW_INSTR10")?>
                 </div>
             </div>
             

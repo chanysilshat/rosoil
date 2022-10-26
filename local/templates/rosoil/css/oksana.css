@@ -1,3 +1,976 @@
-body{
+
+ img {
+    width: 100%;
+ }
+.howwork-competitors-img img {
+    height: 100%;
+    width: 100%;
+ }
+
+.howwork {
+    color: #1D1D1D;
+ }
+ .howwork-bcg {
+    height: 327px;
+ }
+.howwork-bcg img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+
+ .howwork-container {
+    width: 860px;
+    margin: 0 auto;
+    position: relative;
+ }
+ .howwork-main {
+    padding: 35px 0 40px;
+ }
+ .howwork-title {
+    text-align: center;
+    margin-bottom: 96px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+ }
+ .howwork-descr p,
+ .howwork-end-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 20px;
+ }
+ .howwork-video {
+    margin-bottom: 79px;
+ }
+ .howwork-value {
+    padding-bottom: 68px;
+ }
+ .howwork-value-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 12px;
+ }
+ .howwork-competitors {
+    padding-bottom: 59px;
+ }
+ .howwork-competitors-wrap {
+    padding-top: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+ .howwork-competitors-item {
+    display: flex;
+    justify-content: space-between;
+    background: #E8E8E8;
+    padding: 37px 30px 37px 36px;
+ }
+ .howwork-competitors-text {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    width: 380px;
+    min-height: 216px;
+    padding: 19px 13px;
+ }
+ .howwork-competitors-text._watcher-view {
+   transition: all 1s linear 0s;
+   transform: translate(0px, 0px);
+ }
+ 
+ .howwork-competitors-img {
+    border-radius: 10px;
+    width: 380px;
+    height: 216px;
+ }
+
+ .howwork-competitors-img img {
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.22);
+ }
+ 
+ .howwork-competitors-text span {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 6px;
+ }
+ 
+ .howwork-competitors-text p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+ }
+ .howwork-staff {
+    padding-bottom: 71px;
+ }
+ .howwork-staff-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 17px;
+ }
+ .howwork-descr ul {
+    padding-left: 25px;
+ }
+ .howwork-descr li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    list-style-type: disc;
+ }
+ .howwork-rules {
+    padding-bottom: 62px;
+    display: none;
+ }
+ 
+ .howwork-rules p {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 29px;
+    margin-bottom: 40px;
+ }
+ .howwork-rules-download {
+    display: flex;
+    margin-bottom: 20px;
+ 
+ }
+ .howwork-rules-img {
+    width: 20.34px;
+    height: 26.16px;
+    align-self: flex-end;
+    margin-right: 18px;
+    padding-bottom: 2px;
+ }
+ .howwork-rules-item span {
+    font-weight: 400;
+    font-size: 19px;
+ }
+ .howwork-rules-lang {
+    display: flex;
+    margin-top: 15px;
+ }
+ .howwork-rules-lang a {
+    margin-right: 14px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+ }
+ 
+ .howwork-rules-lang a:hover {
+    color: #f9ae19;
+ }
+ 
+ .howwork-end {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    justify-content: space-between;
+    padding-bottom: 116px;
+    column-gap: 30px;
+ }
+ 
+ .howwork-end-text {
+    padding-top: 10px;
+ }
+ 
+ .howwork-end-text span {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 22px;
+ }
+ 
+ .howwork-end-text p {
+    margin-top: 22px;
+ }
+ 
+
+
+
+ .delivery-c {
+    padding: 65px 0 138px;
+ }
+ .delivery-c .container {
+    width: 1080px;
+    margin: 0 auto;
+ }
+ .delivery-item-c img {
+    width: 100%;
+ }
+ .delivery-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 50px;
+ }
+ .delivery-wrapper {
+    display: grid;
+    grid-template: repeat(3,auto)/repeat(3,341px);
+     grid-auto-rows: 1fr;
+     justify-content: space-between;
+     row-gap: 50px;
+ }
+ .delivery-descr {
+    background: #F9D119;
+    padding: 25px 20px;
+    min-height: 120px;
+ }
+ .delivery-descr p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+ }
+ 
+ @media(max-width: 1200px) {
+    .delivery-c .container  {
+       width: 920px;
+    }
+    .delivery-wrapper {
+       grid-template: repeat(3,auto)/repeat(3,1fr);
+       column-gap: 20px;
+       row-gap: 50px;
+    }
+    
+ }
+ 
+ 
+ @media(max-width: 920px) {
+    .delivery-c .container  {
+       width: 768px;
+       padding: 0 20px;
+    }
+    .delivery-descr {
+       min-height: 142px;
+    }
+    
+ }
+ 
+ @media(max-width: 768px) {
+    .delivery-c .container {
+       width: 576px;
+       
+    }
+    .delivery-descr p {
+       font-size: 14px;
+   }
+   .delivery-descr {
+    min-height: 211px;
+ }
+ 
+ }
+ 
+ @media(max-width: 576px) {
+    .delivery-c .container {
+       width: 450px;
+    }
+    .delivery-wrapper {
+       grid-template: repeat(3,auto)/repeat(2,1fr);
+       column-gap: 20px;
+        row-gap: 50px;
+    }
+    .delivery-descr {
+       min-height: 165px;
+   }
+ 
+ }
+ 
+ @media(max-width: 450px) {
+    .delivery-c .container {
+       width: 400px;
+    }
+    .delivery-descr {
+       min-height: 188px;
+    }
+    
+ }
+ 
+ @media(max-width: 400px) {
+    .delivery-c {
+       padding: 30px 0 60px;
+   }
+    .delivery-c .container {
+       width: 375px;
+       padding: 0 10px;
+    }
+    .delivery-title {
+       margin-bottom: 30px;
+    }
+    .delivery-wrapper {
+       grid-template: repeat(3,auto)/1fr;
+       row-gap: 30px;
+    }
+    .delivery-descr {
+       min-height: 100px;
+   }
+ 
+ }
+ 
+ @media(max-width: 375px) {
+    .delivery-c .container {
+       width: 320px;
+    }
+ }
+
+ .constitution-bcg {
+   height: 205px;
+} 
+.constitution-bcg img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.constitution-block .container {
+   width: 1300px;
+   padding: 0 1%;
+   margin: 0 auto;
+}
+.constitution-block {
+   padding: 30px 0 66px;
+   text-align: center;
+}
+
+.constitution-block h1 {
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 48px;
+   color: #1D1D1D;
+   margin-bottom: 13px;
+}
+
+.constitution-block-text span {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 25px;
+   color: #1D1D1D;
+}
+
+.constitution-values {
+   text-align: center;
+   padding-bottom: 96px;
+}
+
+.constitution-values-text {
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 39px;
+   color: #1D1D1D;
+   text-align: center;
+}
+.constitution-values-wrapper {
+   width: 835px;
+   margin: 50px auto 0;
+
+}
+.constitution-values-block {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.constitution-values-cvg {
+   margin-bottom: 20px;
+}
+.constitution-text, 
+.constitution-text span {
+   font-weight: 500;
+   font-size: 21px;
+   line-height: 25px;
+   text-decoration-line: underline;
+   color: #1D1D1D;
+}
+.ethical-justifications {
+   overflow-x: hidden;
+}
+.ethical-justifications-block {
+   margin-top: 27px;
+   margin-bottom: 153px;
+   height: 382px;
+}
+.ethical-justifications .constitution-values-text {
+   text-align: center;
+}
+.honesty,
+.objectivity {
+   background: url("/img/ethical.jpg") center  no-repeat;
+   background-size: cover;
+}
+.justice,
+.responsibility {
+   background: url("/img/ethical2.jpg") center no-repeat;
+   background-size: cover;
+}
+
+.honesty,
+.objectivity,
+.justice,
+.responsibility {
+   height: 382px;
+   overflow: hidden;
+   width: 24%;
+   float: left;
+   text-align: center;
+   padding-top: 60px;
+
+}
+.honesty {
+   clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+
+
+}
+.justice,
+.objectivity {
+   clip-path: polygon(30% 0, 100% 0%, 70% 100%, 0% 100%);
+}
+
+.responsibility {
+   clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.block {
+   transform: scale(1.4);
+   transform-origin: top;
+}
+.honesty-namber {
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 26px;
+   color: #FFFFFF;;
+   margin-bottom: 50px;
+}
+.honesty-text {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 26px;
+   color: #FFFFFF;
+   margin-bottom: 22px;
+}
+
+@media (max-width: 1400px) {
+   .honesty-text {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26px;
+      color: #FFFFFF;
+      margin-bottom: 22px;
+   }
+}
+
+.ethical-justifications-block .constitution-block-text,
+.ethical-justifications-mobile .constitution-block-text {
+   padding: 0 28%;
+   text-align: left;
+}
+
+.ethical-justifications-block .constitution-block-text span,
+.ethical-justifications-mobile .constitution-block-text span {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FFFFFF;
+}
+
+@media (max-width: 1400px) {
+   .ethical-justifications-block .constitution-block-text span,
+.ethical-justifications-mobile .constitution-block-text span {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 26px;
+   color: #FFFFFF;
+}
+}
+
+.ethical-justifications-mobile {
+   display: none;
+}
+.standards {
+   padding: 58px 0 120px;
+}
+.privacy-img {
+   width: 52px;
+   margin-bottom: 16px;
+}
+.professionalism-text {
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 26px;
+   text-decoration-line: underline;
+   color: #1D1D1D;
+}
+.standards-block{
+   width: 1200px;
+   padding: 0 20px;
+   margin: 40px auto 0;
+}
+.standards-block-wrapper {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: center;
+   column-gap: 148px;
+   row-gap: 57px;
+}
+.standards-block-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.management-principles-container {
+   width: 1080px;
+   margin: 0 auto;
+}
+.management-principles-title {
+   padding: 0 12%;
+}
+.management-principles-block {
+   display: flex;
+   flex-direction: column;
+   margin-top: 51px;
+   gap: 33px;
+   padding-bottom: 153px;
+}
+.management-principles-item {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-auto-rows: auto;
+   gap: 20px;
+}
+.action-orientation-block {
+   width: 528px;
+   height: 229px;
+}
+.action-orientation-block img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.management-title {
+   font-weight: 500;
+   font-size: 27px;
+   line-height: 33px;
+   color: #1D1D1D;
+   margin-bottom: 14px;
+}
+.management-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 25px;
+   color: #1D1D1D;
+}
+.action-orientation-item {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+
+@media (max-width: 1600px){
+   .container {
+       width: 1200px;
+   }
+   .constitution-block .container {
+      width: 1200px;
+      padding: 0 2%;
+  }
+}
+@media (max-width: 1440px){
+}
+
+@media (max-width: 1200px){
+   .container {
+       width: 1024px;
+   }
+   .constitution-block .container {
+      width: 1024px;
+      padding: 0 1%;
+   }
+
+   .constitution-values-wrapper {
+      width: 800px;
+   }
+   .honesty-namber {
+      font-size: 65px;
+      margin-bottom: 40px;
+  }
+  .honesty-text {
+   font-size: 15px;
+   margin-bottom: 15px;
+   }
+   .ethical-justifications-block .constitution-block-text span {
+      font-size: 12px;
+   }
+   .standards-block {
+      width: 1024px;
+   }
+   .management-principles-container {
+      width: 1024px;
+      padding: 0 20px;
+   }
+
+   .action-orientation-block {
+      width: 100%;
+   }
+   
+
+}
+@media (max-width: 1024px){
+   .container {
+       width: 920px;
+   }
+   .constitution-block .container {
+      width: 920px;
+  }
+  .constitution-block-text {
+   text-align: left;
+  }
+  .standards {
+      padding: 58px 0 90px;
+   }
+  .standards-block {
+      width: 920px;
+   }
+   .management-principles-container {
+      width: 920px;
+      padding: 0 20px;
+   }
+   .management-principles-block {
+      padding-bottom: 100px;
+   }
+
+
+}
+@media (max-width: 920px){
+   .container {
+       width: 768px;
+   }
+   .constitution-block .container {
+      width: 768px;
+  }
+  .constitution-block-text {
+   text-align: center;
+  }
+  .constitution-values-block {
+   flex-direction: column;
+   gap: 40px;
+   }
+   .ethical-justifications {
+      height: 1144px;      
+   }
+   .ethical-justifications-block {
+      display: none;
+   }
+   .ethical-justifications-mobile {
+      display: block;
+   }
+   .ethical-justifications-wrapper {
+      height: 382px;
+   }
+   .ethical-justifications-second {
+      margin-top: 160px;
+   }
+   .justice {
+      -webkit-clip-path: polygon(30% 0,100% 0,70% 100%,0 100%);
+      clip-path: polygon(30% 0,100% 0,100% 100%,0 100%);
+   }
+   .objectivity {
+      -webkit-clip-path: polygon(30% 0,100% 0,70% 100%,0 100%);
+      clip-path: polygon(0 0,100% 0,70% 100%,0 100%);
+   }
+   .block {
+      width: 50%;   
+   }
+   .ethical-justifications-mobile {
+      margin-top: 27px;
+   }
+   .standards-block {
+      width: 768px;
+   }
+   .constitution-values-wrapper {
+      width: 100%;
+  }
+  .standards-block-wrapper {
+      column-gap: 72px;
+   }
+   .management-principles-container {
+      width: 768px;
+   }
+   .management-principles-title {
+      padding: 0 4%;
+   }
+   .management-title {
+      font-size: 25px;
+      margin-bottom: 10px;
+   }
+   .management-text {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      color: #1d1d1d;
+      text-align: justify;
+   }
+
+
+}
+@media (max-width: 768px){
+   .container {
+      width: 576px;
+   }
+   .constitution-block .container {
+      width: 576px;
+  }
+  .constitution-block h1 {
+   font-size: 35px;
+   }
+   .constitution-values-wrapper {
+      width: auto;
+  }
+  .honesty-namber {
+      font-size: 55px;
+      margin-bottom: 35px;
+   }
+   .ethical-justifications-mobile .constitution-block-text span {
+      font-size: 14px;
+   }
+   .standards-block {
+      width: 576px;
+   }
+   .standards-block-wrapper {
+      flex-direction: column;
+   }
+   .management-principles-item {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+  .management-principles-item:nth-child(odd) {
+      flex-direction: column-reverse;
+  }
+
+  .management-principles-container {
+      width: 576px;
+   }
+   .management-principles-block {
+      gap: 40px;
+  }
+
+
+}
+
+@media (max-width: 576px){
+   .container {
+       width:  450px;
+   }
+   .constitution-block .container {
+      width: 450px;
+  }
+  .constitution-block-text {
+   text-align: justify;
+   }
+   .constitution-block h1 {
+      font-size: 31px;
+   }
+   .honesty-namber {
+      font-size: 45px;
+      margin-bottom: 25px;
+   }
+   .block {
+      padding-top: 45px;
+      height: 350px;
+   }
+   .honesty-text {
+      font-size: 13px;
+      margin-bottom: 10px;
+   }
+   .ethical-justifications-mobile .constitution-block-text {
+      padding: 0 25%;
+      text-align: left;
+   }
+   .ethical-justifications-mobile .constitution-block-text span {
+      font-size: 12px;
+      text-align: justify;
+   }
+   .constitution-values-text {
+      font-size: 29px;
+   }
+   .ethical-justifications-second {
+      margin-top: 115px;
+   }
+   .ethical-justifications {
+      height: 1054px;
+   }
+   .standards-block {
+      width: 100%;
+   }
+   .constitution-values {
+      padding-bottom: 55px;
+   }
+   .management-principles-container {
+      width: 450px;
+   }
+   .management-principles-title {
+      padding: 0;
+  }
+  .management-title {
+      font-size: 23px;
+   }
+
+
+} 
+@media (max-width: 450px){
+   .container {
+      width: 400px;
+   }
+   .constitution-block .container {
+      width: 400px;
+  }
+  .honesty-namber {
+      font-size: 40px;
+      margin-bottom: 20px;
+   }
+   .honesty-text {
+      font-size: 12px;
+      margin-bottom: 5px;
+   }
+   .ethical-justifications-mobile .constitution-block-text span {
+      font-size: 10px;
+  }
+  .block {
+      padding-top: 40px;
+      height: 325px;
+   }
+   .ethical-justifications-second {
+      margin-top: 78px;
+   }
+   .ethical-justifications {
+      height: 982px;
+  }
+  .management-principles-container {
+      width: 400px;
+   }
+   .management-title {
+      text-align: center;  
+   }
+
+
+
+} 
+@media (max-width: 400px){
+   .container {
+       width: 375px;
+   }
+   .constitution-block .container {
+      width: 375px;
+      padding: 0 3%;
+  }
+  .block {
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+      transform: scale(0.98);
+      padding: 40px 20px;
+   }
+   .ethical-justifications-second {
+      margin-top: -58px;
+   }
+   .honesty-namber {
+      font-size: 55px;
+      margin-bottom: 30px;
+   }
+   .honesty-text {
+      font-size: 18px;
+      margin-bottom: 10px;
+   }
+   .ethical-justifications-mobile .constitution-block-text span {
+      font-size: 15px;
+   }
+   .ethical-justifications-mobile .constitution-block-text {
+      padding: 0; 
+   }
+   .ethical-justifications {
+      height: 772px;
+   }
+   .constitution-values-text {
+      padding: 0 20px;
+  }
+  .standards {
+      padding: 0 0 60px;
+   }
+   .management-principles-container {
+      width: 375px;
+   }
+   .management-title {
+      font-size: 22px;
+   }
+
+
+
+
+} 
+@media (max-width: 375px){
+   .container {
+      width: 320px;
+   }
+   .constitution-block .container {
+      width: 320px;
+  }
+  .constitution-block h1 {
+      font-size: 30px;
+   }
+   .constitution-block-text span {
+      font-size: 15px;
+   }
+   .honesty-namber {
+      font-size: 50px;
+      margin-bottom: 25px;
+   }
+   .honesty-text {
+      font-size: 15px;
+      margin-bottom: 5px;
+   }
+   .ethical-justifications-mobile .constitution-block-text span {
+      font-size: 14px;
+  }
+  .block {
+      padding: 30px 15px;
+      height: 318px;
+   }
+   .ethical-justifications-second {
+      margin-top: -64px;
+   }
+   .constitution-block {
+      padding: 30px 0 55px;
+   }
+   .constitution-values-wrapper {
+      margin: 40px auto 0;
+   }
+   
+   .constitution-values-text {
+      font-size: 26px;
+   }
+   .constitution-text span {
+      font-size: 20px;
+   }
+   .constitution-values-block {
+      gap: 30px;
+   }
+   .ethical-justifications {
+      height: 768px;
+  }
+  .professionalism-text {
+      font-size: 20px;
+   }
+   .standards-block-wrapper {
+      row-gap: 50px;
+   }
+   .management-principles-container {
+      width: 320px;
+   }
+}
+@media (max-width: 321px){
+   .ethical-justifications {
+      height: 807px;
+   }
 
 }

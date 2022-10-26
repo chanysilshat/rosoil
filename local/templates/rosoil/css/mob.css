@@ -1,0 +1,44 @@
+@media (max-width: 1600px){
+
+}
+@media (max-width: 1440px){
+
+}
+@media (max-width: 1200px){
+
+}
+@media (max-width: 1024px){
+ 
+}
+@media (max-width: 920px){
+    .polimer-conteiner-koks .container{
+        flex-wrap: wrap;
+    }
+    .polimer-conteiner-koks .black-line{
+        display: none;
+    }
+    .page-info-text{
+        padding: 50px;
+    }
+    .page-info2{
+        top: 0;
+    }
+    .kinds{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 768px){
+ 
+}
+@media (max-width: 576px){
+
+} 
+@media (max-width: 450px){
+
+} 
+@media (max-width: 400px){
+
+} 
+@media (max-width: 375px){
+
+}

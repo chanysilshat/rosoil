@@ -4,22 +4,66 @@ $APPLICATION->SetTitle("Главная");
 ?>
 		<main class="mails-page">
 			<section class="mails-page__container">
-				<h1 class="mails-page__title">Благодарственные письма</h1>
-				<div class="mails-page__text">Сложно сказать, почему элементы политического процесса и по сей день остаются
-					уделом либералов, которые жаждут быть подвергнуты целой серии независимых исследований. Учитывая ключевые
-					сценарии поведения, высокотехнологичная концепция общественного уклада</div>
-				<div class="mails-page__slider swiper">
-					<div class="mails-page__wrapper swiper-wrapper">
-						<a href="#" class="mails-page__slide swiper-slide"><img src="/img/bitum-fas-page/1.jpg"
-								alt="Благодарственные письма"></a>
-						<a href="#" class="mails-page__slide swiper-slide"><img src="/img/bitum-fas-page/1.jpg"
-								alt="Благодарственные письма"></a>
-						<a href="#" class="mails-page__slide swiper-slide"><img src="/img/bitum-fas-page/1.jpg"
-								alt="Благодарственные письма"></a>
-						<a href="#" class="mails-page__slide swiper-slide"><img src="/img/bitum-fas-page/1.jpg"
-								alt="Благодарственные письма"></a>
-					</div>
-				</div>
+				<h1 class="mails-page__title"><?=GetMessage("LETTERS")?></h1>
+				<div class="mails-page__text"><?=GetMessage("LETTERS-TEXT")?></div>
+				
+				<?$APPLICATION->IncludeComponent(
+					"bitrix:news.list",
+					"mails",
+					Array(
+						"ACTIVE_DATE_FORMAT" => "d.m.Y",
+						"ADD_SECTIONS_CHAIN" => "Y",
+						"AJAX_MODE" => "N",
+						"AJAX_OPTION_ADDITIONAL" => "",
+						"AJAX_OPTION_HISTORY" => "N",
+						"AJAX_OPTION_JUMP" => "N",
+						"AJAX_OPTION_STYLE" => "Y",
+						"CACHE_FILTER" => "N",
+						"CACHE_GROUPS" => "Y",
+						"CACHE_TIME" => "36000000",
+						"CACHE_TYPE" => "A",
+						"CHECK_DATES" => "Y",
+						"DETAIL_URL" => "",
+						"DISPLAY_BOTTOM_PAGER" => "Y",
+						"DISPLAY_DATE" => "Y",
+						"DISPLAY_NAME" => "Y",
+						"DISPLAY_PICTURE" => "Y",
+						"DISPLAY_PREVIEW_TEXT" => "Y",
+						"DISPLAY_TOP_PAGER" => "N",
+						"FIELD_CODE" => array("",""),
+						"FILTER_NAME" => "",
+						"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+						"IBLOCK_ID" => "22",
+						"IBLOCK_TYPE" => "content",
+						"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+						"INCLUDE_SUBSECTIONS" => "Y",
+						"MESSAGE_404" => "",
+						"NEWS_COUNT" => "20",
+						"PAGER_BASE_LINK_ENABLE" => "N",
+						"PAGER_DESC_NUMBERING" => "N",
+						"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+						"PAGER_SHOW_ALL" => "N",
+						"PAGER_SHOW_ALWAYS" => "N",
+						"PAGER_TEMPLATE" => ".default",
+						"PAGER_TITLE" => "Новости",
+						"PARENT_SECTION" => "",
+						"PARENT_SECTION_CODE" => "",
+						"PREVIEW_TRUNCATE_LEN" => "",
+						"PROPERTY_CODE" => array("","HREF"),
+						"SET_BROWSER_TITLE" => "Y",
+						"SET_LAST_MODIFIED" => "N",
+						"SET_META_DESCRIPTION" => "Y",
+						"SET_META_KEYWORDS" => "Y",
+						"SET_STATUS_404" => "N",
+						"SET_TITLE" => "Y",
+						"SHOW_404" => "N",
+						"SORT_BY1" => "ACTIVE_FROM",
+						"SORT_BY2" => "SORT",
+						"SORT_ORDER1" => "DESC",
+						"SORT_ORDER2" => "ASC",
+						"STRICT_SECTION_CHECK" => "N"
+					)
+				);?>
 			</section>
 		</main>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

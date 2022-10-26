@@ -12,16 +12,16 @@
                         <div class="footer-main-block__column">
                             <div data-spoller class="footer-main-block__title"><span>О компании</span></div>
                             <ul class="footer-main-block__items">
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Как мы работаем?</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">О нас</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">История компании</a></li>
-                                <li class="footer-main-block__item"><a href="team.html" class="footer-main-block__link">Команда</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Конституция, ценности и
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/how_work/" target="_blank" class="footer-main-block__link">Как мы работаем?</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/about/" target="_blank" class="footer-main-block__link">О нас</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/history/" target="_blank" class="footer-main-block__link">История компании</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/team/" target="_blank" class="footer-main-block__link">Команда</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/constitution/" target="_blank" class="footer-main-block__link">Конституция, ценности и
                                         культура </a></li>
-                                <li class="footer-main-block__item"><a href="work-world.html" class="footer-main-block__link">Работаем по
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/work_world/" target="_blank" class="footer-main-block__link">Работаем по
                                         всему миру</a>
                                 </li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Благодарственые письма</a>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/mails/" target="_blank" class="footer-main-block__link">Благодарственые письма</a>
                                 </li>
                             </ul>
                         </div>
@@ -29,49 +29,48 @@
                             <div data-spoller class="footer-main-block__title"><span>Нефть и
                                     нефтепродукты</span></div>
                             <ul class="footer-main-block__items">
-                                <li class="footer-main-block__item"><a href="bitum.html" class="footer-main-block__link">Битумные
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/allbitum/" target="_blank" class="footer-main-block__link">Битумные
                                         материалы</a></li>
-                                <li class="footer-main-block__item"><a href="sug.html" class="footer-main-block__link">LPG</a></li>
-                                <li class="footer-main-block__item"><a href="bgs.html" class="footer-main-block__link">Бензин газовый
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/sug/" target="_blank" class="footer-main-block__link">LPG</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/bgs/" target="_blank" class="footer-main-block__link">Бензин газовый
                                         стабильный</a>
                                 </li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Нефтяной кокс</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Авиационное топливо</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Автомобильный бензин</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Дизельное топливо</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Мазут топочный</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Экспорт нефтопродуктов</a>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/koks/" target="_blank" class="footer-main-block__link">Нефтяной кокс</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/aviation_fuel/" target="_blank" class="footer-main-block__link">Авиационное топливо</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/petrol/" target="_blank" class="footer-main-block__link">Автомобильный бензин</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/d_oil/" target="_blank" class="footer-main-block__link">Дизельное топливо</a></li>
+                                <li class="footer-main-block__item"><a href="#" target="_blank" class="footer-main-block__link">Мазут топочный</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/export/" target="_blank" class="footer-main-block__link">Экспорт нефтопродуктов</a>
                                 </li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Паспорт продукции</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Документы</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/passports/" target="_blank" class="footer-main-block__link">Паспорт продукции</a></li>
+                                <li class="footer-main-block__item"><a href="#" target="_blank" class="footer-main-block__link">Документы</a></li>
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
                             <div data-spoller class="footer-main-block__title"><span>Логистика</span></div>
                             <ul class="footer-main-block__items">
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Что мы делаем в логистике</a>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/ru/logistics" target="_blank" class="footer-main-block__link">Что мы делаем в логистике</a>
                                 </li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Схема поставок</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/delivery/" target="_blank" class="footer-main-block__link">Схема поставок</a></li>
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
                             <div data-spoller class="footer-main-block__title"><span>Терминалы</span></div>
                             <ul class="footer-main-block__items">
-                                <li class="footer-main-block__item"><a href="terminal.html" class="footer-main-block__link">Терминалы</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/terminal/" target="_blank" class="footer-main-block__link">Терминалы</a></li>
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
                             <div data-spoller class="footer-main-block__title"><span>Ответственная
                                     работа</span></div>
                             <ul class="footer-main-block__items">
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Ответственная работа</a></li>
-                                <li class="footer-main-block__item"><a href="#" class="footer-main-block__link">Программа комплекса</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/complex_program/" target="_blank" class="footer-main-block__link">Программа комплекса</a></li>
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
                             <div data-spoller class="footer-main-block__title"><span>Новости</span></div>
                             <ul class="footer-main-block__items">
-                                <li class="footer-main-block__item"><a href="news.html" class="footer-main-block__link">Новости</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/news/" target="_blank" class="footer-main-block__link">Новости</a></li>
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
@@ -83,14 +82,14 @@
                                     <a href="tel:78002229225" class="footer-main-block__link footer-main-block__link_phone">+7 (800)
                                         222-92-25</a>
                                 </li>
-                                <li class="footer-main-block__item"><a href="#"
+                                <li class="footer-main-block__item"><div
                                         class="footer-main-block__link footer-main-block__link_geo">450077, Россия,
                                         Республика
-                                        Башкортостан, г. Уфа, ул. Бакалинская, дом 64</a></li>
+                                        Башкортостан, г. Уфа, ул. Бакалинская, дом 64</div></li>
                                 <li class="footer-main-block__item footer-main-block__item_networks">
-                                    <a href="#" class="footer-main-block__item_network-link _icon-vk"></a>
-                                    <a href="#" class="footer-main-block__item_network-link _icon-telegram"></a>
-                                    <a href="#" class="footer-main-block__item_network-link _icon-youtube"></a>
+                                    <a href="https://vk.com/riseoilgas" target="_blank" class="footer-main-block__item_network-link _icon-vk"></a>
+                                    <a href="https://t.me/riseoilgas" target="_blank" class="footer-main-block__item_network-link _icon-telegram"></a>
+                                    <a href="https://www.youtube.com/channel/UCYonC8Cmw8UKbwDyS_abzYA/featured" target="_blank" class="footer-main-block__item_network-link _icon-youtube"></a>
                                 </li>
                             </ul>
                         </div>
@@ -100,8 +99,8 @@
                     <div class="footer-bottom-block__items">
                         <div class="footer-bottom-block__container footer-bottom-block__container_top">
                             <div class="footer-bottom-block__links">
-                                <a href="#" class="footer-bottom-block__link">Документация</a>
-                                <a href="#" class="footer-bottom-block__link">Каталог продукции</a>
+                                <a href="#" target="_blank" class="footer-bottom-block__link">Документация</a>
+                                <a href="http://rosoil.stt-corp.ru/#catalog" target="_blank" class="footer-bottom-block__link">Каталог продукции</a>
                             </div>
                             <button type="button" class="footer-bottom-block__link footer-bottom-block__callback">Заказать обратный
                                 звонок</button>
@@ -112,12 +111,13 @@
                             <div class="footer-bottom-block__copyright">Copyright © Rise Oil</div>
                             <div class="footer-bottom-block__privacy">
                                 <span>Все права защищены</span>
-                                <a href="#" class="footer-bottom-block__privacy-link">Политика конфидициальности</a>
+                                <a href="http://rosoil.stt-corp.ru/policy/" target="_blank" class="footer-bottom-block__privacy-link">Политика конфиденциальности</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
+        <script src="<?=SITE_TEMPLATE_PATH?>/js/app.js?_v=20221014125029"></script>
     </body>
 </html>

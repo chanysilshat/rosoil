@@ -1,0 +1,130 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/fonts';
+@import 'base/global';
+@import 'base/reset';
+@import 'blocks/header';
+@import 'blocks/footer';
+
+.delivery {
+   padding: 65px 0 138px;
+}
+.delivery .container {
+   width: 1080px;
+   margin: 0 auto;
+}
+.delivery-title {
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 48px;
+   color: #000000;
+   margin-bottom: 50px;
+}
+.delivery-wrapper {
+   display: grid;
+   grid-template: repeat(3,auto)/repeat(3,341px);
+    grid-auto-rows: 1fr;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+.delivery-descr {
+   background: #F9D119;
+   padding: 25px 20px;
+   min-height: 120px;
+}
+.delivery-descr p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+   color: #000000;
+}
+
+@media(max-width: 1200px) {
+   .delivery .container  {
+      width: 920px;
+   }
+   .delivery-wrapper {
+      grid-template: repeat(3,auto)/repeat(3,1fr);
+      column-gap: 20px;
+       row-gap: 50px;
+   }
+   
+}
+
+
+@media(max-width: 920px) {
+   .delivery .container  {
+      width: 768px;
+   }
+   .delivery-descr {
+      min-height: 142px;
+   }
+   
+}
+
+@media(max-width: 768px) {
+   .delivery .container {
+      width: 576px;
+   }
+   .delivery-descr p {
+      font-size: 14px;
+  }
+  .delivery-descr {
+   min-height: 165px;
+}
+
+}
+
+@media(max-width: 576px) {
+   .delivery .container {
+      width: 450px;
+   }
+   .delivery-wrapper {
+      grid-template: repeat(3,auto)/repeat(2,1fr);
+      column-gap: 20px;
+       row-gap: 50px;
+   }
+   .delivery-descr {
+      min-height: 142px;
+  }
+
+}
+
+@media(max-width: 450px) {
+   .delivery .container {
+      width: 400px;
+   }
+   .delivery-descr {
+      min-height: 165px;
+   }
+   
+}
+
+@media(max-width: 400px) {
+   .delivery {
+      padding: 30px 0 60px;
+  }
+   .delivery .container {
+      width: 375px;
+      padding: 0 10px;
+   }
+   .delivery-title {
+      margin-bottom: 30px;
+   }
+   .delivery-wrapper {
+      grid-template: repeat(3,auto)/1fr;
+      row-gap: 30px;
+   }
+   .delivery-descr {
+      min-height: 100px;
+  }
+
+}
+
+@media(max-width: 375px) {
+   .delivery .container {
+      width: 320px;
+   }
+}
+

@@ -139,9 +139,16 @@ $APPLICATION->SetTitle("Главная");
 						связавшись со специалистами экспортного отдела
 						СУГ по телефону <a href="tel:78002229225">+7 800 222-92-25.</a></div>
 					<div class="sug-page-block-7__form-request-container">
-						@@include('html/_form-request.htm',{
-						"request__title":"Отправить заявку"
-						})
+						<?$APPLICATION->IncludeComponent(
+							"bitrix:main.include",
+							"",
+							Array(
+								"AREA_FILE_SHOW" => "file",
+								"AREA_FILE_SUFFIX" => "inc",
+								"EDIT_TEMPLATE" => "",
+								"PATH" => "/include/form.php"
+							)
+						);?>
 					</div>
 				</div>
 			</section>

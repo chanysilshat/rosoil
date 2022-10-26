@@ -422,9 +422,16 @@ $APPLICATION->SetTitle("Главная");
 			<section class="bitum-pbv-page__block-10 bitum-pbv-page-block-10">
 				<div class="bitum-pbv-page-block-10__container">
 					<div class="bitum-pbv-page-block-10__form-request-container">
-						@@include('html/_form-request.htm',{
-						"request__title":"Отправить заявку"
-						})
+						 <?$APPLICATION->IncludeComponent(
+        "bitrix:main.include",
+        "",
+        Array(
+            "AREA_FILE_SHOW" => "file",
+            "AREA_FILE_SUFFIX" => "inc",
+            "EDIT_TEMPLATE" => "",
+            "PATH" => "/include/form.php"
+        )
+    );?>
 					</div>
 				</div>
 			</section>

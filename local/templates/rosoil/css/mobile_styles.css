@@ -54,6 +54,27 @@
         margin-left: 50px;
         margin-right: 50px;
     }
+    .blok-sentence{
+        width: auto;
+    }
+    .demand {
+        padding: 0 0 0 50px;
+    }
+    .formation {
+        padding: 40px 0 0 150px;
+    }
+    .organization {
+        padding: 40px 0 0 250px;
+    }
+    .creation {
+        padding: 40px 0 0 350px;
+    }
+    .security {
+        padding: 40px 0 20px 450px;
+    }
+    .classification-item{
+        padding-right: 50px;
+    }
 }
 @media (max-width: 920px){
     .container {
@@ -103,6 +124,126 @@
     .banner-page{
         background-size: auto 100%;
     }
+
+    .howwork-container {
+        width: 768px;
+     }
+     .howwork-title {
+        margin-bottom: 40px;
+    }
+    .howwork-main,
+    .howwork-video,
+    .howwork-value,
+    .howwork-competitors,
+    .howwork-staff,
+    .howwork-rules,
+    .howwork-end  {
+     padding-left: 70px;
+     padding-right: 70px;
+     }
+     .howwork-video__video {
+        width: 100%;
+     }
+     .howwork-competitors-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .howwork-competitors-item:nth-child(odd) {
+     flex-direction: column-reverse;
+    }
+    .howwork-end-text {
+            padding-top: 0;
+    }
+    .blok-sentence{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .blok-sentence .blok{
+        padding-bottom: 22px;
+    }
+    .process{
+        position: static;
+    }
+    .consumption{
+        margin-top: 20px;
+    }
+    .formation, .organization, .creation, .security{
+        padding: 40px 0 0 50px;
+    }
+    .organization::after, .formation::after, .creation::after{
+        left: 0;
+    }
+    .department-item{
+        width: 758px;
+    }
+    .container .department-block{
+
+    }
+    .risk span:after, .monitoring span:after, .agreement span:after, .additionally span:after, .cost span:after{
+        left: 307px;
+    }
+    .posting, .filling, .level, .loading, .adaptation{
+        padding-left: 69px;
+    }
+    .risk{
+        width: 289px
+    }
+    .monitoring{
+        width: 290px;
+    }
+    .agreement{
+        width: 305px;
+    }
+    .cost {
+        width: 305px;
+    }
+    .line1{
+        height: 815px;
+    }
+    .adaptation span:before{
+        left: -30px;
+    }
+    .services-block{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .services-list{
+        max-width: none;
+    }
+    .services-list {
+        display: grid;
+    }
+    .services-list .consumption-text {
+        width: 256px;
+    }
+    .sentence-rectangle{
+        background: none;
+    }
+    .polimer-PMB1 div{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .polimer-conteiner-koks .polimer-img{
+        width: 100%;
+    }
+    .petrol-page .classification-block{
+        flex-wrap: wrap;
+    }
+    .classification-img{
+        width: 100%;
+        justify-content: center;
+        background: none;
+    }
+    .classification-img img{
+        height: auto;
+        width: auto;
+        height: 300px;
+        display: none;
+    }
+    .quality .square{
+        display: none;
+    }
 }
 @media (max-width: 768px){
     .container {
@@ -138,10 +279,147 @@
     .jet-engine .title{
         width: auto;
     }
+    .howwork-container {
+        width: 576px;
+     }
+     .howwork-main {
+        padding-bottom: 20px;
+    }
+     .howwork-title {
+        margin-bottom: 30px;
+    }
+    .howwork-video {
+        margin-bottom: 50px;
+     }
+     .howwork-value {
+        padding-bottom: 30px;
+    }
+    .howwork-staff {
+     padding-bottom: 40px;
+     }
+     .howwork-rules {
+        padding-bottom: 30px;
+    }
+     .howwork-rules p {
+        margin-bottom: 30px;
+    }
+    .howwork-end {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        padding-bottom: 70px;
+    }
+    .howwork-end-text {
+        width: 380px;
+    }
+    .department-item {
+        width: 607px;
+    }
+    .department-item .department-title {
+        max-width: 498px;
+    }
+    .container .department-block{
+        width: auto;
+    }
+    .tasks-text{
+        width: auto;
+    }
+    .concept-text{
+        width: auto;
+    }
+    .concept-block{
+        padding: 30px
+    }
+    .department-block{
+        display: block;
+
+    }
+    .logistics-form{
+        position: static;
+        margin-bottom: 30px;
+    }
+    .main-form{
+        padding: 50px;
+        height: auto;
+    }
+    .risk span:after, .monitoring span:after, .agreement span:after, .additionally span:after, .cost span:after{
+        display: none;
+    }
+    .line1{
+        display: none;
+    }
+    .risk, .monitoring, .agreement, .additionally, .cost{
+        width: 607px;
+    }
+    .posting span:before, .filling span:before, .level span:before, .loading span:before, .adaptation span:before{
+        display:none;
+    }
+    .posting, .filling, .level, .loading, .adaptation{
+       padding-left: 0;
+       padding-bottom: 0;
+        padding-top: 50px;
+        width: 607px;
+        max-width: 607px;
+    }
+    .tasks-block{
+        padding: 30px;
+    }
+    .services-list svg{
+        width: 80px;
+        height: 80px;
+    }
+    .block-right2 div{
+        font-size: 16px;
+    }
+    .quality-block{
+        padding: 50px;
+    }
+    .petrol-page .bitum-page-block-8__decoration{
+        justify-content: space-between;
+    }
+    .polimer-conteiner{
+        display: block;
+    }
+    .bitum-page-block-8__container.container .bitum-page-block-8__decoration{
+        justify-content: space-between;
+    }
+    .implementation-block{
+        width: 100%;
+    }
+    .portfolio-img img{
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+    .portfolio-block{
+        display: block;
+    }
+    .portfolio-info{
+        padding: 20px;
+    }
+    .portfolio-info svg{
+        width: 200px;
+    }
+    .portfolio-info{
+        height: auto;
+    }
+    .business{
+        padding-right: 0;
+    }
+    .business-info{
+        padding: 20px;
+    }
+    .business-info-2{
+        padding: 20px;
+    }
+    .business-info-ol{
+        padding: 20px;
+    }
 }
 @media (max-width: 576px){
     .container {
-        width:  450px;
+        width:  440px;
     }
     .about-title h1{
         font-size: 30px;
@@ -195,6 +473,74 @@
     .jet-fuel-text .aviation-text{
         padding: 24px;
     }
+    
+
+    .howwork-container {
+        width: 450px;
+     }
+     .howwork-title {
+        font-size: 35px;
+    }
+    .howwork-main,
+    .howwork-video,
+    .howwork-value,
+    .howwork-competitors,
+    .howwork-staff,
+    .howwork-rules,
+    .howwork-end  {
+        padding-left: 30px;
+        padding-right: 30px;
+     }
+     .howwork-video {
+        margin-bottom: 40px;
+    }
+    .howwork-competitors-item {
+        padding: 25px 0;
+    }
+    .howwork-competitors-text,
+     .howwork-competitors-img {
+        width: 90%;
+     }
+     .howwork-competitors-img {
+        height: 100%;
+     }
+     .howwork-competitors-text span {
+        font-size: 20px;
+     }
+     .howwork-staff-title {
+        font-size: 30px;
+     }
+     .howwork-end .howwork-competitors-img,
+     .howwork-end-text {
+        width: 100%;
+     }
+     .department-item {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .risk, .monitoring, .agreement, .additionally, .cost{
+        width: auto;
+    }
+    .posting, .filling, .level, .loading, .adaptation{
+        width: auto;
+    }
+    .block-right2 .page-info2{
+        padding: 50px;
+        height: auto;
+    }
+    .fbl .st:first-child{
+        width: 100px;
+        min-width: 100px;
+    }
+    .maint div{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .quality-block{
+        margin-left: auto;
+    }
 } 
 @media (max-width: 450px){
     .container {
@@ -206,14 +552,71 @@
     .block-flex{
         width: auto;
     }
+
+    .howwork-container {
+        width: 400px;
+    }
+    .howwork-value-title {
+        font-size: 27px;
+    }
+
+    .services-block{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .process-block{
+        padding: 20px;
+    }
+    .title-prewie{
+        font-size: 24px;
+    }
+    .fuel-item{
+        font-size: 24px;
+    }
+    .fuel{
+        min-width: 100px
+    }
 } 
 @media (max-width: 400px){
     .container {
         width: 375px;
+    }
+
+    .howwork-container {
+        width: 375px;
+     }
+     .howwork-value-title {
+        font-size: 25px;
+    }
+    .demand, .formation, .organization, .creation, .security{
+        padding: 20px 0;
     }
 } 
 @media (max-width: 375px){
     .container {
         width: 320px;
     }
+
+
+    .howwork-container {
+        width: 320px;
+     }
+     .howwork-title {
+        font-size: 30px;
+    }
+    .howwork-competitors-text,
+    .howwork-competitors-img {
+        width: 100%;
+    }
+    .howwork-competitors-item {
+        padding: 25px;
+        gap: 25px;
+    }
+    .howwork-staff-title {
+        font-size: 27px;
+     }
+     .howwork-rules p,
+     .howwork-rules-item span {
+        font-size: 16px;
+     }
 }

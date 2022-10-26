@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Главная");
 						Битумные вяжущие PG Superpave в Российской Федерации и на Экспорт, а также уделяет особое внимание развитию
 						новых высокотехнологичных продуктов, ориентированных на качественное развитие дорожной отрасли России.
 					</div>
-				</div>
+				</div> 
 			</section>
 			<section class="bitum-pg-page__block-2 bitum-pg-page-block-2">
 				<div class="bitum-pg-page-block-2__container">
@@ -402,27 +402,64 @@ $APPLICATION->SetTitle("Главная");
 					</ul>
 				</div>
 			</section>
-			<section class="bitum-pg-page__block-8 bitum-pg-page-block-8">
-				<div class="bitum-pg-page-block-8__container">
-					<h2 class="bitum-pg-page-block-8__title">Объекты с применением битумных вяжущих PG Superpave™</h2>
-					<div class="bitum-pg-page-block-8__slider swiper">
-						<div class="bitum-pg-page-block-8__wrapper swiper-wrapper">
-							<a href="#" class="bitum-pg-page-block-8__slide swiper-slide">
-								<img src="/img/bitum-pg-page/block-8/1.jpg" alt="Объекты с применением битумных вяжущих PG Superpave™">
-							</a>
-							<a href="#" class="bitum-pg-page-block-8__slide swiper-slide">
-								<img src="/img/bitum-pg-page/block-8/2.jpg" alt="Объекты с применением битумных вяжущих PG Superpave™">
-							</a>
-							<a href="#" class="bitum-pg-page-block-8__slide swiper-slide">
-								<img src="/img/bitum-pg-page/block-8/1.jpg" alt="Объекты с применением битумных вяжущих PG Superpave™">
-							</a>
-						</div>
-						<div class="bitum-pg-page-block-8__arrows">
-							<div class="bitum-pg-page-block-8__arrow bitum-pg-page-block-8__arrow_prev"></div>
-							<div class="bitum-pg-page-block-8__arrow bitum-pg-page-block-8__arrow_next"></div>
-						</div>
-					</div>
-				</div>
+			
+			<?$APPLICATION->IncludeComponent(
+					"bitrix:news.list",
+					"PG_superpave_gallery",
+					Array(
+						"ACTIVE_DATE_FORMAT" => "d.m.Y",
+						"ADD_SECTIONS_CHAIN" => "Y",
+						"AJAX_MODE" => "N",
+						"AJAX_OPTION_ADDITIONAL" => "",
+						"AJAX_OPTION_HISTORY" => "N",
+						"AJAX_OPTION_JUMP" => "N",
+						"AJAX_OPTION_STYLE" => "Y",
+						"CACHE_FILTER" => "N",
+						"CACHE_GROUPS" => "Y",
+						"CACHE_TIME" => "36000000",
+						"CACHE_TYPE" => "A",
+						"CHECK_DATES" => "Y",
+						"DETAIL_URL" => "",
+						"DISPLAY_BOTTOM_PAGER" => "Y",
+						"DISPLAY_DATE" => "Y",
+						"DISPLAY_NAME" => "Y",
+						"DISPLAY_PICTURE" => "Y",
+						"DISPLAY_PREVIEW_TEXT" => "Y",
+						"DISPLAY_TOP_PAGER" => "N",
+						"FIELD_CODE" => array("",""),
+						"FILTER_NAME" => "",
+						"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+						"IBLOCK_ID" => "26",
+						"IBLOCK_TYPE" => "content",
+						"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+						"INCLUDE_SUBSECTIONS" => "Y",
+						"MESSAGE_404" => "",
+						"NEWS_COUNT" => "20",
+						"PAGER_BASE_LINK_ENABLE" => "N",
+						"PAGER_DESC_NUMBERING" => "N",
+						"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+						"PAGER_SHOW_ALL" => "N",
+						"PAGER_SHOW_ALWAYS" => "N",
+						"PAGER_TEMPLATE" => ".default",
+						"PAGER_TITLE" => "Новости",
+						"PARENT_SECTION" => "",
+						"PARENT_SECTION_CODE" => "",
+						"PREVIEW_TRUNCATE_LEN" => "",
+						"PROPERTY_CODE" => array("","HREF"),
+						"SET_BROWSER_TITLE" => "Y",
+						"SET_LAST_MODIFIED" => "N",
+						"SET_META_DESCRIPTION" => "Y",
+						"SET_META_KEYWORDS" => "Y",
+						"SET_STATUS_404" => "N",
+						"SET_TITLE" => "Y",
+						"SHOW_404" => "N",
+						"SORT_BY1" => "ACTIVE_FROM",
+						"SORT_BY2" => "SORT",
+						"SORT_ORDER1" => "DESC",
+						"SORT_ORDER2" => "ASC",
+						"STRICT_SECTION_CHECK" => "N"
+					)
+				);?>
 			</section>
 			<section class="bitum-pg-page__block-9 bitum-pg-page-block-9">
 				<div class="bitum-pg-page-block-9__container">
@@ -561,9 +598,16 @@ $APPLICATION->SetTitle("Главная");
 			<section class="bitum-pg-page__block-12 bitum-pg-page-block-12">
 				<div class="bitum-pg-page-block-12__container">
 					<div class="bitum-pg-page-block-12__form-request-container">
-						@@include('html/_form-request.htm',{
-						"request__title":"Отправить заявку"
-						})
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:main.include",
+						"",
+						Array(
+							"AREA_FILE_SHOW" => "file",
+							"AREA_FILE_SUFFIX" => "inc",
+							"EDIT_TEMPLATE" => "",
+							"PATH" => "/include/form.php"
+						)
+					);?>
 					</div>
 				</div>
 			</section>

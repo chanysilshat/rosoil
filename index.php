@@ -71,8 +71,8 @@ $APPLICATION->SetTitle("Главная");
                     <a href="#" class="block-2__button"><?=GetMessage("GO")?></a>
                 </div>
                 <div class="block-2__images">
-                    <a href="#" class="block-2__image"><picture><source srcset="/img/main-page/block-2/1-1.webp" type="image/webp"><img src="/img/main-page/block-2/1-1.jpg" alt="Image"></picture></a>
-                    <a href="#" class="block-2__image"><picture><source srcset="/img/main-page/block-2/1-1.webp" type="image/webp"><img src="/img/main-page/block-2/1-1.jpg" alt="Image"></picture></a>
+                    <a href="#" class="block-2__image"><img src="/upload/rise-oil-group.jpg" alt="Image"></a>
+                    <a href="#" class="block-2__image"><img src="/upload/dizel-oil-rise-oil-group.jpg" alt="Image"></a>
                 </div>
             </div>
         </section>
@@ -259,20 +259,23 @@ $APPLICATION->SetTitle("Главная");
                 "STRICT_SECTION_CHECK" => "N"
             )
         );?> 
+       
         <section class="main-page__block-6 block-6">
             <div class="block-6__container">
-                <h2 class="block-6__title"><?=GetMessage("SEND-REQUEST")?></h2>
-                <form data-dev="" action="#" class="block-6__form">
-                    <input data-required="" autocomplete="off" type="text" name="form[]" data-error="" placeholder="<?=GetMessage("NAME")?>" class="block-6__input">
-                    <input data-required="" autocomplete="off" type="text" name="form[]" data-error="" placeholder="<?=GetMessage("PHONE")?>" class="block-6__input">
-                    <button type="submit" class="block-6__button"><?=GetMessage("SEND")?></button>
-                </form>
-                <div class="block-6__privacy">
-                    <?=GetMessage("POLICY_PRIVACY")?>
-                </div>
-                <div class="block-6__requests">
-                    <a href="#" class="block-6__download"><?=GetMessage("APPLICATION-FORM")?></a>
-                    <a href="#" class="block-6__upload"><?=GetMessage("ATTACH-AN-APPLICATION")?></a>
+                <div class="request__body request__body_white">
+                    <h2 class="request__title"><?=GetMessage("SEND")?></h2>
+                    <form data-popup-message="#request-popup" data-dev="" action="#" class="request__form">
+                        <input data-required="" autocomplete="off" type="text" name="form[]" data-error="" placeholder="Имя" class="request__input request__input_white" data-placeholder="Имя">
+                        <input data-required="" autocomplete="off" type="text" name="form[]" data-error="" placeholder="Телефон" class="request__input request__input_white" data-placeholder="Телефон">
+                        <button type="submit" class="request__button">Отправить</button>
+                    </form>
+                    <div class="request__privacy request__privacy_white">
+                        <?=GetMessage("POLICY_PRIVACY")?>
+                    </div>
+                    <div class="request__requests request__requests_white">
+                        <a href="#" class="request__download"><?=GetMessage("APPLICATION-FORM")?></a>
+                        <a href="#" class="request__upload"><?=GetMessage("ATTACH-AN-APPLICATION")?></a>
+                    </div>
                 </div>
             </div>
         </section>
