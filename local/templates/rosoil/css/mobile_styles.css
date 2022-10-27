@@ -244,11 +244,65 @@
     .quality .square{
         display: none;
     }
+    .passport-menu-item{
+        width: 250px;
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .passports-body{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media (max-width: 768px){
+    
     .container {
         width: 576px;
     }
+
+    .passports{
+        flex-wrap: wrap;
+    }
+    .passpotrs-menu-blok{
+        width: 100%;
+    }
+    .passport-menu-item{
+        width: auto;
+    }
+    .passport-menu-item span::before{
+        height: 100%;
+        display: none;
+    }
+    .passport-menu-item{
+        height: auto;
+        padding: 10px;
+    }
+    .passport-menu-child-block{
+        padding-bottom: 0;
+    }
+    .passports-page{
+        background: #D9D9D9;
+    }
+    .passport-menu-child-item.active{
+        padding: 10px;
+    }
+    .passport-menu-child-item{
+        padding: 10px;
+    }
+    .passport-menu-item-block{
+        background: #fff;
+    }
+    .passport-menu-item span::after{
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -1px;
+        width: 100%;
+        content: "";
+        background: #F9D119;
+        height: 100%;
+        border-bottom: 2px dashed #1D1D1D;
+        z-index: 1;
+      }
     .about-partners{
         grid-template-columns: 1fr 1fr;
     }
@@ -420,6 +474,9 @@
 @media (max-width: 576px){
     .container {
         width:  440px;
+    }
+    .passports-body{
+        grid-template-columns: 1fr;
     }
     .about-title h1{
         font-size: 30px;

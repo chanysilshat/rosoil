@@ -42,10 +42,10 @@ $arUrlRewrite=array (
     'PATH' => '/$1.$2',
     'SORT' => 100,
   ),
-  2 => 
+  12 => 
   array (
-    'CONDITION' => '#^/ru/([0-9a-zA-Z_/]+)#',
-    'RULE' => 'current_lang=ru&&realPathIndex=$1/lang/ru/index.php&request=$3',
+    'CONDITION' => '#^/ch/([0-9a-zA-Z_/]+)#',
+    'RULE' => 'current_lang=ch&&realPathIndex=$1/lang/ch/index.php&request=$3',
     'PATH' => '/$1/index.php',
     'SORT' => 100,
   ),
@@ -56,11 +56,19 @@ $arUrlRewrite=array (
     'PATH' => '/$1/index.php',
     'SORT' => 100,
   ),
-  12 => 
+  2 => 
   array (
-    'CONDITION' => '#^/ch/([0-9a-zA-Z_/]+)#',
-    'RULE' => 'current_lang=ch&&realPathIndex=$1/lang/ch/index.php&request=$3',
+    'CONDITION' => '#^/ru/([0-9a-zA-Z_/]+)#',
+    'RULE' => 'current_lang=ru&&realPathIndex=$1/lang/ru/index.php&request=$3',
     'PATH' => '/$1/index.php',
+    'SORT' => 100,
+  ),
+  16 => 
+  array (
+    'CONDITION' => '#^/delivery/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/delivery/index.php',
     'SORT' => 100,
   ),
   15 => 
