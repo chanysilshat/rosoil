@@ -28,7 +28,9 @@
     }
 }
 @media (max-width: 768px){
- 
+    .coldasphalt .asphalt-info {
+        padding: 67px 0px 50px 60px;
+    }
 }
 @media (max-width: 576px){
 

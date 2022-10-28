@@ -1,3 +1,9 @@
 body{
     margin-top: 0!important;
 }
+/* pmb-битум адаптив*/
+@media (max-width: 920px){
+    .polimer-item{
+        height: 117px;
+    }
+}

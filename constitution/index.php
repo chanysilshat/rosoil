@@ -55,7 +55,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
 	)
 );?>
 
-<main class="main">  
+<main class="main coldasphalt-page">  
             <div class="constitution">
              
                 <div class="constitution-title">

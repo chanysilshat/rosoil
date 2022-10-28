@@ -55,8 +55,8 @@ $APPLICATION->SetTitle("История компании");
 	)
 );?>
 
-    <main class="main">  
-        <section class="company-history">
+    <main class="main complex-program-page">  
+        <section class="company-history container">
             <!--Серый и желтый блок-->
             <div class="contabs">
                 <div class="fabs">
@@ -77,17 +77,17 @@ $APPLICATION->SetTitle("История компании");
 
                 <div class="item-block-flexx">
                     <div class="item1-block-flexx"><?=GetMessage("DEL_BLOCK1")?></div>
-                    <div><?=GetMessage("DEL_BLOCK2")?></div>
+                    <div class="item1-block-flexx-text"><?=GetMessage("DEL_BLOCK2")?></div>
                 </div>
 
                 <div class="item-block-flexx">
                     <div class="item1-block-flexx"><?=GetMessage("DEL_BLOCK3")?></div>
-                    <div><?=GetMessage("DEL_BLOCK4")?></div>
+                    <div class="item1-block-flexx-text"><?=GetMessage("DEL_BLOCK4")?></div>
                 </div>
 
                 <div class="item-block-flexx">
                     <div class="item1-block-flexx"><?=GetMessage("DEL_BLOCK5")?></div>
-                    <div><?=GetMessage("DEL_BLOCK6")?></div>
+                    <div class="item1-block-flexx-text"><?=GetMessage("DEL_BLOCK6")?></div>
                 </div>
 
             </div>
