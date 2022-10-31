@@ -2,19 +2,59 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Главная");
 ?>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.detail",
+	"banner_page",
+	Array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"ADD_ELEMENT_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"BROWSER_TITLE" => "-",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "Y",
+		"DETAIL_URL" => "",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"ELEMENT_CODE" => "",
+		"ELEMENT_ID" => 197,
+		"FIELD_CODE" => array("", ""),
+		"IBLOCK_ID" => "16",
+		"IBLOCK_TYPE" => "content",
+		"IBLOCK_URL" => "",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"MESSAGE_404" => "",
+		"META_DESCRIPTION" => "-",
+		"META_KEYWORDS" => "-",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Страница",
+		"PROPERTY_CODE" => array("", "TITLE_EN"),
+		"SET_BROWSER_TITLE" => "Y",
+		"SET_CANONICAL_URL" => "N",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_META_DESCRIPTION" => "Y",
+		"SET_META_KEYWORDS" => "Y",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "Y",
+		"SHOW_404" => "N",
+		"STRICT_SECTION_CHECK" => "N",
+		"USE_PERMISSIONS" => "N",
+		"USE_SHARE" => "N"
+	)
+);?>
 <main class="bitum-pbv-page">
-			<section class="bitum-pbv-page__block-1 bitum-pbv-page-block-1">
-				<div class="bitum-pbv-page-block-1__container">
-					<h1 class="bitum-pbv-page-block-1__title">Полимерно-битумные вяжущие с повышенными эксплуатационными
-						характеристиками для дорожного строительства
-					</h1>
-					<div class="bitum-pbv-page-block-1__text">ООО «Райс Битум» в составе холдинга «RISE OIL GROUP» реализует
-						Полимерно-битумные вяжущие (ПБВ) в Российской Федерации и на Экспорт, а также уделяет особое внимание
-						развитию новых высокотехнологичных продуктов, ориентированных на качественное развитие дорожной отрасли
-						России.
-					</div>
-				</div>
-			</section>
 			<section class="bitum-pbv-page__block-2 bitum-pbv-page-block-2">
 				<div class="bitum-pbv-page-block-2__container">
 					<div class="bitum-pbv-page-block-2__text-top">Полимерно-битумные вяжущие (ПБВ) —битумы, модифицированные
@@ -439,148 +479,72 @@ $APPLICATION->SetTitle("Главная");
 				<div class="bitum-pbv-page-block-11__container">
 					<h2 class="bitum-pbv-page-block-11__title">Карта отгрузок</h2>
 					<div class="bitum-pbv-page-block-11__map">
-						<iframe
-							src="https://yandex.ru/map-widget/v1/?um=constructor%3Adf0b1d230290ffbace89c706a5ba42ffaea805093dd9118d327c3b33d704a46c&amp;source=constructor"
-							frameborder="0"></iframe>
+						<?$APPLICATION->IncludeComponent(
+							"bitrix:main.include",
+							"",
+							Array(),
+							false
+							);?>
+			
 					</div>
 				</div>
 			</section>
-			<section class="bitum-pbv-page__block-12 bitum-pbv-page-block-12">
-				<div class="bitum-pbv-page-block-12__container">
-					<ul data-spollers class="bitum-pbv-page-block-12__list">
-						<li class="bitum-pbv-page-block-12__item">
-							<h3 data-spoller class="bitum-pbv-page-block-12__title">Транспортировка и хранение<span>+</span>
-							</h3>
-							<div class="bitum-pbv-page-block-12__spoller">
-								<div class="bitum-pbv-page-block-12__spoller-text">
-									<h4>Доставка в горячем виде</h4>
-									<p>Доставка современными битумовозами-термосами позволяет поддерживать температуру ПБВ в требуемых
-										пределах (СНиП 3.06.03); температура слива ПБВ обеспечивает технологичность приема вяжущего на
-										асфальто-бетонном заводе и возможность работы завода с «колес».<br>
-										Доставка битума ПБВ осуществляется парком автобитумовозов, которые гарантируют сохранение качества
-										продукции при транспортировке.
-									</p>
-									<h4>Плавление</h4>
-									<p>
-										Для плавления твердого ПБВ Альфабит необходимы мобильные плавильные установки и соблюдение
-										технологии разогрева.
-									</p>
-									<h4>Хранение и переработка ПБВ</h4>
-									<p>Процесс хранения и переработки ПБВ Альфабит полностью аналогичен традиционным нефтяным дорожным
-										битумам.
-									</p>
-									<div class="bitum-pbv-page-block-12__spoller-table">
-										<h4 class="bitum-pbv-page-block-12__spoller-table-item">Срок хранения:</h4>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Вид работ</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Темпе&shy;ратурные ограничения</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Хранение до 10 дней</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">110°С</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Хранение до 7 дней</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item"> 140°С</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Хранение до 3 дней</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">160°С</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Хранение до 24 часов</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">180°С</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Максимальная температура хранения</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">185°С</div>
-									</div>
-									<div class="bitum-pbv-page-block-12__spoller-table">
-										<h4 class="bitum-pbv-page-block-12__spoller-table-item">Рекомендуемые температуры использования:
-										</h4>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Вид работ</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Темпе&shy;ратурные огра&shy;ничения</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Минимальная температура перекачки</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">140°С</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Получение асфальтобетонной смеси</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">175-180°С</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">Уплотнение асфальтобетонной смеси</div>
-										<div class="bitum-pbv-page-block-12__spoller-table-item">155-160°С</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="bitum-pbv-page-block-12__item">
-							<h3 data-spoller class="bitum-pbv-page-block-12__title">Лабораторный контроль<span>+</span></h3>
-							<div class="bitum-pbv-page-block-12__spoller">
-								<div class="bitum-pbv-page-block-12__spoller-text">
-									<p>
-										Расширенные испытания свойств асфальтобетонных смесей осуществляют по российским и европейским
-										стандартам:
-									</p>
-									<ul>
-										<li>Водостойкость</li>
-										<li>Морозостойкость</li>
-										<li>Колееобразование</li>
-										<li>Усталостное трещинообразование</li>
-										<li>Низкотемпературное трещинообразовние.</li>
-									</ul>
-								</div>
-							</div>
-						</li>
-						</li>
-						<li class="bitum-pbv-page-block-12__item">
-							<h3 data-spoller class="bitum-pbv-page-block-12__title">Российский рынок ПБВ (полимерно-битумных
-								вяжущих)<span>+</span></h3>
-							<div class="bitum-pbv-page-block-12__spoller">
-								<p>Россия практически не представлена на мировом рынке битумных продуктов. В 2017 году в небольших
-									объемах ПБВ экспортировался в Перу, Чили, Монголию, Бразилию, Казахстан. Импорт ПБВ в Россию
-									осуществлялся из Японии (43,3% от всего объема в натуральном выражении), Германии и Китая.</p>
-								<p>Объем российского рынка полимерно-битумных вяжущих ежегодно растет. На 2013 год он оценивался в 170
-									тыс. тонн. Прирост по отношению к 2012 году тогда составил 75%. Доля потребления ПБВ от всего объема
-									битумов была равна 3,3%. Для сравнения, доля потребления ПБВ от всего объема битумов в Европе – 20%,
-									на Аляске – 50%, в США в целом – 15%. В 2014 году производство ПБВ приблизительно составило 190 тыс.
-									тонн. В 2015 году выпущено 253 тыс. тонн ПБВ.</p>
-								<p>В 2017 году объем рынка ПБВ составил 232,6 тыс. тонн, что на 15,22% больше, чем в 2016 году (202,26
-									тыс. тонн). На ПБВ в 2017 году пришлось 5% в общем объеме потребления битумов. В среднем по Европе
-									выпуск ПБВ от общего объема производства битумов составляет до 15%, в Германии — до 32%, во Франции —
-									до 18%, в Польше — до 22%. К 2025 году емкость этого рынка по прогнозам превысит 500 тыс. тонн.</p>
-							</div>
-						</li>
-						<li class="bitum-pbv-page-block-12__item">
-							<h3 data-spoller class="bitum-pbv-page-block-12__title">Производство и потребление ПВБ в
-								России<span>+</span></h3>
-							<div class="bitum-pbv-page-block-12__spoller">
-								<div class="bitum-pbv-page-block-12__spoller-text">
-									<p>Росту рынка в частности способствовал вступивший в 2014 году в силу Федеральный закон № 44 «О
-										контрактной системе в сфере закупок товаров, работ, услуг для обеспечения государственных и
-										муниципальных нужд».</p>
-									<p>Контракты жизненного цикла, которые регламентирует закон, в автодорожной сфере стимулируют
-										подрядчиков применять материалы с улучшенными качественными характеристиками, которые позволят им
-										повысить долговечность дорожных покрытий.</p>
-									<p>Лидером в объемах потребления ПБВ на 2017 год является Центральный Ф О — 51,2%. Второе и третье
-										места занимают Северо-Западный и Приволжский ФО соответственно.</p>
-									<p>Крупнейшим в стране производителем ПБВ является «Газпром нефть».</p>
-								</div>
-							</div>
-						</li>
-						<li class="bitum-pbv-page-block-12__item">
-							<h3 data-spoller class="bitum-pbv-page-block-12__title">Мировой рынок модифицированных
-								битумов<span>+</span></h3>
-							<div class="bitum-pbv-page-block-12__spoller">
-								<div class="bitum-pbv-page-block-12__spoller-text">
-									<p>Сегмент ПМБ (модифицированных полимерных битумов) доминировал на рынке битумов в последние годы.
-										Ожидается, что ПМБ также получит значительный прирост в течение прогнозируемого периода (2018−2019
-										гг.) благодаря его преимуществам: высокой пористости, высокой устойчивости к скольжению и низкому
-										уровню шума. На мировом рынке битумов наблюдается тенденция повышения доли использования ПМБ.</p>
-									<p>Коммерческое использование модифицированных битумов растет, наибольшими темпами — в развивающихся
-										странах. Объем мирового рынка модифицированных битумов (ПМБ) оценивался в 7,67 млрд долл. США в 2014
-										году. При этом прогнозировался рост рынка следующие семь лет из-за растущего спроса со стороны
-										различных прикладных отраслей, включая дорожное строительство, кровельные покрытия, клеи. В 2016
-										году глобальный рынок оценивался в 9,5 млрд долл. США, а рост отрасли по CAGR — более чем на 4% до
-										2024 года.</p>
-									<p>Северная Америка занимает более четверти доли всего рынка ПМБ. Азиатско-Тихоокеанский регион имеет
-										один из самых быстрорастущих рынков для модифицированных битумов. В Китае и Индии увеличивается
-										спрос на жилье, что приводит к новым большим строительным проектам. Этот фактор движет рынком ПМБ в
-										Азиатско-Тихоокеанском регионе. Компаниям, работающим на европейском рынке ПМБ, сложно поддерживать
-										рынок благодаря огромной конкуренции со стороны основных игроков.</p>
-									<p>Однако «Shell» продолжает расти и инвестировать в свой битумный бизнес в этом регионе, закрепленный
-										двумя крупнейшими заводами, расположенными в Нидерландах и Германии. Это замедляет деятельность
-										мелких игроков из-за растущих и жестких рыночных условий.</p>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</section>
+			<?$APPLICATION->IncludeComponent(
+				"bitrix:news.list",
+				"bitum-pbv-list",
+				Array(
+					"ACTIVE_DATE_FORMAT" => "d.m.Y",
+					"ADD_SECTIONS_CHAIN" => "Y",
+					"AJAX_MODE" => "N",
+					"AJAX_OPTION_ADDITIONAL" => "",
+					"AJAX_OPTION_HISTORY" => "N",
+					"AJAX_OPTION_JUMP" => "N",
+					"AJAX_OPTION_STYLE" => "Y",
+					"CACHE_FILTER" => "N",
+					"CACHE_GROUPS" => "Y",
+					"CACHE_TIME" => "36000000",
+					"CACHE_TYPE" => "A",
+					"CHECK_DATES" => "Y",
+					"DETAIL_URL" => "",
+					"DISPLAY_BOTTOM_PAGER" => "Y",
+					"DISPLAY_DATE" => "Y",
+					"DISPLAY_NAME" => "Y",
+					"DISPLAY_PICTURE" => "Y",
+					"DISPLAY_PREVIEW_TEXT" => "Y",
+					"DISPLAY_TOP_PAGER" => "N",
+					"FIELD_CODE" => array("",""),
+					"FILTER_NAME" => "",
+					"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+					"IBLOCK_ID" => "34",
+					"IBLOCK_TYPE" => "content",
+					"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+					"INCLUDE_SUBSECTIONS" => "Y",
+					"MESSAGE_404" => "",
+					"NEWS_COUNT" => "20",
+					"PAGER_BASE_LINK_ENABLE" => "N",
+					"PAGER_DESC_NUMBERING" => "N",
+					"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+					"PAGER_SHOW_ALL" => "N",
+					"PAGER_SHOW_ALWAYS" => "N",
+					"PAGER_TEMPLATE" => ".default",
+					"PAGER_TITLE" => "Новости",
+					"PARENT_SECTION" => "",
+					"PARENT_SECTION_CODE" => "",
+					"PREVIEW_TRUNCATE_LEN" => "",
+					"PROPERTY_CODE" => array("","HREF"),
+					"SET_BROWSER_TITLE" => "Y",
+					"SET_LAST_MODIFIED" => "N",
+					"SET_META_DESCRIPTION" => "Y",
+					"SET_META_KEYWORDS" => "Y",
+					"SET_STATUS_404" => "N",
+					"SET_TITLE" => "Y",
+					"SHOW_404" => "N",
+					"SORT_BY1" => "ACTIVE_FROM",
+					"SORT_BY2" => "SORT",
+					"SORT_ORDER1" => "DESC",
+					"SORT_ORDER2" => "ASC",
+					"STRICT_SECTION_CHECK" => "N"
+				)
+			);?>
 		</main>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
