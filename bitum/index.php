@@ -201,7 +201,7 @@ $APPLICATION->SetTitle("Главная");
 				</div>
 			</div>
 			<div class="bitum-page-block-5__passport">
-				<a href="#" class="bitum-page-block-5__passport-link"><span>Паспорт качества продукци</span></a>
+				<a href="http://rosoil.stt-corp.ru/passports/" target="_blank" class="bitum-page-block-5__passport-link"><span>Паспорт качества продукции</span></a>
 			</div>
 		</section>
 		<section class="bitum-page__block-6 bitum-page-block-6">
@@ -273,17 +273,17 @@ $APPLICATION->SetTitle("Главная");
 					<div class="bitum-page-block-8__item">
 						<div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
 						</div>
-						<div class="bitum-page-block-8__info">Вагон-цистерна 60 тонн</div>
+						<div class="bitum-page-block-8__info">Вагон-цистерна <br> 60 тонн</div>
 					</div>
 					<div class="bitum-page-block-8__item">
 						<div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
 						</div>
-						<div class="bitum-page-block-8__info">Морской танкер 2000 тонн</div>
+						<div class="bitum-page-block-8__info">Морской танкер <br> 2000 тонн</div>
 					</div>
 					<div class="bitum-page-block-8__item">
 						<div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
 						</div>
-						<div class="bitum-page-block-8__info">Автобензовоз 22 тонн</div>
+						<div class="bitum-page-block-8__info">Автобензовоз <br> 22 тонн</div>
 					</div>
 				</div>
 			</div>

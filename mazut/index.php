@@ -98,7 +98,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
 								Не содержит дизельных фракций, но при их добавлении из М-100 можно получить марку М-40.</p>
 						</li>
 					</ul>
-					<div class="mazut-page-block-3__passport"><a href="#" class="mazut-page-block-3__passport-link"><span>Технические условия мазута топочного М-100,
+					<div class="mazut-page-block-3__passport"><a href="#" target="_blank" class="mazut-page-block-3__passport-link"><span>Технические условия мазута топочного М-100,
 								М-40</span></a></div>
 				</div>
 			</section>
@@ -106,7 +106,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
 				<div class="mazut-page-block-4__container">
 					<h2 data-watch data-watch-once class="mazut-page-block-4__title">Система первичной
 						переработки нефти</h2>
-					<picture><source srcset="img/mazut-page/block-4/1.webp" type="image/webp"><img class="mazut-page-block-4__img" src="img/mazut-page/block-4/1.jpg" alt="Система первичной переработки нефти"></picture>
+					<picture><source srcset="/img/mazut-page/block-4/1.webp" type="image/webp"><img class="mazut-page-block-4__img" src="img/mazut-page/block-4/1.jpg" alt="Система первичной переработки нефти"></picture>
 					<h3 class="mazut-page-block-4__subtitle">Применение топочного мазута</h3>
 					<p class="mazut-page-block-4__text">Топочный мазут используют в качестве топлива: М-100 применяется
 						преимущественно в котельных и отопительных системах, а М-40 — в промышленных печах. Нефтепродукт широко
@@ -161,8 +161,8 @@ $APPLICATION->SetTitle("Дизельное топливо");
 						<li class="mazut-page-block-6__item">VII вид</li>
 						<li class="mazut-page-block-6__item">3,5 %</li>
 					</ul>
-					<div class="mazut-page-block-6__passport"><a href="#" class="mazut-page-block-6__passport-link"><span>Паспорт
-								качества продукци</span></a></div>
+					<div class="mazut-page-block-6__passport"><a href="http://rosoil.stt-corp.ru/passports/" target="_blank" class="mazut-page-block-6__passport-link"><span>Паспорт
+								качества продукции</span></a></div>
 				</div>
 			</section>
 			<section class="mazut-page__block-8 mazut-page-block-8">
@@ -183,19 +183,19 @@ $APPLICATION->SetTitle("Дизельное топливо");
 					</div>
 					<div class="mazut-page-block-8__items">
 						<div class="mazut-page-block-8__item">
-							<div class="mazut-page-block-8__image"><img src="img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
+							<div class="mazut-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
 							</div>
-							<div class="mazut-page-block-8__info">Вагон-цистерна 60 тонн</div>
+							<div class="mazut-page-block-8__info">Вагон-цистерна <br> 60 тонн</div>
 						</div>
 						<div class="mazut-page-block-8__item">
-							<div class="mazut-page-block-8__image"><img src="img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
+							<div class="mazut-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
 							</div>
-							<div class="mazut-page-block-8__info">Морской танкер 2000 тонн</div>
+							<div class="mazut-page-block-8__info">Морской танкер <br> 2000 тонн</div>
 						</div>
 						<div class="mazut-page-block-8__item">
-							<div class="mazut-page-block-8__image"><img src="img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
+							<div class="mazut-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
 							</div>
-							<div class="mazut-page-block-8__info">Автобензовоз 22 тонн</div>
+							<div class="mazut-page-block-8__info">Автобензовоз <br> 22 тонн</div>
 						</div>
 					</div>
 				</div>

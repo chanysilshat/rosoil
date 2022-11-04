@@ -1,9 +1,129 @@
 body{
     margin-top: 0!important;
 }
+img{
+    display: none;
+}
+.loaded img{
+    display: block;
+}
+
+.zagk{
+    padding-top: 39px;
+  
+    padding-bottom: 16px;
+   }
+   
+.all-bitum-page .zagk{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+  
+    /* Фирменный черный */
+  
+    color: #1D1D1D;
+   }
+   .grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+   .all-bitum-page .textz{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+  
+    text-align: center;
+  
+    /* Фирменный черный */
+  
+    color: #1D1D1D;
+  
+   }
+   .all-bitum-page img{
+    width: auto;
+   }
+   .files-block .zagk{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    /* Фирменный черный */
+  
+    color: #1D1D1D;
+  
+   }
+   .all-bitum-page .container{
+    max-width: 957px;
+   }
+   .all-bitum-page .block-items{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    gap: 20px;
+   }
+  .all-bitum-page .block-items .item-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    text-align: center;
+  }
+  
 /* pmb-битум адаптив*/
 @media (max-width: 920px){
     .polimer-item{
         height: 117px;
     }
+}
+
+@media (max-width: 1600px){
+
+}
+@media (max-width: 1440px){
+
+}
+@media (max-width: 1200px){
+
+}
+@media (max-width: 1024px){
+ 
+}
+@media (max-width: 920px){
+    .polimer-conteiner-koks .container{
+        flex-wrap: wrap;
+    }
+    .polimer-conteiner-koks .black-line{
+        display: none;
+    }
+    .page-info-text{
+        padding: 50px;
+    }
+    .page-info2{
+        top: 0;
+    }
+    .kinds{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 768px){
+ 
+}
+@media (max-width: 576px){
+
+} 
+@media (max-width: 450px){
+
+} 
+@media (max-width: 400px){
+
+} 
+@media (max-width: 375px){
+
 }

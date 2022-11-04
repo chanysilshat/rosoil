@@ -6,7 +6,7 @@ $MESS["SEND-REQUEST"] = "Отправить заявку";
 $MESS["NAME"] = "Имя";
 $MESS["PHONE"] = "Телефон";
 $MESS["SEND"] = "Отправить";
-$MESS["POLICY_PRIVACY"] = '    Отправляя заявку. вы соглашаетесь с <a href="#" class="block-6__privacy-link">политикой
+$MESS["POLICY_PRIVACY"] = '    Отправляя заявку. вы соглашаетесь с <a href="http://rosoil.stt-corp.ru/policy/" target="_blank" class="block-6__privacy-link">политикой
 конфиденциальности</a>';
 $MESS["APPLICATION-FORM"] = "Скачать форму заявки";
 $MESS["ATTACH-AN-APPLICATION"] = "Прикрепить заявку";

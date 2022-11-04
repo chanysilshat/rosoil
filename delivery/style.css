@@ -23,7 +23,7 @@
 }
 .delivery-wrapper {
    display: grid;
-   grid-template: repeat(3,auto)/repeat(3,341px);
+   grid-template: repeat(3,436px)/repeat(3,341px);
     grid-auto-rows: 1fr;
     justify-content: space-between;
     row-gap: 50px;
@@ -56,9 +56,6 @@
 @media(max-width: 920px) {
    .delivery .container  {
       width: 768px;
-   }
-   .delivery-descr {
-      min-height: 142px;
    }
    
 }

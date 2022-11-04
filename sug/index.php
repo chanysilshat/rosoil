@@ -115,7 +115,7 @@ $APPLICATION->SetTitle("Главная");
 			<section class="sug-page__block-5 sug-page-block-5">
 				<div class="sug-page-block-5__container">
 					<div class="sug-page-block-5__passport">
-						<a href="#" class="sug-page-block-5__passport-link"><span>Паспорт качества продукци</span></a>
+						<a href="http://rosoil.stt-corp.ru/passports/" target="_blank" class="sug-page-block-5__passport-link"><span>Паспорт качества продукции</span></a>
 					</div>
 				</div>
 			</section>

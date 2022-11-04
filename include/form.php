@@ -15,7 +15,7 @@
     </div>
     <div class="form-agreement">
         <div class="form-agreement-item">
-        Отправляя заявку. вы соглашаетесь с<span> политикой конфиденциальности </span>
+        Отправляя заявку, вы соглашаетесь с<span> <a href="http://rosoil.stt-corp.ru/policy/" target="_blank">политикой конфиденциальности </a> </span>
     </div>
     </div>
     <div class="download-form">

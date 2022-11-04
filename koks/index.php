@@ -263,7 +263,7 @@ $APPLICATION->SetTitle("История компании");
                     <div class="container">
                         <div class="passport-text">
                             <img src="/img/PdfFile.png">
-                            <span><?=GetMessage("PASS")?></span>
+                            <span><a href="http://rosoil.stt-corp.ru/passports/" target="_blank"><?=GetMessage("PASS")?></a></span>
                             <img src="/img/DownloadIcon.png">
                         </div>
                     </div>
@@ -430,7 +430,7 @@ $APPLICATION->SetTitle("История компании");
                             </div>
                         </div>
                     </div>
-                </div>*/
+                </div>
 
             </section>
         </main>

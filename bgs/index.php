@@ -112,7 +112,7 @@ $APPLICATION->SetTitle("Главная");
                 </ul>
                 <div class="bgs-page-block-4__info"><?=GetMessage("DIFFERENCES")?></div>
                 <div class="bgs-page-block-4__passport">
-                    <a href="#" class="bgs-page-block-4__passport-link"><?=GetMessage("PASPORT")?></a>
+                    <a href="http://rosoil.stt-corp.ru/passports/" target="_blank" class="bgs-page-block-4__passport-link"><?=GetMessage("PASPORT")?></a>
                 </div>
             </div>
         </section>

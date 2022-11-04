@@ -42,6 +42,17 @@
         background-repeat: no-repeat;
         background-size: auto 100%;
     }
+    .kinds{
+        justify-content: space-around;
+        gap: 0;
+      }
+      .brand {
+        font-size: 74px;
+    }
+    .passports-body {
+        gap: 25px;
+    }
+
 }
 @media (max-width: 1024px){
     .coldasphalt .asphalt-info{
@@ -124,6 +135,40 @@
     }
     .classification-item{
         padding-right: 50px;
+    }
+    .kinds {
+        grid-template-columns: repeat(5, 170px);
+    }
+    .brand {
+        font-size: 46px;
+    }
+    .d-oil-page .bitum-page-block-8__container.container .bitum-page-block-8__decoration {
+        padding-left: 155px;
+    }
+    .passports-body {
+        padding: 45px;
+        grid-template-columns: 200px 200px;
+        gap: 56px;
+    }
+
+
+    
+}
+@media (max-width: 991px) {
+    .aviation-fuel__decoration_circle-big:not(:last-child)::after {
+        width: 23.4375rem;
+        left: -470%;
+    }
+    .petrol-page .bitum-page-block-8__decoration,
+    .d-oil-page .bitum-page-block-8__decoration {
+        width: 54%;
+    }
+    .petrol-page .bitum-page-block-8__container.container .bitum-page-block-8__decoration,
+    .d-oil-page .bitum-page-block-8__container.container .bitum-page-block-8__decoration {
+        justify-content: space-between;
+    }
+    .d-oil-page .bitum-page-block-8__container.container .bitum-page-block-8__decoration {
+        padding-left: 0;
     }
 }
 @media (max-width: 920px){
@@ -240,9 +285,6 @@
     .department-item{
         width: 758px;
     }
-    .container .department-block{
-
-    }
     .risk span:after, .monitoring span:after, .agreement span:after, .additionally span:after, .cost span:after{
         left: 307px;
     }
@@ -314,6 +356,23 @@
     }
     .passports-body{
         grid-template-columns: 1fr 1fr;
+    }
+    .kinds {
+        gap: 10px;
+        grid-template-rows: repeat(2, 60px);
+    }
+    .koks .bitum-page-block-8__decoration_circle-small::before {
+        width: 18.4375rem;
+    }
+    .choice-item-list {
+        gap: 30px;
+    }
+    .jet-engine-blok .aviation-text {
+        width: 598px;
+    }
+    .petrol-page .bitum-page-block-8__decoration,
+    .d-oil-page .bitum-page-block-8__decoration {
+        width: 60%;
     }
 }
 @media (max-width: 768px){
@@ -611,8 +670,49 @@
     .business-info-ol{
         padding: 20px;
     }
+    .koks .bitum-page-block-8__decoration_circle-small::before {
+        width: 13.4375rem;
+    }
+    .container-blok {
+        padding: 27px 0px 32px;
+        text-align: center;
+    }
+    .koks .bitum-page-block-8__decoration_circle-big:not(:last-child)::after {
+        width: 9.4375rem;
+    }
+    .jet-engine-blok .aviation-text {
+        width: 446px;
+    }
+    .brand {
+        font-size: 35px;
+    }
+    .type-block {
+        padding: 29px 40px 20px;
+    }
+    .container-fuel {
+        display: flex;
+        gap: 40px;
+    }
+    .petrol-page .bitum-page-block-8__decoration,
+    .d-oil-page .bitum-page-block-8__decoration {
+        width: 85%;
+    }
+    .petrol-page .bitum-page-block-8__container.container,
+    .d-oil-page .bitum-page-block-8__container.container {
+        width: 80%;
+    }
+    .consumption-text {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .risk {
+        padding-top: 21px;
+    }
 }
 @media (max-width: 576px){
+    .all-bitum-page .block-items{
+        grid-template-columns: 1fr 1fr;
+    }
     .article-blog{
         grid-template-columns: 1fr;
     }
@@ -632,6 +732,7 @@
      }
      .marki-info-text{
         height: 100px;
+
      }
      .marki-info-block {
         margin-left: 40px;
@@ -738,9 +839,9 @@
      .howwork-competitors-img {
         width: 90%;
      }
-     .howwork-competitors-img {
+     /* .howwork-competitors-img {
         height: 100%;
-     }
+     } */
      .howwork-competitors-text span {
         font-size: 20px;
      }
@@ -778,7 +879,52 @@
     .quality-block{
         margin-left: auto;
     }
+    .koks .bitum-page-block-8__decoration_circle-small::before {
+        width: 9.75rem;
+    }
+    .koks .bitum-page-block-8__decoration_circle-big:not(:last-child)::after {
+        width: 2.4375rem;
+    }
+    .type-block {
+        padding: 29px 30px 20px;
+    }
+    .container-fuel {
+        gap: 57px;
+    }
+    .title-item {
+        font-size: 27px;
+    }
+    .passpotrs-download {
+        justify-content: flex-start;
+        padding-left: 44px;
+    }
+
 } 
+
+@media (max-width: 479px) {
+    .koks .bitum-page-block-8__items {
+        margin-top: -137px;
+    }
+    .koks .bitum-page-block-8__decoration_circle-small::before {
+        display: none;
+    }
+    .koks .bitum-page-block-8__decoration_circle-big:not(:last-child)::after {
+        width: 0.075rem;
+    }
+    .aviation-fuel__decoration_circle-big:not(:last-child)::after {
+        width: 0.075rem;
+        left: 45%;
+    }
+    .engine {
+        width: 180px;
+        margin-bottom: 11px;
+    }
+    .petrol-page .bitum-page-block-8__container.container,
+    .d-oil-page .bitum-page-block-8__container.container {
+        width: 90%;
+    }
+
+}
 @media (max-width: 450px){
     .bitumPMB-page .polimer-item-text{
         width: 100%;
@@ -852,6 +998,23 @@
     .fuel{
         min-width: 100px
     }
+    .aviation-fuel__decoration_circle-big:not(:last-child)::after {
+        left: 47%;
+    }
+    .container-fuel {
+        gap: 30px;
+    }
+    .engine {
+        width: 160px;
+        margin-bottom: 11px;
+    }
+    .title-item {
+        font-size: 20px;
+    }
+    .petrol-page .fuel-item{
+        font-size: 23px;
+    }
+
 } 
 @media (max-width: 400px){
     .bitumPMB-page .PMB-text{
@@ -892,6 +1055,9 @@
     .demand, .formation, .organization, .creation, .security{
         padding: 20px 0;
     }
+    .petrol-page .implementation-item .text {
+        margin-bottom: 0;
+    }
 } 
 @media (max-width: 375px){
     .bitumPMB-page .marki-info-block{
@@ -909,6 +1075,7 @@
         padding: 36px 0px 19px 0px;
      }
     .container {
+
         width: 320px;
     }
 
@@ -923,6 +1090,9 @@
     .howwork-competitors-img {
         width: 100%;
     }
+    .howwork-competitors-img {
+        height: 150px;
+    }
     .howwork-competitors-item {
         padding: 25px;
         gap: 25px;
@@ -934,4 +1104,15 @@
      .howwork-rules-item span {
         font-size: 16px;
      }
+
+     .bitum-page-block-8__item:nth-child(2) {
+        gap: 0;
+     }
+     .type-block {
+        padding: 29px 25px 20px;
+    }
+    .engine {
+        width: 127px;
+        margin-bottom: 11px;
+    }
 }

@@ -15,7 +15,7 @@ $APPLICATION->SetTitle("История компании");
                     </div>
                 </div>
                 <div class="howwork-video">
-                    <video class="howwork-video__video" preload="metadata" controls="" src="/img/1.mp4"></video>
+                    <video class="howwork-video__video" preload="metadata" controls="" src="/img/how-work.MP4"></video>
                 </div>
                 <div class="howwork-value">
                     <h3 class="howwork-value-title"><?=GetMessage("WE-CREATE-VALUE")?></h3>
@@ -70,7 +70,7 @@ $APPLICATION->SetTitle("История компании");
                                 <?=GetMessage("FINANCIAL-POWER-TEXT")?>
                             </div>
                             <div class="howwork-competitors-img">
-                                <img src="/img/competitors.jpg" alt="">
+                                <img src="/img/power.jpg" alt="">
                             </div>
                         </div>
 

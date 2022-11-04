@@ -2,10 +2,10 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("История компании");
 ?>
-    <main class="main">  
-        <section class="company-history">
+    <main class="all-bitum-page">  
+        <section class="container">
 
-            <div class="block">
+            <div class="header">
                 <div class="zagk">
                     <?=GetMessage("ALL_BITUM")?>
                 </div>
@@ -14,7 +14,26 @@ $APPLICATION->SetTitle("История компании");
                     <?=GetMessage("ALL_BITUM1")?>
                 </div>
             </div>
-
+            <div class="block-items grid-3">
+                <div class="item-flex">
+                    Битум нефтяной дорожный БНД
+                </div>
+                <div class="item-flex">
+                    Битум нефтяной дорожный фассованный
+                </div>
+                <div class="item-flex">
+                    Полимерно-битумные вяжущие ПБВ
+                </div>
+                <div class="item-flex">
+                    Битум ПМБ
+                </div>
+                <div class="item-flex">
+                    Битумные вяжущие PG SUPERPAVE
+                </div>
+                <div class="item-flex">
+                    Холодный асфальт RISE
+                </div>
+            </div>
             <?$APPLICATION->IncludeComponent(
                 "bitrix:news.list",
                 "all_bitums",

@@ -212,7 +212,7 @@
     font-size: 16px;
     line-height: 23px;
     /* or 144% */
-    padding: 28px 136px 23px 40px;
+    padding: 28px 136px 50px 40px;
   
     color: #000000;
   
@@ -306,6 +306,10 @@
     justify-content: center;
     align-items: center;
   }
+  .passport-text a:hover {
+    color: #f9ae19;
+
+  }
   .bitumPMB-page .polimer-page::after{
     height: 93px;
     background: #D9D9D9;
@@ -326,6 +330,9 @@
     line-height: 23px;
     color: #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
+  }
+  .passport-text span:hover{
+    border-bottom: 2px solid #f9ae19;
   }
   .PMB-info{
     font-family: 'Inter';
@@ -1004,6 +1011,12 @@ color: #000000;
  .d-oil-page .block-right{
   display: inline;
  }
+ .d-oil-page .polimer-conteiner {
+  margin-bottom: 70px;
+ }
+ .d-oil-page .bitum-page-block-8__container.container .bitum-page-block-8__decoration {
+  padding-left: 88px;
+}
  .block-right .page-info .container{
   display: flex;
   justify-content: end;
@@ -1670,6 +1683,9 @@ color: #000000;
   line-height: 23px;
   color: #FBFBFB;
 }
+.aviation-text a:hover {
+  color: #f9ae19;
+}
 .aviation-block .aviation-text{
   text-align: left;
   padding-bottom: 34px;
@@ -2257,6 +2273,10 @@ padding: 0px;
   height: 181px;
   background: #E8E8E8;
 }
+.about-text-img img {
+  height: 100%;
+  object-fit: cover;
+}
 .about-text-grid:first-child{
   display: grid;
   grid-template-columns: 420px 750px;
@@ -2446,6 +2466,7 @@ padding: 0px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  margin-top: 82px;
 
   /* Фирменный черный */
 
@@ -2552,31 +2573,63 @@ padding: 0px;
   z-index: 10;
 
  }
+ .about-description-item-bitumen {
+  /* Подзаголовок */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+
+
+  color: #000000;
+  background: #F9D119;
+ 
+  padding: 40px 72px 40px 72px;
+  z-index: 10;
+  /* opacity: 1; */
+ }
  .about-description-item.left{
   padding: 40px 72px 40px 72px;
  }
  .about-description-block .left-background{
-  position: absolute;
-  left: 0;
+  /* position: absolute;
+  left: 0; */
   width: 50%;
-  height: 100%;
+  /* height: 100%; */
   background: #D9D9D9;
   top: 0;
+
+  height: 300px;
+  float: left;
+  margin-top: 77px;
+  margin-left: 72px;
  }
+
  .about-description-block{
   position: relative;
   padding-top: 47px;
   padding-bottom: 47px;
  }
- .about-description-block .right-background{
-  position: absolute;
-  max-width: 930px;
+
+  .right-background {
+  /* position: absolute; */
+  /* max-width: 930px; */
   width: 100%;
   height: 202px;
   background: #000000;
-  bottom: 47px;
-  right: 0;
+  /* bottom: 47px; */
+  /* right: 0; */
+
+  width: 58%;
+  height: 685px;
+  float: right;
+  margin-top: -493px;
+  /* display: none; */
+  /* opacity: 0; */
  }
+
  .about-save{
   margin-top: 175px;
   margin-bottom: 206px;
@@ -2688,7 +2741,7 @@ padding: 0px;
 }
 .container-blok{
   width: 100%;
-  max-width: 723px;
+  max-width: 732px;
   margin-right: auto;
   margin-left: 0;
   margin: 31px auto 31px 0;
@@ -3031,6 +3084,7 @@ padding: 0px;
 .passports-body{
   display: grid;
   grid-template-columns: 200px 200px 200px;
+  grid-auto-rows: auto;
   gap: 56px;
   padding: 45px;
   width: 100%;
@@ -3475,6 +3529,9 @@ padding: 0px;
 .form-agreement-item span{
   text-decoration: underline;
 }
+.form-agreement-item a:hover {
+  color: #f9ae19;
+}
 .form-agreement{
   display: flex;
   justify-content: center;
@@ -3656,13 +3713,13 @@ padding: 0px;
 }
 
 .right-info-bottom p {
- font-weight: 700;
+ font-weight: 400;
  font-size: 16px;
  line-height: 23px;
 }
 
 .left-info-bottom p {
- font-weight: 700;
+ font-weight: 500;
  font-size: 25px;
  line-height: 37px;
  line-height: 68px;
@@ -3689,7 +3746,7 @@ padding: 0px;
 }
 
 .left-info-linear p {
- font-weight: 700;
+ font-weight: 500;
  font-size: 25px;
  line-height: 37px;
  line-height: 68px;
@@ -3706,13 +3763,13 @@ padding: 0px;
 }
 
 .right-info p {
- font-weight: 700;
+ font-weight: 400;
  font-size: 16px;
  line-height: 23px;
 }
 
 .left-info p {
- font-weight: 700;
+ font-weight: 500;
  font-size: 25px;
  line-height: 37px;
  line-height: 68px;
@@ -3742,7 +3799,9 @@ padding: 0px;
  margin: 50px 0;
 }
 
-
+.constitution-policy {
+  padding-bottom: 94px;
+}
 .politics h1 {
  font-weight: 800;
  font-size: 40px;
@@ -3758,7 +3817,11 @@ padding: 0px;
 
 .general-provisions-text-p {
  margin-top: 50px;
- margin-left: 20px;
+ text-indent: 20px;
+}
+
+.general-provisions-text-p-top {
+  margin-top: 0;
 }
 
 
@@ -3918,4 +3981,90 @@ padding: 0px;
   display: flex;
   justify-content: center;
   margin-bottom: 38px;
+}
+
+.right-background-block-black {
+  color: #FFFFFF;
+ font-weight: 400;
+ font-size: 20px;
+ padding: 0px 72px 0px 14%;
+}
+
+.right-background-block {
+  padding-top: 46.5px;
+  padding-bottom: 46.5px;
+}
+
+.line {
+  border: 1px dashed #fff;
+  width: 100%;
+}
+
+@media (max-width: 768px){
+
+  .about-description-block .left-background{
+      left: 0; 
+      background: #D9D9D9;
+      top: 0;
+      width: 55%;
+      height: 230px;
+      margin-top: 77px;
+      margin-left: 25%;
+     }
+
+  .about-description-block .right-background{
+      width: 100%;
+      height: 202px;
+      background: #000000;
+      height: 685px;
+      margin-top: 65px;
+     }
+
+
+}
+
+@media (max-width: 576px){
+
+  .section-info-1, .section-info-2 {
+    margin-left: 10%;
+  }
+  .section-info, 
+  .section-info-linear,     
+  .right-info-bottom p
+  {
+    margin-right: 10%;
+  }
+  .right-info-topp {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .section-info-bottom {
+    margin-right: 0;
+  }
+  .right-info-bottom {
+    margin-left: 0;
+  }
+  .left-info,
+  .left-info-bottom {
+    width: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .politics h1 {
+    font-size: 31px;
+  }
+}
+
+@media (max-width: 375px){
+
+  .left-info p, .left-info-linear p,
+  .left-info-bottom p {
+    font-size: 20px;
+  }
+
+  .politics h1 {
+    font-size: 26px;
+  }
 }

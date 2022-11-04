@@ -222,7 +222,7 @@ $APPLICATION->SetTitle("Главная");
                 </svg>
             </div>
             <div class="aviation-text">
-                <?=GetMessage("QUALITY-PASSPORT")?>
+            <a href="http://rosoil.stt-corp.ru/passports/" target="_blank"><?=GetMessage("QUALITY-PASSPORT")?></a>
             </div>
             <div class="passport-blok">
                 <svg width="28" height="35" viewBox="0 0 28 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -400,14 +400,14 @@ $APPLICATION->SetTitle("Главная");
             <h2 class="bitum-page-block-8__title"><?=GetMessage("LOGISTICS-FOR-EXPORT")?></h2>
             <div class="bitum-page-block-8__text"><?=GetMessage("DELIVERY-IS-CARRIED-OUT")?></div>
             <div class="bitum-page-block-8__decoration">
-                <div class="bitum-page-block-8__decoration_circle-big">
+                <div class="bitum-page-block-8__decoration_circle-big aviation-fuel__decoration_circle-big">
                     <div class="bitum-page-block-8__decoration_circle-small"></div>
                 </div>
-                <div class="bitum-page-block-8__decoration_circle-big">
-                    <div class="bitum-page-block-8__decoration_circle-small"></div>
+                <div class="bitum-page-block-8__decoration_circle-big aviation-fuel__decoration_circle-big">
+                    <div class="bitum-page-block-8__decoration_circle-small aviation-fuel__decoration_circle-big"></div>
                 </div>
                 <div class="bitum-page-block-8__decoration_circle-big">
-                    <div class="bitum-page-block-8__decoration_circle-small"></div>
+                    <div class="bitum-page-block-8__decoration_circle-small aviation-fuel__decoration_circle-big"></div>
                 </div>
             </div>
             <div class="bitum-page-block-8__items">

@@ -145,19 +145,19 @@ $APPLICATION->SetTitle("Дизельное топливо");
 					<div class="kerosin-page-block-5__items">
 
 						<div class="kerosin-page-block-5__item">
-							<div class="kerosin-page-block-5__image"><img src="img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
+							<div class="kerosin-page-block-5__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
 							</div>
-							<div class="kerosin-page-block-5__info">Вагон-цистерна 60 тонн</div>
+							<div class="kerosin-page-block-5__info">Вагон-цистерна <br> 60 тонн</div>
 						</div>
 						<div class="kerosin-page-block-5__item">
-							<div class="kerosin-page-block-5__image"><img src="img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
+							<div class="kerosin-page-block-5__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
 							</div>
-							<div class="kerosin-page-block-5__info">Морской танкер 2000 тонн</div>
+							<div class="kerosin-page-block-5__info">Морской танкер <br> 2000 тонн</div>
 						</div>
 						<div class="kerosin-page-block-5__item">
-							<div class="kerosin-page-block-5__image"><img src="img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
+							<div class="kerosin-page-block-5__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
 							</div>
-							<div class="kerosin-page-block-5__info">Автобензовоз 22 тонн</div>
+							<div class="kerosin-page-block-5__info">Автобензовоз <br> 22 тонн</div>
 						</div>
 					</div>
 				</div>
@@ -180,7 +180,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
 								<button type="submit" class="request__button">Отправить</button>
 							</form>
 							<div class="request__privacy undefined">
-								Отправляя заявку. вы соглашаетесь с <a href="#" class="request__privacy-link">политикой
+								Отправляя заявку. вы соглашаетесь с <a href="http://rosoil.stt-corp.ru/policy/" target="_blank" class="request__privacy-link">политикой
 									конфиденциальности</a>
 							</div>
 							<div class="request__requests undefined">

@@ -11,6 +11,7 @@ $APPLICATION->SetTitle("Главная");
         <div class="about-text-block">
             <div class="about-text-grid">
                 <div class="about-text-img about-text-img-first">
+                    <img src="/img/about-1.jpg" alt="">
 
                 </div>
                 <div class="about-text">
@@ -25,12 +26,12 @@ $APPLICATION->SetTitle("Главная");
                     <?=GetMessage("OIL-REPRESENTATION")?>
                 </div>
                 <div class="about-text-img">
-                
+                    <img src="/img/about-2.jpg" alt="">
                 </div>
             </div>
             <div class="about-text-grid">
                 <div class="about-text-img">
-                
+                    <img src="/img/about-3.jpg" alt="">
                 </div>
                 <div class="about-text">
                     <div class="about-text-head">
@@ -180,25 +181,54 @@ $APPLICATION->SetTitle("Главная");
     <div class="about-description-block">
         <div class="about-description">
             <div class="about-description-item left">
-                <?=GetMessage("LIGHT-PETROLEUM-PRODUCTS")?>
-            </div>
-            <div class="about-description-item">
-                <?=GetMessage("BITUMEN")?>
-            </div>
-            <div class="about-description-item left">
                 LPG
             </div>
             <div class="about-description-item">
-                <?=GetMessage("GAS-PETROL")?>
+                <a href="#"><?=GetMessage("Aviation-fuel")?></a>
             </div>
             <div class="about-description-item left">
-                <?=GetMessage("PETROLEUM-COKE")?>
+                <a href=""><?=GetMessage("BGS")?></a>
             </div>
-        
+            <div class="about-description-item">
+                <a href=""><?=GetMessage("Diesel-fuel")?></a>
+            </div>
+            <div class="about-description-item left">
+                <a href=""><?=GetMessage("PETROLEUM-COKE")?></a>
+            </div>
+            <div class="about-description-item">
+                <a href=""><?=GetMessage("fuel-oil")?></a>
+            </div>
+            <div class="about-description-item-bitumen">
+                <?=GetMessage("BITUMEN")?>
+            </div>
         </div>
-        <div class="left-background">
-        </div>
-        <div class="right-background">
+        <div class="about-description-block-bottom">
+            <div class="left-background"></div>
+            <div class="right-background">
+                <div class="right-background-block">
+                    <a href="" class="right-background-block-black">Битум нефтяной дорожный БНД</a>
+                </div>
+                <div class="line"></div>
+                <div class="right-background-block">
+                    <a href="" class="right-background-block-black">Битум нефтяной дорожный  Фасованный</a>
+                </div>
+                <div class="line"></div>
+                <div class="right-background-block">
+                    <a href="" class="right-background-block-black">Полимерно битумные вяжущие</a>
+                </div>
+                <div class="line"></div>
+                <div class="right-background-block">
+                    <a href="" class="right-background-block-black">Битум ПМБ</a>
+                </div>
+                <div class="line"></div>
+                <div class="right-background-block">
+                    <a href="" class="right-background-block-black">Битумные вяжущие PG Superpave</a>
+                </div>
+                <div class="line"></div>
+                <div class="right-background-block">
+                    <a href="" class="right-background-block-black">Холодный всфальт RISE</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="about-save">

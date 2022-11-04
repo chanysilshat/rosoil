@@ -39,7 +39,7 @@
                                 <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/aviation_fuel/" target="_blank" class="footer-main-block__link">Авиационное топливо</a></li>
                                 <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/petrol/" target="_blank" class="footer-main-block__link">Автомобильный бензин</a></li>
                                 <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/d_oil/" target="_blank" class="footer-main-block__link">Дизельное топливо</a></li>
-                                <li class="footer-main-block__item"><a href="#" target="_blank" class="footer-main-block__link">Мазут топочный</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/mazut/" target="_blank" class="footer-main-block__link">Мазут топочный</a></li>
                                 <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/export/" target="_blank" class="footer-main-block__link">Экспорт нефтопродуктов</a>
                                 </li>
                                 <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/passports/" target="_blank" class="footer-main-block__link">Паспорт продукции</a></li>

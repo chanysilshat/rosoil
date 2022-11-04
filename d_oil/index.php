@@ -219,7 +219,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
         <div class="container">
             <div class="passport-text">
                 <img src="/img/PdfFile.png">
-                <span><?=GetMessage("PASS_Q")?></span>
+                <span><a href="http://rosoil.stt-corp.ru/passports/" target="_blank"><?=GetMessage("PASS_Q")?></a></span>
                 <img src="/img/DownloadIcon.png">
             </div>
         </div>

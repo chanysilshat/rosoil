@@ -10,6 +10,8 @@ $url = str_replace("/" . CURRENT_LANG, "", $_SERVER["REQUEST_URI"]);
 
 $fileName = substr($_SERVER["SCRIPT_FILENAME"],strrpos($_SERVER["SCRIPT_FILENAME"],'/'),strlen($_SERVER["SCRIPT_FILENAME"]));
 
+$langPath = $_SERVER["DOCUMENT_ROOT"] . $APPLICATION->GetCurPage() . "/lang/" . CURRENT_LANG . "/" . $fileName;
+
 if (isset($_REQUEST["realPath"]) && !empty($_REQUEST["realPath"])){
     $langPath = $_SERVER["DOCUMENT_ROOT"] . $_REQUEST["realPath"];
 }
@@ -50,7 +52,7 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
         <title><?=$APPLICATION->ShowTitle();?></title>
     </head>
     
-    <body>
+    <body class="">
         <div id="panel"><?=$APPLICATION->ShowPanel()?></div>
         <div class="wrapper">
         <header data-scroll="92" data-scroll-show="800" class="header">
