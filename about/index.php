@@ -117,6 +117,11 @@ $APPLICATION->SetTitle("Главная");
             </div>
         </div>
     </div>
+   
+    
+
+</main>
+<main>
     <?$APPLICATION->IncludeComponent(
         "bitrix:news.list",
         "about_productions",
@@ -174,11 +179,7 @@ $APPLICATION->SetTitle("Главная");
             "STRICT_SECTION_CHECK" => "N"
         )
     );?>
-    
-
-</main>
-<main>
-    <div class="about-description-block">
+    <!--<div class="about-description-block">
         <div class="about-description">
             <div class="about-description-item left">
                 LPG
@@ -230,7 +231,7 @@ $APPLICATION->SetTitle("Главная");
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <div class="about-save">
         <div class="about-partners-head">
             <?=GetMessage("STORAGE")?>

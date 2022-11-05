@@ -212,7 +212,7 @@
     font-size: 16px;
     line-height: 23px;
     /* or 144% */
-    padding: 28px 136px 50px 40px;
+    padding: 28px 136px 23px 40px;
   
     color: #000000;
   
@@ -306,10 +306,6 @@
     justify-content: center;
     align-items: center;
   }
-  .passport-text a:hover {
-    color: #f9ae19;
-
-  }
   .bitumPMB-page .polimer-page::after{
     height: 93px;
     background: #D9D9D9;
@@ -330,9 +326,6 @@
     line-height: 23px;
     color: #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
-  }
-  .passport-text span:hover{
-    border-bottom: 2px solid #f9ae19;
   }
   .PMB-info{
     font-family: 'Inter';
@@ -1011,12 +1004,6 @@ color: #000000;
  .d-oil-page .block-right{
   display: inline;
  }
- .d-oil-page .polimer-conteiner {
-  margin-bottom: 70px;
- }
- .d-oil-page .bitum-page-block-8__container.container .bitum-page-block-8__decoration {
-  padding-left: 88px;
-}
  .block-right .page-info .container{
   display: flex;
   justify-content: end;
@@ -1683,9 +1670,6 @@ color: #000000;
   line-height: 23px;
   color: #FBFBFB;
 }
-.aviation-text a:hover {
-  color: #f9ae19;
-}
 .aviation-block .aviation-text{
   text-align: left;
   padding-bottom: 34px;
@@ -2273,10 +2257,6 @@ padding: 0px;
   height: 181px;
   background: #E8E8E8;
 }
-.about-text-img img {
-  height: 100%;
-  object-fit: cover;
-}
 .about-text-grid:first-child{
   display: grid;
   grid-template-columns: 420px 750px;
@@ -2466,7 +2446,6 @@ padding: 0px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin-top: 82px;
 
   /* Фирменный черный */
 
@@ -2741,7 +2720,7 @@ padding: 0px;
 }
 .container-blok{
   width: 100%;
-  max-width: 732px;
+  max-width: 723px;
   margin-right: auto;
   margin-left: 0;
   margin: 31px auto 31px 0;
@@ -3084,7 +3063,6 @@ padding: 0px;
 .passports-body{
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  grid-auto-rows: auto;
   gap: 56px;
   padding: 45px;
   width: 100%;
@@ -3529,9 +3507,6 @@ padding: 0px;
 .form-agreement-item span{
   text-decoration: underline;
 }
-.form-agreement-item a:hover {
-  color: #f9ae19;
-}
 .form-agreement{
   display: flex;
   justify-content: center;
@@ -3713,13 +3688,13 @@ padding: 0px;
 }
 
 .right-info-bottom p {
- font-weight: 400;
+ font-weight: 700;
  font-size: 16px;
  line-height: 23px;
 }
 
 .left-info-bottom p {
- font-weight: 500;
+ font-weight: 700;
  font-size: 25px;
  line-height: 37px;
  line-height: 68px;
@@ -3746,7 +3721,7 @@ padding: 0px;
 }
 
 .left-info-linear p {
- font-weight: 500;
+ font-weight: 700;
  font-size: 25px;
  line-height: 37px;
  line-height: 68px;
@@ -3763,13 +3738,13 @@ padding: 0px;
 }
 
 .right-info p {
- font-weight: 400;
+ font-weight: 700;
  font-size: 16px;
  line-height: 23px;
 }
 
 .left-info p {
- font-weight: 500;
+ font-weight: 700;
  font-size: 25px;
  line-height: 37px;
  line-height: 68px;
@@ -3799,9 +3774,7 @@ padding: 0px;
  margin: 50px 0;
 }
 
-.constitution-policy {
-  padding-bottom: 94px;
-}
+
 .politics h1 {
  font-weight: 800;
  font-size: 40px;
@@ -3817,11 +3790,7 @@ padding: 0px;
 
 .general-provisions-text-p {
  margin-top: 50px;
- text-indent: 20px;
-}
-
-.general-provisions-text-p-top {
-  margin-top: 0;
+ margin-left: 20px;
 }
 
 
@@ -4021,50 +3990,4 @@ padding: 0px;
      }
 
 
-}
-
-@media (max-width: 576px){
-
-  .section-info-1, .section-info-2 {
-    margin-left: 10%;
-  }
-  .section-info, 
-  .section-info-linear,     
-  .right-info-bottom p
-  {
-    margin-right: 10%;
-  }
-  .right-info-topp {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .section-info-bottom {
-    margin-right: 0;
-  }
-  .right-info-bottom {
-    margin-left: 0;
-  }
-  .left-info,
-  .left-info-bottom {
-    width: 25%;
-  }
-}
-
-@media (max-width: 480px) {
-
-  .politics h1 {
-    font-size: 31px;
-  }
-}
-
-@media (max-width: 375px){
-
-  .left-info p, .left-info-linear p,
-  .left-info-bottom p {
-    font-size: 20px;
-  }
-
-  .politics h1 {
-    font-size: 26px;
-  }
 }

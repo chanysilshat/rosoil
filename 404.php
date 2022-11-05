@@ -25,8 +25,15 @@ $APPLICATION->SetTitle("404 Not Found");
 			<span>
 				Вернуться на <a href="/">главную</a>
 			</span>
+			
 		</div> 
 	</div>
+	<style>
+		*{
+			
+			overflow: hidden;
+		}
+	</style>
 <?
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

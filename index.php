@@ -274,7 +274,7 @@ $APPLICATION->SetTitle("Главная");
                     </div>
                     <div class="request__requests request__requests_white">
                         <a href="#" class="request__download"><?=GetMessage("APPLICATION-FORM")?></a>
-                        <a href="#" class="request__upload"><?=GetMessage("ATTACH-AN-APPLICATION")?></a>
+                        <a href="#" class="request__upload"><input type="file"><?=GetMessage("ATTACH-AN-APPLICATION")?></a>
                     </div>
                 </div>
             </div>
