@@ -3760,6 +3760,7 @@ body::after {
   height: 100%;
   max-width: 53.75rem;
   max-height: 34.5rem;
+  object-fit: cover;
 }
 
 .news-page-block-1__text {
@@ -14796,9 +14797,9 @@ body::after {
             justify-content: center;
   }
 
-  .news-page-block-1__image {
+  /* .news-page-block-1__image {
     margin: 0 -0.9375rem;
-  }
+  } */
 
   .mails-page__slider {
     margin-left: -0.9375rem;

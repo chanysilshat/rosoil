@@ -124,117 +124,130 @@ $APPLICATION->SetTitle("Дизельное топливо");
                     </div>
                     <div class="ethical-justifications-block">
                             <div class="honesty block">
-                                <div class="honesty-namber">
-                                    01
+                                <div class="block-wrapper">
+                                    <div class="honesty-namber">
+                                        01
+                                    </div>
+                                    <div class="honesty-text">
+                                        <?=GetMessage("HONESTY")?>
+                                    </div>
                                 </div>
-                                <div class="honesty-text">
-                                    <?=GetMessage("HONESTY")?>
-                                </div>
-                                <div class="constitution-block-text">
+                                <!-- <div class="constitution-block-text">
                                     <span>
                                         <?=GetMessage("HONESTY-TEXT")?>
                                     </span>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="justice block">
-                                <div class="honesty-namber">
-                                    02
+                                <div class="block-wrapper">
+                                    <div class="honesty-namber">
+                                        02
+                                    </div>
+                                    <div class="honesty-text">
+                                        <?=GetMessage("JUSTICE")?>
+                                    </div>
                                 </div>
-                                <div class="honesty-text">
-                                    <?=GetMessage("JUSTICE")?>
-                                </div>
-                                <div class="constitution-block-text">
+                                <!-- <div class="constitution-block-text">
                                     <span>
                                         <?=GetMessage("JUSTICE-TEXT")?>
                                     </span>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="objectivity block">
-                                <div class="honesty-namber">
-                                    03
+                                <div class="block-wrapper">
+                                    <div class="honesty-namber">
+                                        03
+                                    </div>
+                                    <div class="honesty-text">
+                                        <?=GetMessage("OBJECTIVITY")?> 
+                                    </div>
                                 </div>
-                                <div class="honesty-text">
-                                    <?=GetMessage("OBJECTIVITY")?> 
-                                </div>
-                                <div class="constitution-block-text">
+                                <!-- <div class="constitution-block-text">
                                     <span>
                                         <?=GetMessage("OBJECTIVITY-TEXT")?> 
                                     </span>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="responsibility block">
-                                <div class="honesty-namber">
-                                    04
+                                <div class="block-wrapper">
+                                    <div class="honesty-namber">
+                                        04
+                                    </div>
+                                    <div class="honesty-text">
+                                        <?=GetMessage("A-RESPONSIBILITY")?> 
+                                    </div>
                                 </div>
-                                <div class="honesty-text">
-                                    <?=GetMessage("A-RESPONSIBILITY")?> 
-                                </div>
-                                <div class="constitution-block-text">
+                                <!-- <div class="constitution-block-text">
                                     <span>
                                         <?=GetMessage("A-RESPONSIBILITY-TEXT")?> 
                                     </span>
-                                </div>
+                                </div> -->
                             </div>
                     </div>
                     <div class="ethical-justifications-mobile">
                         <div class="ethical-justifications-wrapper">
                             <div class="honesty block">
-                                <div class="honesty-namber">
-                                    01
+                                <div class="block-wrapper">
+                                    <div class="honesty-namber">
+                                        01
+                                    </div>
+                                    <div class="honesty-text">
+                                        Честность
+                                    </div>
                                 </div>
-                                <div class="honesty-text">
-                                    Честность:
-                                </div>
-                                <div class="constitution-block-text">
+                                <!-- <div class="constitution-block-text">
                                     <span>
                                         поведение, основанное на справедливости и прямоте
                                     </span>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="justice block">
-                                <div class="honesty-namber">
-                                    02
+                                <div class="block-wrapper">
+                                    <div class="honesty-namber">
+                                        02
+                                    </div>
+                                    <div class="honesty-text">
+                                        Справедливость
+                                    </div>
                                 </div>
-                                <div class="honesty-text">
-                                    Справедливость:
-                                </div>
-                                <div class="constitution-block-text">
+                                <!-- <div class="constitution-block-text">
                                     <span>
                                         беспристрастность, требующая открытых взглядов, толерантности и принятия других точек зрения...
                                     </span>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="ethical-justifications-wrapper ethical-justifications-second">
                             <div class="objectivity block">
-                                <div class="honesty-namber">
-                                    03
+                                <div class="block-wrapper">
+                                    <div class="honesty-namber">
+                                        03
+                                    </div>
+                                    <div class="honesty-text">
+                                        Объективность 
+                                    </div>
                                 </div>
-                                <div class="honesty-text">
-                                    Объективность: 
-                                </div>
-                                <div class="constitution-block-text">
+                                <!-- <div class="constitution-block-text">
                                     <span>
                                         Объективность: суждение, основанное не на личных пристрастиях, а на установленном набо...
                                     </span>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="responsibility block">
-                                <div class="honesty-namber">
-                                    04
+                                <div class="block-wrapper">
+                                    <div class="honesty-namber">
+                                        04
+                                    </div>
+                                    <div class="honesty-text">
+                                        Ответственность
+                                    </div>
                                 </div>
-                                <div class="honesty-text">
-                                    Ответственность:
-                                </div>
-                                <div class="constitution-block-text">
+                                <!-- <div class="constitution-block-text">
                                     <span>
                                         Ответственность: исполнение того, что обещано, в полном объеме, в установленные...
                                     </span>
-                                </div>
+                                </div> -->
                             </div>
-    
-                            
-
                         </div>
 
                 </div>

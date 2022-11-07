@@ -339,7 +339,7 @@ $APPLICATION->SetTitle("Главная");
 				"FIELD_CODE" => array("",""),
 				"FILTER_NAME" => "",
 				"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-				"IBLOCK_ID" => "27",
+				"IBLOCK_ID" => "24",
 				"IBLOCK_TYPE" => "content",
 				"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 				"INCLUDE_SUBSECTIONS" => "Y",

@@ -8,7 +8,17 @@
 
 }
 @media (max-width: 1024px){
- 
+    .fabs{
+        position: static;
+    }
+    .sabs{
+        position: static;
+        height: auto;
+        padding: 20px;
+    }
+    .contabs{
+        height: auto;
+    }
 }
 @media (max-width: 920px){
     .polimer-conteiner-koks .container{
@@ -31,16 +41,39 @@
     .coldasphalt .asphalt-info {
         padding: 67px 0px 50px 60px;
     }
+    .hat{
+        height: auto;
+    }
+    .complex-program-page .polimer-info-text{
+        justify-content: flex-start;
+    }
 }
 @media (max-width: 576px){
-
+    .item1-block-flexx {
+        width: 30%;
+        min-width: 30%;
+    }
+    .all-bitum-page .item-flex2 {
+        width: 100%;
+        justify-content: space-between;
+    }
 } 
 @media (max-width: 450px){
+    .coldasphalt .asphalt-info {
+        padding: 67px 0px 50px 30px;
+    }
+
 
 } 
 @media (max-width: 400px){
+    .coldasphalt .asphalt-info {
+        padding: 67px 0px 50px;
+    }
 
 } 
 @media (max-width: 375px){
+    .item1-block-flexx {
+        min-width: 35%;
+      }
 
 }

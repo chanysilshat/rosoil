@@ -31,6 +31,7 @@
             </svg>
         </div>
         <div class="download-form-item">
+            <input type="file">
             <span>
                 Прикрепить заявку
             </span>

@@ -91,6 +91,16 @@ img{
     width: 100%;
     height: 100%;
 }
+.download-form-item{
+    position: relative;
+}
+.download-form-item input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
 /* pmb-битум адаптив*/
 @media (max-width: 920px){
     .polimer-item{

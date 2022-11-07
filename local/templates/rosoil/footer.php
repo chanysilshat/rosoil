@@ -4,7 +4,7 @@
                     <div class="footer-top-block__container">
                         <h2 class="footer-top-block__title">Глобальная горячая линия</h2>
                         <div class="footer-top-block__text">Сообщайте о жалобах безопасно, надежно, анонимно и с уверенностью</div>
-                        <a href="#" class="footer-top-block__button">Глобальная горячая линия для жалоб</a>
+                        <a href="#" class="footer-top-block__button" onclick="ShowModal(document.querySelector('#feedback1'), false); return false">Глобальная горячая линия для жалоб</a>
                     </div>
                 </div>
                 <div class="footer__main-block footer-main-block">
@@ -102,7 +102,7 @@
                                 <a href="#" target="_blank" class="footer-bottom-block__link">Документация</a>
                                 <a href="http://rosoil.stt-corp.ru/#catalog" target="_blank" class="footer-bottom-block__link">Каталог продукции</a>
                             </div>
-                            <button type="button" class="footer-bottom-block__link footer-bottom-block__callback">Заказать обратный
+                            <button type="button" class="footer-bottom-block__link footer-bottom-block__callback"  onclick="ShowModal(document.querySelector('#feedback'), false); return false">Заказать обратный
                                 звонок</button>
                         </div>
                     </div>
@@ -118,6 +118,27 @@
                 </div>
             </footer>
         </div>
+        <div class="modal-window-block">
+            <div class="modal-window" id="feedback">
+                <button class="modal-window-close"><img src="img/clouse-vector.png" alt=""></button>
+                <h2>Заказать обратный звонок</h2>
+                    <div class="back-call">
+                        <input class="back-call-name" type="text" placeholder="Имя">
+                        <input type="text" placeholder="Номер телефона">
+                    </div>
+                    <p>Отправляя заявку. вы соглашаетесь<br> с <span>политикой конфиденциальности</span></p>
+            </div>
+            <div class="modal-window" id="feedback1"> 
+                <button class="modal-window-close"><img src="img/clouse-vector.png" alt=""></button>
+                <h2>Отправить заявку</h2>
+                    <div class="back-call">
+                        <input class="back-call-name" type="text" placeholder="Номер телефона">
+                        <input type="text" placeholder="Комментарии">
+                    </div>
+                    <p>Отправляя заявку. вы соглашаетесь<br> с <span>политикой конфиденциальности</span></p>
+            </div>
+        </div>
+
         <script src="<?=SITE_TEMPLATE_PATH?>/js/app.js?_v=20221014125029"></script>
     </body>
 </html>

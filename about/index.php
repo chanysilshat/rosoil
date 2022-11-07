@@ -18,11 +18,12 @@ $APPLICATION->SetTitle("Главная");
                     <?=GetMessage("OIL-TRADER")?>
                 </div>
             </div>
-            <div class="about-text-head">
+            <div class="about-text-grid about-text-grid-second">
+                <div class="about-text">
+                <div class="about-text-head">
                 <?=GetMessage("WORK")?>
             </div>
-            <div class="about-text-grid">
-                <div class="about-text">
+
                     <?=GetMessage("OIL-REPRESENTATION")?>
                 </div>
                 <div class="about-text-img">

@@ -15,7 +15,7 @@ $APPLICATION->SetTitle("История компании");
                     </div>
                 </div>
                 <div class="howwork-video">
-                    <video class="howwork-video__video" preload="metadata" controls="" src="/img/how-work.MP4"></video>
+                    <video class="howwork-video__video" autoplay="autoplay" preload="metadata" controls="" src="/img/how-work.MP4"></video>
                 </div>
                 <div class="howwork-value">
                     <h3 class="howwork-value-title"><?=GetMessage("WE-CREATE-VALUE")?></h3>

@@ -37,12 +37,14 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
         <?
             //$Asset->addCss(SITE_TEMPLATE_PATH.'/css/style.min-1.css');
 
+            $Asset->addCss(SITE_TEMPLATE_PATH.'/css/modal.css');
             $Asset->addCss(SITE_TEMPLATE_PATH.'/css/style.css');
             $Asset->addCss(SITE_TEMPLATE_PATH.'/css/styles.css');
             $Asset->addCss(SITE_TEMPLATE_PATH.'/css/oksana.css');
             $Asset->addCss(SITE_TEMPLATE_PATH.'/css/mobile_styles.css');
             $Asset->addCss(SITE_TEMPLATE_PATH.'/css/mob.css'); //Арсений
             
+            $Asset->addJs(SITE_TEMPLATE_PATH.'/js/modal.js');
             $Asset->addJs(SITE_TEMPLATE_PATH.'/js/main.js');
             //$Asset->addJs(SITE_TEMPLATE_PATH.'/js/app.js');
             //$Asset->addJs(SITE_TEMPLATE_PATH.'/js//app.min.js');
@@ -58,7 +60,7 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
         <header data-scroll="92" data-scroll-show="800" class="header">
             <div class="header__top-block header-top-block">
                 <div data-da=".header-main-block__menu,991.98,last" class="header-top-block__container">
-                    <a href="#" class="header-top-block__hotline _icon-hotline">Горячая линия для жалоб</a>
+                    <a href="#" class="header-top-block__hotline _icon-hotline" onclick="ShowModal(document.querySelector('#feedback'), false); return false">Горячая линия для жалоб</a>
                     <a href="http://rosoil.stt-corp.ru/about/" target="_blank" class="header-top-block__info _icon-info">Коротко о Rise Oil</a>
                 </div>
             </div>

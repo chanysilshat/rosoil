@@ -12,3 +12,65 @@
 
 
 
+.modal-window {
+    // margin-left: 15%;
+
+    height: 300px;
+    background: #f9d119;
+    margin-bottom: 50px;
+ }
+ 
+ .back-call input {
+    border: 1px solid #FFFFFF;
+    width: 80%;
+    margin-left: 10%;
+    display: block;
+    height: 41px;
+    border-radius: 10px;
+    padding-left: 15px;
+ }
+ 
+ .back-call-name {
+    margin-bottom: 30px;
+    margin-top: 37px;
+ }
+ 
+ .modal-window p, span {
+    font-weight: 600;
+    font-size: 9px;
+    text-align: center;
+    line-height: 1px;
+    margin-top: 7px;
+ }
+ 
+ .modal-window span {
+    text-decoration: underline;
+ }
+ 
+ .modal-window-close {
+    background: none;
+    border: none;
+    float: right;
+    padding-right: 25px;
+    margin-top: 15px;
+ }
+ 
+ .modal-window h2 {
+    font-weight: 800;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 41px;
+ }
+ 
+ .modal-window-block {
+    display: none;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+ }
+ .stt-container{
+    background-color: unset;
+ }
+ .stt-modal{
+    background-color: #000000c4;
+ }
