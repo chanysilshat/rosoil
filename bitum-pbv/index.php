@@ -360,7 +360,7 @@ $APPLICATION->SetTitle("Главная");
 			<section class="bitum-pbv-page__block-7 bitum-pbv-page-block-7">
 				<div class="bitum-pbv-page-block-7__container">
 					<h2 class="bitum-pbv-page-block-7__title">Строение дороги с использованием ПБВ</h2>
-					<div class="bitum-pbv-page-block-7__image"><img src="/img/bitum-pbv-page/block-7/1.jpg"
+					<div class="bitum-pbv-page-block-7__image"><img src="/img/bitum-pbv-page/block-7/1.jpg" loading="lazy"
 							alt="Строение дороги с использованием ПБВ"></div>
 				</div>
 			</section>
@@ -369,7 +369,7 @@ $APPLICATION->SetTitle("Главная");
 					<h2 class="bitum-pbv-page-block-8__title">Применение полимерно-битумных вяжущих в дорожном строительстве</h2>
 					<div class="bitum-pbv-page-block-8__items">
 						<div data-watch data-watch-once data-watch-threshold="0.3" class="bitum-pbv-page-block-8__item">
-							<div class="bitum-pbv-page-block-8__image"><img src="/img/bitum-pg-page/block-4/1.jpg"
+							<div class="bitum-pbv-page-block-8__image"><img src="/img/bitum-pg-page/block-4/1.jpg" loading="lazy"
 									alt="Дорожное строительство"></div>
 							<h3 class="bitum-pbv-page-block-8__subtitle">Автомагистрали</h3>
 							<ul class="bitum-pbv-page-block-8__list">
@@ -379,7 +379,7 @@ $APPLICATION->SetTitle("Главная");
 							</ul>
 						</div>
 						<div data-watch data-watch-once data-watch-threshold="0.3" class="bitum-pbv-page-block-8__item">
-							<div class="bitum-pbv-page-block-8__image"><img src="/img/bitum-pg-page/block-4/2.jpg"
+							<div class="bitum-pbv-page-block-8__image"><img src="/img/bitum-pg-page/block-4/2.jpg" loading="lazy"
 									alt="Дорожное строительство"></div>
 							<h3 class="bitum-pbv-page-block-8__subtitle">Мосты</h3>
 							<ul class="bitum-pbv-page-block-8__list">
@@ -389,7 +389,7 @@ $APPLICATION->SetTitle("Главная");
 							</ul>
 						</div>
 						<div data-watch data-watch-once data-watch-threshold="0.3" class="bitum-pbv-page-block-8__item">
-							<div class="bitum-pbv-page-block-8__image"><img src="/img/bitum-pg-page/block-4/3.jpg"
+							<div class="bitum-pbv-page-block-8__image"><img src="/img/bitum-pg-page/block-4/3.jpg" loading="lazy"
 									alt="Дорожное строительство"></div>
 							<h3 class="bitum-pbv-page-block-8__subtitle">Аэропорты и терминалы</h3>
 							<ul class="bitum-pbv-page-block-8__list">
@@ -399,7 +399,7 @@ $APPLICATION->SetTitle("Главная");
 							</ul>
 						</div>
 						<div data-watch data-watch-once data-watch-threshold="0.3" class="bitum-pbv-page-block-8__item">
-							<div class="bitum-pbv-page-block-8__image"><img src="/img/bitum-pg-page/block-4/4.jpg"
+							<div class="bitum-pbv-page-block-8__image"><img src="/img/bitum-pg-page/block-4/4.jpg" loading="lazy"
 									alt="Дорожное строительство"></div>
 							<h3 class="bitum-pbv-page-block-8__subtitle">Гоночные трассы</h3>
 							<ul class="bitum-pbv-page-block-8__list">
@@ -421,7 +421,7 @@ $APPLICATION->SetTitle("Главная");
 							</div>
 							<div class="bitum-pbv-page-block-9__content">
 								<div class="bitum-pbv-page-block-9__text-top">В горячем виде Автобитумовоз 25 тн.</div>
-								<div class="bitum-pbv-page-block-9__image"><img src="/img/bitum-pg-page/block-11/1.svg"
+								<div class="bitum-pbv-page-block-9__image"><img src="/img/bitum-pg-page/block-11/1.svg" loading="lazy"
 										alt="Форма отгузки"></div>
 								<div class="bitum-pbv-page-block-9__text-bottom">Отправка битума осуществляется в жидком виде, при
 									температуре
@@ -435,7 +435,7 @@ $APPLICATION->SetTitle("Главная");
 							</div>
 							<div class="bitum-pbv-page-block-9__content">
 								<div class="bitum-pbv-page-block-9__text-top">В твердом виде Металлические евробочки 200 кг.</div>
-								<div class="bitum-pbv-page-block-9__image"><img src="/img/bitum-pg-page/block-11/2.svg"
+								<div class="bitum-pbv-page-block-9__image"><img src="/img/bitum-pg-page/block-11/2.svg" loading="lazy"
 										alt="Форма отгузки"></div>
 								<div class="bitum-pbv-page-block-9__text-bottom">20 фут. конт. - 16 тн.<br> Еврофура - 20 тн.<br> Крытый
 									вагон - 60 тн.</div>
@@ -448,7 +448,7 @@ $APPLICATION->SetTitle("Главная");
 							</div>
 							<div class="bitum-pbv-page-block-9__content">
 								<div class="bitum-pbv-page-block-9__text-top">В твердом виде Контейнеры 1000 кг</div>
-								<div class="bitum-pbv-page-block-9__image"><img src="/img/bitum-pg-page/block-11/3.svg"
+								<div class="bitum-pbv-page-block-9__image"><img src="/img/bitum-pg-page/block-11/3.svg" loading="lazy"
 										alt="Форма отгузки"></div>
 								<div class="bitum-pbv-page-block-9__text-bottom">20 фут. конт. - 20 тн. <br>Еврофура - 20 тн.<br> Крытый
 									вагон -

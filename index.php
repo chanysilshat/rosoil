@@ -71,8 +71,8 @@ $APPLICATION->SetTitle("Главная");
                     <a href="#" class="block-2__button"><?=GetMessage("GO")?></a>
                 </div>
                 <div class="block-2__images">
-                    <a href="#" class="block-2__image"><img src="/upload/rise-oil-group.jpg" alt="Image"></a>
-                    <a href="#" class="block-2__image"><img src="/upload/dizel-oil-rise-oil-group.jpg" alt="Image"></a>
+                    <a href="#" class="block-2__image"><img src="/upload/rise-oil-group.jpg" loading="lazy" alt="Image"></a>
+                    <a href="#" class="block-2__image"><img src="/upload/dizel-oil-rise-oil-group.jpg" loading="lazy" alt="Image"></a>
                 </div>
             </div>
         </section>

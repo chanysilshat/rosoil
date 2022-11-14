@@ -143,7 +143,7 @@ $APPLICATION->SetTitle("Главная");
 					<h2 class="bitum-pg-page-block-4__title">Применение полимерно-битумных вяжущих в дорожном строительстве</h2>
 					<div class="bitum-pg-page-block-4__items">
 						<div data-watch data-watch-once data-watch-threshold="0.3" class="bitum-pg-page-block-4__item">
-							<div class="bitum-pg-page-block-4__image"><img src="/img/bitum-pg-page/block-4/1.jpg"
+							<div class="bitum-pg-page-block-4__image"><img src="/img/bitum-pg-page/block-4/1.jpg" loading="lazy"
 									alt="Дорожное строительство"></div>
 							<h3 class="bitum-pg-page-block-4__subtitle">Автомагистрали</h3>
 							<ul class="bitum-pg-page-block-4__list">
@@ -153,7 +153,7 @@ $APPLICATION->SetTitle("Главная");
 							</ul>
 						</div>
 						<div data-watch data-watch-once data-watch-threshold="0.3" class="bitum-pg-page-block-4__item">
-							<div class="bitum-pg-page-block-4__image"><img src="/img/bitum-pg-page/block-4/2.jpg"
+							<div class="bitum-pg-page-block-4__image"><img src="/img/bitum-pg-page/block-4/2.jpg" loading="lazy"
 									alt="Дорожное строительство"></div>
 							<h3 class="bitum-pg-page-block-4__subtitle">Мосты</h3>
 							<ul class="bitum-pg-page-block-4__list">
@@ -163,7 +163,7 @@ $APPLICATION->SetTitle("Главная");
 							</ul>
 						</div>
 						<div data-watch data-watch-once data-watch-threshold="0.3" class="bitum-pg-page-block-4__item">
-							<div class="bitum-pg-page-block-4__image"><img src="/img/bitum-pg-page/block-4/3.jpg"
+							<div class="bitum-pg-page-block-4__image"><img src="/img/bitum-pg-page/block-4/3.jpg" loading="lazy"
 									alt="Дорожное строительство"></div>
 							<h3 class="bitum-pg-page-block-4__subtitle">Аэропорты и терминалы</h3>
 							<ul class="bitum-pg-page-block-4__list">
@@ -173,7 +173,7 @@ $APPLICATION->SetTitle("Главная");
 							</ul>
 						</div>
 						<div data-watch data-watch-once data-watch-threshold="0.3" class="bitum-pg-page-block-4__item">
-							<div class="bitum-pg-page-block-4__image"><img src="/img/bitum-pg-page/block-4/4.jpg"
+							<div class="bitum-pg-page-block-4__image"><img src="/img/bitum-pg-page/block-4/4.jpg" loading="lazy"
 									alt="Дорожное строительство"></div>
 							<h3 class="bitum-pg-page-block-4__subtitle">Гоночные трассы</h3>
 							<ul class="bitum-pg-page-block-4__list">
@@ -208,7 +208,7 @@ $APPLICATION->SetTitle("Главная");
 					<h2 class="bitum-pg-page-block-6__title">Технология
 						Superpave™</h2>
 					<div data-watch data-watch-once data-watch-margin="50" class="bitum-pg-page-block-6__image">
-						<img src="/img/bitum-pg-page/block-6/1.jpg" alt="Технология Superpave™">
+						<img src="/img/bitum-pg-page/block-6/1.jpg" loading="lazy" alt="Технология Superpave™">
 					</div>
 					<div class="bitum-pg-page-block-6__text">
 						<p>Технология Superpave™ работает благодаря рационально подобранному составу асфальтобетонных смесей с
@@ -234,7 +234,7 @@ $APPLICATION->SetTitle("Главная");
 						<li class="bitum-pg-page-block-7__item">
 							<h3 data-spoller class="bitum-pg-page-block-7__title">Требования к каменным материалам<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
-								<div class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-7/1.jpg"
+								<div class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-7/1.jpg" loading="lazy"
 										alt="Требования к каменным материалам"></div>
 								<div class="bitum-pg-page-block-7__spoller-text">
 									<p>
@@ -263,7 +263,7 @@ $APPLICATION->SetTitle("Главная");
 						<li class="bitum-pg-page-block-7__item">
 							<h3 data-spoller class="bitum-pg-page-block-7__title">Подбор битума PG<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
-								<div class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-7/2.jpg"
+								<div class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-7/2.jpg" loading="lazy"
 										alt="Подбор битума PG">
 									<div class="bitum-pg-page-block-7__spoller-text">
 										<p>
@@ -299,7 +299,7 @@ $APPLICATION->SetTitle("Главная");
 							<div class="bitum-pg-page-block-7__spoller">
 								<a href="/img/bitum-pg-page/block-7/3.jpg" target="_blank"
 									class="bitum-pg-page-block-7__spoller-image ">
-									<img src="/img/bitum-pg-page/block-7/3.jpg" alt="Классификация битума PG">
+									<img src="/img/bitum-pg-page/block-7/3.jpg" loading="lazy" alt="Классификация битума PG">
 								</a>
 							</div>
 						</li>
@@ -307,7 +307,7 @@ $APPLICATION->SetTitle("Главная");
 							<h3 data-spoller class="bitum-pg-page-block-7__title">Транспортировка битума PG<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
 								<div class="bitum-pg-page-block-7__spoller-image ">
-									<img src="/img/bitum-pg-page/block-7/4.jpg" alt="Транспортировка битума PG">
+									<img src="/img/bitum-pg-page/block-7/4.jpg" loading="lazy" alt="Транспортировка битума PG">
 								</div>
 								<div class="bitum-pg-page-block-7__spoller-text">
 									<h5>В холодном виде</h5>
@@ -330,7 +330,7 @@ $APPLICATION->SetTitle("Главная");
 							<h3 data-spoller class="bitum-pg-page-block-7__title">Рекомендации по хранению<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
 								<div class="bitum-pg-page-block-7__spoller-image ">
-									<img src="/img/bitum-pg-page/block-7/5.png" alt="Рекомендации по хранению">
+									<img src="/img/bitum-pg-page/block-7/5.png" loading="lazy" alt="Рекомендации по хранению">
 								</div>
 								<div class="bitum-pg-page-block-7__spoller-text">
 									<h4>Краткосрочное хранение (до 2 недель)</h4>
@@ -371,7 +371,7 @@ $APPLICATION->SetTitle("Главная");
 							<h3 data-spoller class="bitum-pg-page-block-7__title">Рекомендации по применению<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
 								<div class="bitum-pg-page-block-7__spoller-image">
-									<img src="/img/bitum-pg-page/block-7/6.png" alt="Рекомендации по применению">
+									<img src="/img/bitum-pg-page/block-7/6.png" loading="lazy" alt="Рекомендации по применению">
 								</div>
 								<div class="bitum-pg-page-block-7__spoller-text">
 									<h4>Получение асфальтобетонной смеси</h4>
@@ -467,12 +467,12 @@ $APPLICATION->SetTitle("Главная");
 					<div class="bitum-pg-page-block-9__items">
 						<div class="bitum-pg-page-block-9__item">
 							<video class="bitum-pg-page-block-9__video" preload="metadata" controls
-								src="/img/bitum-fas-page/1.mp4"></video>
+								src="/img/Superpave.mp4"></video>
 							<h4 class="bitum-pg-page-block-9__video-subtitle">Битумные вяжущие PG SUPERPAVE</h4>
 						</div>
 						<div class="bitum-pg-page-block-9__item">
 							<video class="bitum-pg-page-block-9__video" preload="metadata" controls
-								src="/img/bitum-fas-page/1.mp4"></video>
+								src="/img/loading.mp4"></video>
 							<h4 class="bitum-pg-page-block-9__video-subtitle">Погрузка битума</h4>
 						</div>
 					</div>
@@ -486,7 +486,7 @@ $APPLICATION->SetTitle("Главная");
 								различных фракций<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
 								<a href="/img/bitum-pg-page/block-10/1.jpg" target="_blank"
-									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/1.jpg" alt="Зависимость нагрузки от процентного содержания
+									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/1.jpg" loading="lazy" alt="Зависимость нагрузки от процентного содержания
 									различных фракций"></a>
 							</div>
 						</li>
@@ -495,7 +495,7 @@ $APPLICATION->SetTitle("Главная");
 								транспортной нагрузки<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
 								<a href="/img/bitum-pg-page/block-10/2.jpg" target="_blank"
-									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/2.jpg" alt="Требования к параметрам уплотнения в зависимости от
+									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/2.jpg" loading="lazy" alt="Требования к параметрам уплотнения в зависимости от
 								транспортной нагрузки"></a>
 							</div>
 						</li>
@@ -504,7 +504,7 @@ $APPLICATION->SetTitle("Главная");
 								Технологические температуры<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
 								<a href="/img/bitum-pg-page/block-10/3.jpg" target="_blank"
-									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/3.jpg" alt="Битум PG 70. Физико-механические показатели.
+									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/3.jpg" loading="lazy" alt="Битум PG 70. Физико-механические показатели.
 									Технологические температуры"></a>
 							</div>
 						</li>
@@ -513,7 +513,7 @@ $APPLICATION->SetTitle("Главная");
 								Технологические температуры<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
 								<a href="/img/bitum-pg-page/block-10/4.jpg" target="_blank"
-									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/4.jpg" alt="Битум PG 76. Физико-механические показатели.
+									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/4.jpg" loading="lazy" alt="Битум PG 76. Физико-механические показатели.
 									Технологические температуры"></a>
 							</div>
 						</li>
@@ -522,7 +522,7 @@ $APPLICATION->SetTitle("Главная");
 								Технологические температуры<span>+</span></h3>
 							<div class="bitum-pg-page-block-7__spoller">
 								<a href="/img/bitum-pg-page/block-10/5.jpg" target="_blank"
-									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/5.jpg" alt="Битум PG 82. Физико-механические показатели.
+									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/5.jpg" loading="lazy" alt="Битум PG 82. Физико-механические показатели.
 									Технологические температуры"></a>
 							</div>
 						</li>
@@ -540,7 +540,7 @@ $APPLICATION->SetTitle("Главная");
 							</h3>
 							<div class="bitum-pg-page-block-7__spoller">
 								<a href="/img/bitum-pg-page/block-10/7.jpg" target="_blank"
-									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/7.jpg"
+									class="bitum-pg-page-block-7__spoller-image"><img src="/img/bitum-pg-page/block-10/7.jpg" loading="lazy"
 										alt="Сравнение с классическими технологиями"></a>
 							</div>
 						</li>
@@ -557,7 +557,7 @@ $APPLICATION->SetTitle("Главная");
 							</div>
 							<div class="bitum-pg-page-block-11__content">
 								<div class="bitum-pg-page-block-11__text-top">В горячем виде Автобитумовоз 25 тн.</div>
-								<div class="bitum-pg-page-block-11__image"><img src="/img/bitum-pg-page/block-11/1.svg"
+								<div class="bitum-pg-page-block-11__image"><img src="/img/bitum-pg-page/block-11/1.svg" loading="lazy"
 										alt="Форма отгузки"></div>
 								<div class="bitum-pg-page-block-11__text-bottom">Отправка битума осуществляется в жидком виде, при
 									температуре
@@ -571,7 +571,7 @@ $APPLICATION->SetTitle("Главная");
 							</div>
 							<div class="bitum-pg-page-block-11__content">
 								<div class="bitum-pg-page-block-11__text-top">В твердом виде Металлические евробочки 200 кг.</div>
-								<div class="bitum-pg-page-block-11__image"><img src="/img/bitum-pg-page/block-11/2.svg"
+								<div class="bitum-pg-page-block-11__image"><img src="/img/bitum-pg-page/block-11/2.svg" loading="lazy"
 										alt="Форма отгузки"></div>
 								<div class="bitum-pg-page-block-11__text-bottom">20 фут. конт. - 16 тн.<br> Еврофура - 20 тн.<br> Крытый
 									вагон - 60 тн.</div>
@@ -584,7 +584,7 @@ $APPLICATION->SetTitle("Главная");
 							</div>
 							<div class="bitum-pg-page-block-11__content">
 								<div class="bitum-pg-page-block-11__text-top">В твердом виде Контейнеры 1000 кг</div>
-								<div class="bitum-pg-page-block-11__image"><img src="/img/bitum-pg-page/block-11/3.svg"
+								<div class="bitum-pg-page-block-11__image"><img src="/img/bitum-pg-page/block-11/3.svg" loading="lazy"
 										alt="Форма отгузки"></div>
 								<div class="bitum-pg-page-block-11__text-bottom">20 фут. конт. - 20 тн. <br>Еврофура - 20 тн.<br> Крытый
 									вагон -

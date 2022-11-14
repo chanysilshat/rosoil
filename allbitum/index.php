@@ -16,22 +16,22 @@ $APPLICATION->SetTitle("История компании");
             </div>
             <div class="block-items grid-3">
                 <div class="item-flex">
-                    Битум нефтяной дорожный БНД
+                   <a href="http://rosoil.stt-corp.ru/bitum/" target="_blank">Битум нефтяной дорожный БНД</a> 
                 </div>
                 <div class="item-flex">
-                    Битум нефтяной дорожный фассованный
+                    <a href="http://rosoil.stt-corp.ru/bitum-fas/" target="_blank">Битум нефтяной дорожный фассованный</a> 
                 </div>
                 <div class="item-flex">
-                    Полимерно-битумные вяжущие ПБВ
+                    <a href="http://rosoil.stt-corp.ru/bitum-pbv/" target="_blank">Полимерно-битумные вяжущие ПБВ</a> 
                 </div>
                 <div class="item-flex">
-                    Битум ПМБ
+                    <a href="http://rosoil.stt-corp.ru/bitumPMB/" target="_blank">Битум ПМБ</a> 
                 </div>
                 <div class="item-flex">
-                    Битумные вяжущие PG SUPERPAVE
+                    <a href="http://rosoil.stt-corp.ru/bitum-pg/" target="_blank">Битумные вяжущие PG SUPERPAVE</a> 
                 </div>
                 <div class="item-flex">
-                    Холодный асфальт RISE
+                    <a href="http://rosoil.stt-corp.ru/coldasphalt/" target="_blank">Холодный асфальт RISE</a> 
                 </div>
             </div>
             <?$APPLICATION->IncludeComponent(

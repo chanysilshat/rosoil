@@ -155,9 +155,9 @@ $APPLICATION->SetTitle('Экспорт');
         </div>
         <div class="passport-block">
             <div class="passport-text">
-                <img src="/img/PdfFile.png">
-                <span>Паспорт качества продукци</span>
-                <img src="/img/DownloadIcon.png">
+                <img src="/img/PdfFile.png" loading="lazy">
+                <span> <a href="http://rosoil.stt-corp.ru/passports/" target="_blank">Паспорт качества продукции</a> </span>
+                <img src="/img/DownloadIcon.png" loading="lazy">
             </div>
         </div>
    </div>
@@ -179,7 +179,7 @@ $APPLICATION->SetTitle('Экспорт');
         </div>
     <div class="polimer-conteiner">
         <div class="polimer-img">
-            <img src="/img/polimer.png">
+            <img src="/img/polimer.png" loading="lazy">
         </div>
         <div class="polimer-info">
             <div class="polimer-info-text">

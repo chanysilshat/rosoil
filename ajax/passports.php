@@ -18,7 +18,7 @@ while ($result = $res->Fetch()):?>
             <?=$result["NAME"]?>
         </span>
         <div class="passports-img">
-            <img src="<?=CFile::GetPath($result["PREVIEW_PICTURE"])?>">
+            <img src="<?=CFile::GetPath($result["PREVIEW_PICTURE"])?>" loading="lazy">
         </div>
         <a href="<?=CFile::GetPath($result["PROPERTY_FILE_VALUE"])?>" download>
             <div class="passpotrs-download">

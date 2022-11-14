@@ -60,7 +60,7 @@ $APPLICATION->SetTitle("Главная");
             <div class="blok-sentence">
                 <div class="blok">
                     <div class="sentence-item">
-                        <img src="/img/system.png">
+                        <img src="/img/system.png" loading="lazy">
                     </div>
                     <div class="logistics-text">
                         Выстроенная система продажи 
@@ -72,7 +72,7 @@ $APPLICATION->SetTitle("Главная");
                 </div>
                 <div class="blok">
                     <div class="sentence-item">
-                        <img src="/img/department.png">
+                        <img src="/img/department.png" loading="lazy">
                     </div>
                     <div class="logistics-text item">
                         Департамент логистики тесно сотрудничает с департаментом 
@@ -81,7 +81,7 @@ $APPLICATION->SetTitle("Главная");
                 </div>
                 <div class="blok">
                     <div class="sentence-item">
-                        <img src="/img/cooperation.png">
+                        <img src="/img/cooperation.png" loading="lazy">
                     </div>
                     <div class="logistics-text">
                         Мы сотрудничаем 

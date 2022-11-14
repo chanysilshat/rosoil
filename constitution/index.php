@@ -261,7 +261,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                         <div class="standards-block-wrapper">
                             <div class="standards-block-item efficiency">
                                 <div class="privacy-img">
-                                    <img src="/img/efficiency.png">
+                                    <img src="/img/efficiency.png" loading="lazy">
                                 </div>
                                 <div class="professionalism-text">
                                     <?=GetMessage("EFFICIENCY")?> 
@@ -269,7 +269,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                             </div>
                             <div class="standards-block-item integrity">
                                 <div class="privacy-img">
-                                    <img src="/img/integrity.png">
+                                    <img src="/img/integrity.png" loading="lazy">
                                 </div>
                                 <div class="professionalism-text">
                                     <?=GetMessage("WHOLE")?>
@@ -277,7 +277,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                             </div>
                             <div class="standards-block-item reliability">
                                 <div class="privacy-img">
-                                    <img src="/img/reliability.png">
+                                    <img src="/img/reliability.png" loading="lazy">
                                 </div>
                                 <div class="professionalism-text">
                                     <?=GetMessage("RELIABILITY")?>
@@ -285,7 +285,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                             </div>
                             <div class="standards-block-item professionalism">
                                 <div class="privacy-img">
-                                    <img src="/img/professionalism.png">
+                                    <img src="/img/professionalism.png" loading="lazy">
                                 </div>
                                 <div class="professionalism-text">
                                     <?=GetMessage("PROFESSIONALISM")?>
@@ -294,7 +294,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
 
                             <div class="standards-block-item privacy">
                                 <div class="privacy-img">
-                                    <img src="/img/privacy.png">
+                                    <img src="/img/privacy.png" loading="lazy">
                                 </div>
                                 <div class="professionalism-text">
                                     <?=GetMessage("CONFIDENTIALITY")?>
@@ -321,12 +321,12 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                         <?=GetMessage("ORIENTATION-TEXT")?>
                                     </div>
                                 </div>
-                                <div class="action-orientation-block"><img src="/img/management.jpg" alt="">
+                                <div class="action-orientation-block"><img src="/img/orientation.jpg" loading="lazy" alt="">
                                 </div>
                             </div>
                         
                             <div class="management-principles-item partner">
-                                <div class="action-orientation-block"><img src="/img/management.jpg" alt="">
+                                <div class="action-orientation-block"><img src="/img/partner.jpeg" loading="lazy" alt="">
                                 </div>
                                 <div class="action-orientation-item partner-item">
                                     <div class="management-title">
@@ -346,11 +346,11 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                         <?=GetMessage("AUTONOMY-TEXT")?>
                                     </div>
                                 </div>
-                                <div class="action-orientation-block"><img src="/img/management.jpg" alt="">
+                                <div class="action-orientation-block"><img src="/img/autonomy.jpeg" loading="lazy" alt="">
                                 </div>
                             </div>  
                             <div class="management-principles-item basis-of-efficiency">
-                                <div class="action-orientation-block"><img src="/img/management.jpg" alt="">
+                                <div class="action-orientation-block"><img src="/img/people.jpeg" loading="lazy" alt="">
                                 </div>
                                 <div class="action-orientation-item basis-of-efficiency-item">
                                     <div class="management-title">
@@ -370,11 +370,11 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                         <?=GetMessage("LOCAL-TEXT")?> 
                                     </div>
                                 </div>
-                                <div class="action-orientation-block"><img src="/img/management.jpg" alt="">
+                                <div class="action-orientation-block"><img src="/img/local.jpeg" loading="lazy" alt="">
                                 </div>
                             </div>
                             <div class="management-principles-item partner">
-                                <div class="action-orientation-block"><img src="/img/management.jpg" alt="">
+                                <div class="action-orientation-block"><img src="/img/strong (2).jpeg" loading="lazy" alt="">
                                 </div>
                                 <div class="action-orientation-item partner-item">
                                     <div class="management-title">
@@ -394,11 +394,11 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                         <?=GetMessage("SIMPLE-TEXT")?>
                                     </div>
                                 </div>
-                                <div class="action-orientation-block"><img src="/img/management.jpg" alt="">
+                                <div class="action-orientation-block"><img src="/img/structure.jpeg" loading="lazy" alt="">
                                 </div>
                             </div>  
                             <div class="management-principles-item basis-of-efficiency">
-                                <div class="action-orientation-block"><img src="/img/management.jpg" alt="">
+                                <div class="action-orientation-block"><img src="/img/strong.jpeg" loading="lazy" alt="">
                                 </div>
                                 <div class="action-orientation-item basis-of-efficiency-item">
                                     <div class="management-title">

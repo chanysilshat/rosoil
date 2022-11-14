@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Главная");
         <div class="about-text-block">
             <div class="about-text-grid">
                 <div class="about-text-img about-text-img-first">
-                    <img src="/img/about-1.jpg" alt="">
+                    <img src="/img/about-1.jpg" loading="lazy" alt="">
 
                 </div>
                 <div class="about-text">
@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("Главная");
             </div>
             <div class="about-text-grid">
                 <div class="about-text-img">
-                    <img src="/img/about-3.jpg" alt="">
+                    <img src="/img/about-3.jpg" loading="lazy" alt="">
                 </div>
                 <div class="about-text">
                     <div class="about-text-head">

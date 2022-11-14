@@ -66,7 +66,7 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
             </div>
             <nav class="header__main-block header-main-block">
                 <div class="header-main-block__container">
-                    <a href="/" class="header-main-block__logo"><img src="/img/header/logo3.svg" alt="Rise Oil"></a>
+                    <a href="/" class="header-main-block__logo"><img src="/img/header/logo3.svg" loading="lazy" alt="Rise Oil"></a>
                     <ul data-one-spoller data-spollers class="header-main-block__menu">
                         <li сlass="header-main-block__item">
                             <a data-spoller-close data-spoller href="#" class="header-main-block__link"><?=GetMessage("ABOUT_COMPANY")?></a>
@@ -74,9 +74,7 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
                                 <div class="header-submenu__container">
                                     <div class="header-submenu__content">
                                         <h2 class="header-submenu__title"><?=GetMessage("ABOUT_COMPANY")?></h2>
-                                        <div class="header-submenu__text">Наше видение – это все более процветающий мир, в котором нефть и
-                                            нефтепродукты беспрепятственно доставляются из любой точки мира в места наибольшего спроса.
-                                            Мы стараемся делать это быстро и ответственно</div>
+                                        <div class="header-submenu__text">С 2008года, «RISE OIL GROUP» осуществляет операции в секторе производства и реализации фасованных битумных материалов для строительства автомагистралей, скоростных автодорог и автомобильных дорог Федерального значения I, II, III, IV, V категориях.</div>
                                     </div>
                                     <ul class="header-submenu__items">
                                         <li class="header-submenu__item"><a href="http://rosoil.stt-corp.ru/how_work/" target="_blank" class="header-submenu__link">Как мы работаем?</a></li>
@@ -102,9 +100,7 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
                                 <div class="header-submenu__container">
                                     <div class="header-submenu__content">
                                         <h2 class="header-submenu__title">Нефть и нефтепродукты</h2>
-                                        <div class="header-submenu__text">Наше видение – это все более процветающий мир, в котором нефть и
-                                            нефтепродукты беспрепятственно доставляются из любой точки мира в места наибольшего спроса.
-                                            Мы стараемся делать это быстро и ответственно</div>
+                                        <div class="header-submenu__text">"ROAD KG" LLC в составе холдинга RISE OIL GROUP экспортирует нефтепродукты производства Туркменбашинского комплекса нефтеперерабатывающих заводов ТКНПЗ в страны Средней Азии, Европы, Грузии.</div>
                                     </div>
                                     <ul class="header-submenu__items">
                                         <li class="header-submenu__item"><a href="http://rosoil.stt-corp.ru/allbitum/" target="_blank" class="header-submenu__link">Битумные
@@ -131,9 +127,8 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
                                 <div class="header-submenu__container">
                                     <div class="header-submenu__content">
                                         <h2 class="header-submenu__title">Логистика</h2>
-                                        <div class="header-submenu__text">Наше видение – это все более процветающий мир, в котором нефть и
-                                            нефтепродукты беспрепятственно доставляются из любой точки мира в места наибольшего спроса.
-                                            Мы стараемся делать это быстро и ответственно</div>
+                                        <div class="header-submenu__text">Логистика нефтепродуктов- это целая наука, помогающая планировать, контролировать и оптимизировать процесс передачи товара, от производителя к потребителю.
+Логистика, хранение и дистрибуция- важнейшая основа нашего бизнеса.</div>
                                     </div>
                                     <ul class="header-submenu__items">
                                         <li class="header-submenu__item"><a href="http://rosoil.stt-corp.ru/ru/logistics/" target="_blank" class="header-submenu__link">Что мы делаем в логистике</a>
@@ -149,9 +144,7 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
                                 <div class="header-submenu__container">
                                     <div class="header-submenu__content">
                                         <h2 class="header-submenu__title">Терминалы</h2>
-                                        <div class="header-submenu__text">Наше видение – это все более процветающий мир, в котором нефть и
-                                            нефтепродукты беспрепятственно доставляются из любой точки мира в места наибольшего спроса.
-                                            Мы стараемся делать это быстро и ответственно</div>
+                                        <div class="header-submenu__text">Планируя проекты по созданию и развитию терминалов и складов в Средней и Юго-Восточной Азии, Восточной Европы, мы обеспечиваем безопасные торговые решения, которые оптимизируют коммерческие возможности наших партнеров</div>
                                     </div>
                                     <ul class="header-submenu__items">
                                         <li class="header-submenu__item"><a href="http://rosoil.stt-corp.ru/terminal/" target="_blank" class="header-submenu__link">Терминалы</a></li>
@@ -165,12 +158,10 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
                                 <div class="header-submenu__container">
                                     <div class="header-submenu__content">
                                         <h2 class="header-submenu__title">Ответственная работа</h2>
-                                        <div class="header-submenu__text">Наше видение – это все более процветающий мир, в котором нефть и
-                                            нефтепродукты беспрепятственно доставляются из любой точки мира в места наибольшего спроса.
-                                            Мы стараемся делать это быстро и ответственно</div>
+                                        <div class="header-submenu__text">Система комплаенс «RISE OIL GROUP» гарантирует деятельность компании в соответствии с законодательством, отраслевыми стандартами и другими нормативными требованиями.</div>
                                     </div>
                                     <ul class="header-submenu__items">
-                                        <li class="header-submenu__item"><a href="http://rosoil.stt-corp.ru/complex_program/" target="_blank" class="header-submenu__link">Программа комплекса</a></li>
+                                        <li class="header-submenu__item"><a href="http://rosoil.stt-corp.ru/complex_program/" target="_blank" class="header-submenu__link">Программа комплаенса</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -181,9 +172,7 @@ IncludeTemplateLangFile(__FILE__, $_REQUEST["current_lang"]);
                                 <div class="header-submenu__container">
                                     <div class="header-submenu__content">
                                         <h2 class="header-submenu__title">Новости</h2>
-                                        <div class="header-submenu__text">Наше видение – это все более процветающий мир, в котором нефть и
-                                            нефтепродукты беспрепятственно доставляются из любой точки мира в места наибольшего спроса.
-                                            Мы стараемся делать это быстро и ответственно</div>
+                                        <div class="header-submenu__text">Наше видение – это все более процветающий мир, в котором нефть и нефтепродукты беспрепятственно доставляются из любой точки мира в места наибольшего спроса. Мы стараемся делать это быстро и ответственно.</div>
                                     </div>
                                     <ul class="header-submenu__items">
                                         <li class="header-submenu__item"><a href="http://rosoil.stt-corp.ru/news/" target="_blank" class="header-submenu__link">Новости</a></li>

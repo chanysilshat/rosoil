@@ -113,7 +113,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
             <div class="container">
                 <div class="polimer-conteiner">
                     <div class="polimer-img">
-                        <img src="/img/coil.png">
+                        <img src="/img/coil.png" loading="lazy">
                     </div>
                     <div class="polimer-info">
                         <div class="polimer-info-text">
@@ -121,7 +121,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 01
                             </div>
                             <div class="polimer-info-text-a">
-                                <?=GetMessage("PRIM_DIZ")?>
+                                <?=GetMessage("PRIM_DIZ1")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -129,7 +129,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 02
                             </div>
                             <div class="polimer-info-text-a">
-                                <?=GetMessage("PRIM_DIZ")?>
+                                <?=GetMessage("PRIM_DIZ2")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -137,7 +137,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 03
                             </div>
                             <div class="polimer-info-text-a">
-                                <?=GetMessage("PRIM_DIZ")?>
+                                <?=GetMessage("PRIM_DIZ3")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -145,7 +145,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 04
                             </div>
                             <div class="polimer-info-text-a">
-                                <?=GetMessage("PRIM_DIZ")?>
+                                <?=GetMessage("PRIM_DIZ4")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -153,7 +153,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 05
                             </div>
                             <div class="polimer-info-text-a">
-                                <?=GetMessage("PRIM_DIZ")?>
+                                <?=GetMessage("PRIM_DIZ5")?>
                             </div>
                         </div>
                         <div class="polimer-info-text">
@@ -161,7 +161,7 @@ $APPLICATION->SetTitle("Дизельное топливо");
                                 06
                             </div>
                             <div class="polimer-info-text-a">
-                                <?=GetMessage("PRIM_DIZ")?>
+                                <?=GetMessage("PRIM_DIZ6")?>
                             </div>
                         </div>
                     </div>
@@ -218,9 +218,9 @@ $APPLICATION->SetTitle("Дизельное топливо");
     <div class="passport-block">
         <div class="container">
             <div class="passport-text">
-                <img src="/img/PdfFile.png">
+                <img src="/img/PdfFile.png" loading="lazy">
                 <span><a href="http://rosoil.stt-corp.ru/passports/" target="_blank"><?=GetMessage("PASS_Q")?></a></span>
-                <img src="/img/DownloadIcon.png">
+                <img src="/img/DownloadIcon.png" loading="lazy">
             </div>
         </div>
     </div>
@@ -248,17 +248,17 @@ $APPLICATION->SetTitle("Дизельное топливо");
             </div>
             <div class="bitum-page-block-8__items">
                 <div class="bitum-page-block-8__item">
-                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
+                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" loading="lazy" alt="Формы отгрузки">
                     </div>
                     <div class="bitum-page-block-8__info"><?=GetMessage("OSOB_TRANS2")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
-                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
+                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" loading="lazy" alt="Формы отгрузки">
                     </div>
                     <div class="bitum-page-block-8__info"><?=GetMessage("OSOB_TRANS3")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
-                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
+                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" loading="lazy" alt="Формы отгрузки">
                     </div>
                     <div class="bitum-page-block-8__info"><?=GetMessage("OSOB_TRANS4")?></div>
                 </div>

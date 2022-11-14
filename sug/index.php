@@ -72,7 +72,7 @@ $APPLICATION->SetTitle("Главная");
 							</ul>
 						</div>
 						<a data-watch data-watch-once data-watch-margin="200" href="#" class="sug-page-block-3__image"><img
-								src="/img/sug-page/1.jpg" alt="Сжиженый углеводородный газ"></a>
+								src="/img/sug-page/1.jpg" loading="lazy" alt="Сжиженый углеводородный газ"></a>
 
 					</div>
 				</div>
@@ -121,7 +121,7 @@ $APPLICATION->SetTitle("Главная");
 			</section>
 			<section class="sug-page__block-6 sug-page-block-6">
 				<div class="sug-page-block-6__container">
-					<a href="#" class="sug-page-block-6__image"><img src="/img/sug-page/2.jpg" alt="Поставки СУГ на экспорт"></a>
+					<a href="#" class="sug-page-block-6__image"><img src="/img/sug-page/2.jpg" loading="lazy" alt="Поставки СУГ на экспорт"></a>
 					<div class="sug-page-block-6__content">
 						<div class="sug-page-block-6__text-1">Поставки СУГ на экспорт осуществляется по согласованию с контрагентами
 							и в зависимости от технологических возможностей путем отгрузки железнодорожным транспортом, в специальных

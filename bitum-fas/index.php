@@ -121,7 +121,7 @@ $APPLICATION->SetTitle("Главная");
 					<div class="bitum-fas-page-block-3__items">
 						<div class="bitum-fas-page-block-3__item">
 							<h3 class="bitum-fas-page-block-3__subtitle">Комбинированный складной контейнер КСК-У 1000</h3>
-							<a href="#" class="bitum-fas-page-block-3__image"><img src="/img/bitum-fas-page/1.jpg"
+							<a href="#" class="bitum-fas-page-block-3__image"><img src="/img/bitum-fas-page/1.jpg" loading="lazy"
 									alt="Фасовка битума">
 							</a>
 							<div class="bitum-fas-page-block-3__text">Комбинированный складной контейнер КСК-У1000 предназначен для
@@ -132,7 +132,7 @@ $APPLICATION->SetTitle("Главная");
 						</div>
 						<div class="bitum-fas-page-block-3__item">
 							<h3 class="bitum-fas-page-block-3__subtitle">Металлическая бочка с крышкой 200 кг</h3>
-							<a href="#" class="bitum-fas-page-block-3__image"><img src="/img/bitum-fas-page/2.jpg"
+							<a href="#" class="bitum-fas-page-block-3__image"><img src="/img/bitum-fas-page/2.jpg" loading="lazy"
 									alt="Фасовка битума">
 							</a>
 							<div class="bitum-fas-page-block-3__text">Металлическая бочка с крышкой. Один из надежных способов
@@ -140,7 +140,7 @@ $APPLICATION->SetTitle("Главная");
 						</div>
 						<div class="bitum-fas-page-block-3__item">
 							<h3 class="bitum-fas-page-block-3__subtitle">Комбинированный складной контейнер КСК-У 1000</h3>
-							<a href="#" class="bitum-fas-page-block-3__image"><img src="/img/bitum-fas-page/3.jpg"
+							<a href="#" class="bitum-fas-page-block-3__image"><img src="/img/bitum-fas-page/3.jpg" loading="lazy"
 									alt="Фасовка битума">
 							</a>
 							<div class="bitum-fas-page-block-3__text">Комбинированный складной контейнер КСК-У1000 предназначен для
@@ -173,25 +173,25 @@ $APPLICATION->SetTitle("Главная");
 					</div>
 					<div class="bitum-fas-page-block-4__items bitum-fas-page-block-4__items_01">
 						<div class="bitum-fas-page-block-4__item">
-							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/1.svg"
+							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/1.svg" loading="lazy"
 									alt="Формы отгрузки">
 							</div>
 							<div class="bitum-fas-page-block-4__info">Контроль на всех стадиях логистической цепочки</div>
 						</div>
 						<div class="bitum-fas-page-block-4__item">
-							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/2.svg"
+							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/2.svg" loading="lazy"
 									alt="Формы отгрузки">
 							</div>
 							<div class="bitum-fas-page-block-4__info">Сохранение качества в процессе транспортировки</div>
 						</div>
 						<div class="bitum-fas-page-block-4__item">
-							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/3.svg"
+							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/3.svg" loading="lazy"
 									alt="Формы отгрузки">
 							</div>
 							<div class="bitum-fas-page-block-4__info">Приоритетное обеспечение битумными материалами</div>
 						</div>
 						<div class="bitum-fas-page-block-4__item">
-							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/4.svg"
+							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/4.svg" loading="lazy"
 									alt="Формы отгрузки">
 							</div>
 							<div class="bitum-fas-page-block-4__info">Стабильные поставки с 24 битумных производств</div>
@@ -210,22 +210,22 @@ $APPLICATION->SetTitle("Главная");
 					</div>
 					<div class="bitum-fas-page-block-4__items bitum-fas-page-block-4__items_02">
 						<div class="bitum-fas-page-block-4__item">
-							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/5.svg"
+							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/5.svg" loading="lazy"
 									alt="Формы отгрузки">
 							</div>
 							<div class="bitum-fas-page-block-4__info">Крытые вагоны 63 тн.</div>
 						</div>
 						<div class="bitum-fas-page-block-4__item">
-							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/6.svg"
+							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/6.svg" loading="lazy"
 									alt="Формы отгрузки">
 							</div>
 							<div class="bitum-fas-page-block-4__info">Морской танкер от 3000-30000 тонн</div>
 						</div>
 						<div class="bitum-fas-page-block-4__item">
-							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/7.svg"
+							<div class="bitum-fas-page-block-4__image"><img src="/img/bitum-fas-page/block-4/7.svg" loading="lazy"
 									alt="Формы отгрузки">
 							</div>
-							<div class="bitum-fas-page-block-4__info">Еврофуры 20 тн.</div>
+							<div class="bitum-fas-page-block-4__info">Еврофуры <br> 20 тн.</div>
 						</div>
 					</div>
 				</div>

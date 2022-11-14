@@ -145,17 +145,17 @@ $APPLICATION->SetTitle("Дизельное топливо");
 					<div class="kerosin-page-block-5__items">
 
 						<div class="kerosin-page-block-5__item">
-							<div class="kerosin-page-block-5__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
+							<div class="kerosin-page-block-5__image"><img src="/img/bgs-page/block-5-1.svg" loading="lazy" alt="Формы отгрузки">
 							</div>
 							<div class="kerosin-page-block-5__info">Вагон-цистерна <br> 60 тонн</div>
 						</div>
 						<div class="kerosin-page-block-5__item">
-							<div class="kerosin-page-block-5__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
+							<div class="kerosin-page-block-5__image"><img src="/img/bgs-page/block-5-2.svg" loading="lazy" alt="Формы отгрузки">
 							</div>
 							<div class="kerosin-page-block-5__info">Морской танкер <br> 2000 тонн</div>
 						</div>
 						<div class="kerosin-page-block-5__item">
-							<div class="kerosin-page-block-5__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
+							<div class="kerosin-page-block-5__image"><img src="/img/bgs-page/block-5-3.svg" loading="lazy" alt="Формы отгрузки">
 							</div>
 							<div class="kerosin-page-block-5__info">Автобензовоз <br> 22 тонн</div>
 						</div>

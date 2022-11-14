@@ -66,7 +66,7 @@ $APPLICATION->SetTitle("Главная");
             <div class="bgs-page-block-3__container">
                 <h2 class="bgs-page-block-3__title"><?=GetMessage("RECEIVING")?></h2>
                 <div class="bgs-page-block-3__content">
-                    <a href="#" class="bgs-page-block-3__image"><img src="/img/bgs-page/1.jpg"
+                    <a href="#" class="bgs-page-block-3__image"><img src="/img/bgs-page/1.jpg" loading="lazy"
                             alt="Получение и сфера применения"></a>
                     <div class="bgs-page-block-3__subtext"><?=GetMessage("RECEIVING-TEXT")?></div>
                 </div>
@@ -134,15 +134,15 @@ $APPLICATION->SetTitle("Главная");
                 <div class="bgs-page-block-5__items">
 
                     <div class="bgs-page-block-5__item">
-                        <div class="bgs-page-block-5__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки"></div>
+                        <div class="bgs-page-block-5__image"><img src="/img/bgs-page/block-5-1.svg" loading="lazy" alt="Формы отгрузки"></div>
                         <div class="bgs-page-block-5__info"><?=GetMessage("TANK-CAR")?></div>
                     </div>
                     <div class="bgs-page-block-5__item">
-                        <div class="bgs-page-block-5__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки"></div>
+                        <div class="bgs-page-block-5__image"><img src="/img/bgs-page/block-5-2.svg" loading="lazy" alt="Формы отгрузки"></div>
                         <div class="bgs-page-block-5__info"><?=GetMessage("SEA-TANKER")?></div>
                     </div>
                     <div class="bgs-page-block-5__item">
-                        <div class="bgs-page-block-5__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки"></div>
+                        <div class="bgs-page-block-5__image"><img src="/img/bgs-page/block-5-3.svg" loading="lazy" alt="Формы отгрузки"></div>
                         <div class="bgs-page-block-5__info"><?=GetMessage("CAR-FUEL")?></div>
                     </div>
                 </div>

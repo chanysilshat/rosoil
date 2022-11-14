@@ -240,7 +240,7 @@ $APPLICATION->SetTitle("Главная");
     </div> 
     <div class="fuel-blok">
         <div class="fuel-list">
-            <img src="/img/fuel-TC-1.png">
+            <img src="/img/fuel-TC-1.png" loading="lazy">
         </div>
         <div class="fuel-list">
             <div class="fuel-list-item">
@@ -412,17 +412,17 @@ $APPLICATION->SetTitle("Главная");
             </div>
             <div class="bitum-page-block-8__items">
                 <div class="bitum-page-block-8__item">
-                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
+                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" loading="lazy" alt="Формы отгрузки">
                     </div>
                     <div class="bitum-page-block-8__info"><?=GetMessage("TANK-CAR")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
-                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
+                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" loading="lazy" alt="Формы отгрузки">
                     </div>
                     <div class="bitum-page-block-8__info"><?=GetMessage("SEA-TANKER")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
-                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
+                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" loading="lazy" alt="Формы отгрузки">
                     </div>
                     <div class="bitum-page-block-8__info"><?=GetMessage("FUEL-CARRIER")?></div>
                 </div>

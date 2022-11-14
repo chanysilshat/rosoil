@@ -64,7 +64,7 @@
                             <div data-spoller class="footer-main-block__title"><span>Ответственная
                                     работа</span></div>
                             <ul class="footer-main-block__items">
-                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/complex_program/" target="_blank" class="footer-main-block__link">Программа комплекса</a></li>
+                                <li class="footer-main-block__item"><a href="http://rosoil.stt-corp.ru/complex_program/" target="_blank" class="footer-main-block__link">Программа комплаенса</a></li>
                             </ul>
                         </div>
                         <div class="footer-main-block__column">
@@ -120,22 +120,25 @@
         </div>
         <div class="modal-window-block">
             <div class="modal-window" id="feedback">
-                <button class="modal-window-close"><img src="img/clouse-vector.png" alt=""></button>
+                <button class="modal-window-close"><img src="/img/clouse-vector.svg" loading="lazy" alt=""></button>
                 <h2>Заказать обратный звонок</h2>
                     <div class="back-call">
                         <input class="back-call-name" type="text" placeholder="Имя">
                         <input type="text" placeholder="Номер телефона">
                     </div>
-                    <p>Отправляя заявку. вы соглашаетесь<br> с <span>политикой конфиденциальности</span></p>
+                    <button class="back-call-btn">Отправить</button>
+
+                    <p>Отправляя заявку. вы соглашаетесь<br> с <span> <a href="http://rosoil.stt-corp.ru/policy/" target="_blank">политикой конфиденциальности</a> </span></p>
             </div>
             <div class="modal-window" id="feedback1"> 
-                <button class="modal-window-close"><img src="img/clouse-vector.png" alt=""></button>
+                <button class="modal-window-close"><img src="/img/clouse-vector.svg" loading="lazy" alt=""></button>
                 <h2>Отправить заявку</h2>
                     <div class="back-call">
                         <input class="back-call-name" type="text" placeholder="Номер телефона">
                         <input type="text" placeholder="Комментарии">
                     </div>
-                    <p>Отправляя заявку. вы соглашаетесь<br> с <span>политикой конфиденциальности</span></p>
+                    <button class="back-call-btn">Отправить</button>
+                    <p>Отправляя заявку. вы соглашаетесь<br> с <span><a href="http://rosoil.stt-corp.ru/policy/" target="_blank">политикой конфиденциальности</a></span></p>
             </div>
         </div>
 

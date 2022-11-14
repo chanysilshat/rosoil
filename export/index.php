@@ -73,7 +73,7 @@ $APPLICATION->SetTitle('Экспорт');
         <div class="container">
             <div class="portfolio-block">
                 <div class="portfolio-img">
-                    <img src="/img/wwW2.png">
+                    <img src="/img/export.png" loading="lazy">
                 </div>
                 <div class="portfolio-info">
                     <div class="portfolio-info-block">
@@ -82,7 +82,7 @@ $APPLICATION->SetTitle('Экспорт');
                     </div>
                     <div class="portfolio-info-block">
                         <div class="portfolio-info-circle-1"></div>
-                        <div><p>Авиационное топливо PT, TC, JET A-1</p></div>
+                        <div><p>Реактивное авиационное топливо</p></div>
                     </div>
                     <div class="portfolio-info-block">
                         <div class="portfolio-info-circle-2"></div>
@@ -91,10 +91,6 @@ $APPLICATION->SetTitle('Экспорт');
                     <div class="portfolio-info-block">
                         <div class="portfolio-info-circle-3"></div>
                         <div><p>Нафта</p></div>
-                    </div>
-                    <div class="portfolio-info-block">
-                        <div class="portfolio-info-circle-4"></div>
-                        <div><p>Легкие дестиляты</p></div>
                     </div>
                     <div class="portfolio-info-block">
                         <div class="portfolio-info-circle-5"></div>
@@ -111,10 +107,6 @@ $APPLICATION->SetTitle('Экспорт');
                     <div class="portfolio-info-block">
                         <div class="portfolio-info-circle-8"></div>
                         <div><p>СУГ</p></div>
-                    </div>
-                    <div class="portfolio-info-block">
-                        <div class="portfolio-info-circle-9"></div>
-                        <div><p>ЛПГ</p></div>
                     </div>
                     <!-- <svg width="320" height="260" viewBox="0 0 320 260" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="7.5" cy="6.5" r="6.5" fill="#5981B8"/>
@@ -165,7 +157,7 @@ $APPLICATION->SetTitle('Экспорт');
                     <li>Создают программируемые устройства и современные технологии.</li>
                     <li>Являются непревзойденными профессионалами в своей области.</li>
                     </ol>
-                    <br></br>
+                    <br>
                     Наша Концепция бизнеса направлена именно на третью группу. Нас отличает два важнейших качества: во-первых, умение в ограниченный период времени осваивать приемы и техники повышенной сложности, во-вторых — способность производить продукт высочайшего качества в кратчайшие сроки.
                     <br></br>
                     Ответственный подход к бизнесу способствует экономическому прогрессу и развитию общества в Мире. Мы нацелены на эффективные методы сотрудничества, для достижения наибольших результатов.

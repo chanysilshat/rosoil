@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("Главная");
         <div class="article-blog">
             <div class="article-item">
                 <div class="article-picture">
-                    <img src="/img/BlogImage.png">
+                    <img src="/img/BlogImage.png" loading="lazy">
                 </div>
                 <div class="article-info">
                     <div class="article-date">
@@ -31,7 +31,7 @@ $APPLICATION->SetTitle("Главная");
             </div>
             <div class="article-item">
                 <div class="article-picture">
-                    <img src="/img/Blog Image.png">
+                    <img src="/img/Blog Image.png" loading="lazy">
                 </div>
                 <div class="article-info">
                     <div class="article-date">
@@ -52,7 +52,7 @@ $APPLICATION->SetTitle("Главная");
             </div>
             <div class="article-item">
                 <div class="article-picture">
-                    <img src="/img/Blog Image (1).png">
+                    <img src="/img/Blog Image (1).png" loading="lazy">
                 </div>
                 <div class="article-info">
                     <div class="article-date">
@@ -73,7 +73,7 @@ $APPLICATION->SetTitle("Главная");
             </div>
             <div class="article-item">
                 <div class="article-picture">
-                    <img src="/img/Blog Image (2).png">
+                    <img src="/img/Blog Image (2).png" loading="lazy">
                 </div>
                 <div class="article-info">
                     <div class="article-date">
@@ -94,7 +94,7 @@ $APPLICATION->SetTitle("Главная");
             </div>
             <div class="article-item">
                 <div class="article-picture">
-                    <img src="/img/Blog Image (3).png">
+                    <img src="/img/Blog Image (3).png" loading="lazy">
                 </div>
                 <div class="article-info">
                     <div class="article-date">
@@ -115,7 +115,7 @@ $APPLICATION->SetTitle("Главная");
             </div>
             <div class="article-item">
                 <div class="article-picture">
-                    <img src="/img/Blog Image (4).png">
+                    <img src="/img/Blog Image (4).png" loading="lazy">
                 </div>
                 <div class="article-info">
                     <div class="article-date">
@@ -136,7 +136,7 @@ $APPLICATION->SetTitle("Главная");
             </div>
             <div class="article-item">
                 <div class="article-picture">
-                    <img src="/img/Blog Image (5).png">
+                    <img src="/img/Blog Image (5).png" loading="lazy">
                 </div>
                 <div class="article-info">
                     <div class="article-date">
@@ -157,7 +157,7 @@ $APPLICATION->SetTitle("Главная");
             </div>
             <div class="article-item">
                 <div class="article-picture">
-                    <img src="/img/Blog Image (6).png">
+                    <img src="/img/Blog Image (6).png" loading="lazy">
                 </div>
                 <div class="article-info">
                     <div class="article-date">

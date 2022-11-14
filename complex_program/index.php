@@ -112,7 +112,7 @@ $APPLICATION->SetTitle("История компании");
         <!--Цифры с картинкой-->
             <div class="polimer-conteiner">
         <div class="polimer-img">
-            <img src="/img/AdobeStock_1.png">
+            <img src="/img/AdobeStock_1.png" loading="lazy">
         </div>
         <div class="polimer-info">
             <div class="polimer-info-text">

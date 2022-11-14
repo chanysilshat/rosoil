@@ -271,17 +271,17 @@ $APPLICATION->SetTitle("Главная");
 				</div>
 				<div class="bitum-page-block-8__items">
 					<div class="bitum-page-block-8__item">
-						<div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
+						<div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" loading="lazy" alt="Формы отгрузки">
 						</div>
 						<div class="bitum-page-block-8__info">Вагон-цистерна <br> 60 тонн</div>
 					</div>
 					<div class="bitum-page-block-8__item">
-						<div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
+						<div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" loading="lazy" alt="Формы отгрузки">
 						</div>
 						<div class="bitum-page-block-8__info">Морской танкер <br> 2000 тонн</div>
 					</div>
 					<div class="bitum-page-block-8__item">
-						<div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
+						<div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" loading="lazy" alt="Формы отгрузки">
 						</div>
 						<div class="bitum-page-block-8__info">Автобензовоз <br> 22 тонн</div>
 					</div>

@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("Главная");
 						<div class="news-page-block-1__time">8 минут на прочтение</div>
 						<div class="news-page-block-1__name">Автор статьи</div>
 					</div>
-					<div class="news-page-block-1__image"><img src="/img/news-page/1.jpg" alt="Rise Oil"></div>
+					<div class="news-page-block-1__image"><img src="/img/news-page/1.jpg" loading="lazy" alt="Rise Oil"></div>
 					<div class="news-page-block-1__text">
 						<p>
 							В рамках спецификации современных стандартов, представители современных социальных резервов являются
@@ -35,7 +35,7 @@ $APPLICATION->SetTitle("Главная");
 					<div class="news-page-block-2__slider swiper">
 						<div class="news-page-block-2__wrapper swiper-wrapper">
 							<a href="#" class="news-page-block-2__slide swiper-slide">
-								<div class="news-page-block-2__image"><img src="/img/news-page/2.jpg" alt="Новости"></div>
+								<div class="news-page-block-2__image"><img src="/img/news-page/2.jpg" loading="lazy" alt="Новости"></div>
 								<div class="news-page-block-2__info">
 									<div class="news-page-block-2__date">08.08.2022</div>
 									<div class="news-page-block-2__time">8 мин. на прочтение</div>
@@ -43,7 +43,7 @@ $APPLICATION->SetTitle("Главная");
 								<h3 class="news-page-block-2__subtitle">Приятно, граждане, наблюдать, как диаграммы</h3>
 							</a>
 							<a href="#" class="news-page-block-2__slide swiper-slide">
-								<div class="news-page-block-2__image"><img src="/img/news-page/3.jpg" alt="Новости"></div>
+								<div class="news-page-block-2__image"><img src="/img/news-page/3.jpg" loading="lazy" alt="Новости"></div>
 								<div class="news-page-block-2__info">
 									<div class="news-page-block-2__date">08.08.2022</div>
 									<div class="news-page-block-2__time">8 мин. на прочтение</div>
@@ -51,7 +51,7 @@ $APPLICATION->SetTitle("Главная");
 								<h3 class="news-page-block-2__subtitle">Приятно, граждане, наблюдать, как диаграммы</h3>
 							</a>
 							<a href="#" class="news-page-block-2__slide swiper-slide">
-								<div class="news-page-block-2__image"><img src="/img/news-page/4.jpg" alt="Новости"></div>
+								<div class="news-page-block-2__image"><img src="/img/news-page/4.jpg" loading="lazy" alt="Новости"></div>
 								<div class="news-page-block-2__info">
 									<div class="news-page-block-2__date">08.08.2022</div>
 									<div class="news-page-block-2__time">8 мин. на прочтение</div>

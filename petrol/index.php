@@ -77,7 +77,7 @@ $APPLICATION->SetTitle("Безниз");
         </div>  
         <div class="classification-block container">
             <div class="classification-img">
-                <img src="/img/classification.png">    
+                <img src="/img/classification.png" loading="lazy">    
             </div>
             <div class="classification-block-items">
                 <div class="classification-item">
@@ -175,17 +175,17 @@ $APPLICATION->SetTitle("Безниз");
             </div>
             <div class="bitum-page-block-8__items">
                 <div class="bitum-page-block-8__item">
-                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" alt="Формы отгрузки">
+                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-1.svg" loading="lazy" alt="Формы отгрузки">
                     </div>
                     <div class="bitum-page-block-8__info"><?=GetMessage("OSOB_TRANS2")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
-                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" alt="Формы отгрузки">
+                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-2.svg" loading="lazy" alt="Формы отгрузки">
                     </div>
                     <div class="bitum-page-block-8__info"><?=GetMessage("OSOB_TRANS3")?></div>
                 </div>
                 <div class="bitum-page-block-8__item">
-                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" alt="Формы отгрузки">
+                    <div class="bitum-page-block-8__image"><img src="/img/bgs-page/block-5-3.svg" loading="lazy" alt="Формы отгрузки">
                     </div>
                     <div class="bitum-page-block-8__info"><?=GetMessage("OSOB_TRANS4")?></div>
                 </div>

@@ -14,6 +14,17 @@ document.addEventListener("DOMContentLoaded", function(){
         })
     }
 
+    let about_bitum = document.querySelector(".about-description-item-bitumen"),
+        black_block = document.querySelector(".about-description-block-bottom");
+        if (about_bitum){
+            about_bitum.addEventListener('click', () => {
+                black_block.classList.toggle('open');
+            });
+        }
+      
+
+
+
     let lang = document.querySelector('.header-main-block__language');
 
     lang.addEventListener('change', function(){

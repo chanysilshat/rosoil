@@ -13,11 +13,14 @@
 
 
 .modal-window {
-    // margin-left: 15%;
+    /* // margin-left: 15%; */
 
     height: 300px;
     background: #f9d119;
     margin-bottom: 50px;
+    width: 500px;
+   height: 415px;
+   text-align: center;
  }
  
  .back-call input {
@@ -29,18 +32,28 @@
     border-radius: 10px;
     padding-left: 15px;
  }
- 
+ .back-call-btn {
+   width: 60%;
+   height: 41px;
+   border-radius: 10px;
+   margin-top: 30px;
+   color: #FFFFFF;
+   background-color: #1D1D1D;
+
+
+}
  .back-call-name {
     margin-bottom: 30px;
     margin-top: 37px;
  }
  
- .modal-window p, span {
+ .modal-window p, 
+ .modal-window span {
     font-weight: 600;
     font-size: 9px;
     text-align: center;
-    line-height: 1px;
-    margin-top: 7px;
+    line-height: 128%;
+    margin-top: 24px;
  }
  
  .modal-window span {
@@ -56,9 +69,10 @@
  }
  
  .modal-window h2 {
-    font-weight: 800;
-    font-size: 17px;
-    text-align: center;
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 36px;
+   text-align: center;
     margin-top: 41px;
  }
  
@@ -74,3 +88,19 @@
  .stt-modal{
     background-color: #000000c4;
  }
+
+ @media (max-width: 576px){
+   .modal-window {
+       width: 450px;
+   }
+}
+@media (max-width: 479px){
+   .modal-window {
+       width: 95%;
+   }
+}
+@media (max-width: 375px){
+   .modal-window {
+       width: 80%;
+   }
+}

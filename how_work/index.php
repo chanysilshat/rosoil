@@ -15,7 +15,7 @@ $APPLICATION->SetTitle("История компании");
                     </div>
                 </div>
                 <div class="howwork-video">
-                    <video class="howwork-video__video" autoplay="autoplay" preload="metadata" controls="" src="/img/how-work.MP4"></video>
+                    <video class="howwork-video__video" autoplay muted loop src="/img/how-work.MP4"></video>
                 </div>
                 <div class="howwork-value">
                     <h3 class="howwork-value-title"><?=GetMessage("WE-CREATE-VALUE")?></h3>
@@ -32,12 +32,12 @@ $APPLICATION->SetTitle("История компании");
                                 <?=GetMessage("GLOBAL-COVERAGE-TEXT")?>
                             </div>
                             <div class="howwork-competitors-img">
-                                <img src="/img/global-reach.jpeg" alt="">
+                                <img src="/img/global-reach.jpeg" loading="lazy" alt="">
                             </div>
                         </div>
                         <div class="howwork-competitors-item">
                             <div class="howwork-competitors-img">
-                                <img src="/img/Logistics-infrastructure.jpeg" alt="">
+                                <img src="/img/Logistics-infrastructure.jpeg" loading="lazy" alt="">
                             </div>
 
                             <div class="howwork-competitors-text">
@@ -51,12 +51,12 @@ $APPLICATION->SetTitle("История компании");
                                 <?=GetMessage("SERVICE-TEXT")?>
                             </div>
                             <div class="howwork-competitors-img">
-                                <img src="/img/Comprehensive.jpeg" alt="">
+                                <img src="/img/Comprehensive.jpeg" loading="lazy" alt="">
                             </div>
                         </div>
                         <div class="howwork-competitors-item">
                             <div class="howwork-competitors-img">
-                                <img src="/img/Independence.jpeg" alt="">
+                                <img src="/img/Independence.jpeg" loading="lazy" alt="">
                             </div>
 
                             <div class="howwork-competitors-text">
@@ -70,7 +70,7 @@ $APPLICATION->SetTitle("История компании");
                                 <?=GetMessage("FINANCIAL-POWER-TEXT")?>
                             </div>
                             <div class="howwork-competitors-img">
-                                <img src="/img/power.jpg" alt="">
+                                <img src="/img/power.jpg" loading="lazy" alt="">
                             </div>
                         </div>
 
@@ -142,7 +142,7 @@ $APPLICATION->SetTitle("История компании");
                 );?> 
                 <div class="howwork-end">
                     <div class="howwork-competitors-img">
-                        <img src="/img/Logistics-infrastructure.jpeg" alt="">
+                        <img src="/img/Logistics-infrastructure.jpeg" loading="lazy" alt="">
                     </div>
 
                     <div class="howwork-end-text">

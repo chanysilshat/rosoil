@@ -88,7 +88,7 @@ $APPLICATION->SetTitle("История компании");
                 <div class="polimer-conteiner-koks">
                     <div class="container">
                         <div class="polimer-img">
-                            <img src="/img/koks.png">
+                            <img src="/img/koks.png" loading="lazy">
                         </div>
                         <div class="polimer-info">
                             <div class="polimer-info-text">
@@ -262,9 +262,9 @@ $APPLICATION->SetTitle("История компании");
                 <div class="koks passport-block">
                     <div class="container">
                         <div class="passport-text">
-                            <img src="/img/PdfFile.png">
+                            <img src="/img/PdfFile.png" loading="lazy">
                             <span><a href="http://rosoil.stt-corp.ru/passports/" target="_blank"><?=GetMessage("PASS")?></a></span>
-                            <img src="/img/DownloadIcon.png">
+                            <img src="/img/DownloadIcon.png" loading="lazy">
                         </div>
                     </div>
                 </div>

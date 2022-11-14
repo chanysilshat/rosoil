@@ -43,7 +43,7 @@
     .banner-page{
         background-position: center;
         background-repeat: no-repeat;
-        background-size: auto 100%;
+        /* background-size: auto 100%; */
     }
     .kinds{
         justify-content: space-around;
@@ -65,6 +65,10 @@
     }
     .ethical-justifications-block .block-wrapper {
         margin-top: 18%;
+    }
+    .portfolio-block {
+        justify-content: flex-start;
+        gap: 48%;
     }
 
 }
@@ -197,7 +201,7 @@
         height: 117px;
     }
     .polimer-info-text{
-       margin-bottom: 20px;
+       margin-bottom: 7px;
     }
     .polimer-conteiner{
        margin-bottom: 99px;
@@ -394,6 +398,12 @@
     .ethical-justifications-mobile .block-wrapper {
         margin-top: 14%;
     }
+    .portfolio-block {
+        gap: 45%;
+    }
+    .portfolio-img img {
+        width: 430px;
+    }
 }
 @media (max-width: 768px){
    
@@ -468,7 +478,9 @@
         padding-bottom: 38px;
      }
      .polimer-info-text{
-        justify-content: center;
+        /* justify-content: center; */
+        margin-left: 15%;
+        margin-bottom: 25px;
      }
      .polimer-info-text-a{
         max-width: 443px;
@@ -736,6 +748,12 @@
     }
     .ethical-justifications-mobile .block-wrapper {
         margin-top: 19%;
+    }
+    .portfolio-img {
+        width: 430px;
+    }
+    .business-text-block {
+        top: 0;
     }
 }
 @media (max-width: 576px){
@@ -1049,6 +1067,9 @@
     .ethical-justifications-mobile .block-wrapper {
         margin-top: 33%;
     }
+    .portfolio-img {
+        width: 400px;
+    }
 
 } 
 @media (max-width: 400px){
@@ -1099,6 +1120,10 @@
     .ethical-justifications-mobile .block-wrapper {
         margin-top: 50%;
     }
+    .portfolio-img {
+        width: 100%;
+    }
+
 } 
 @media (max-width: 375px){
     .bitumPMB-page .marki-info-block{

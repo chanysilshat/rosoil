@@ -87,7 +87,7 @@ $APPLICATION->SetTitle('Экспорт');
                 </div>
             <div class="coldasphalt-block coldasphalt-page">
                 <div class="coldasphalt-img">
-                    <img src="/img/asphalt.png">
+                    <img src="/img/asphalt.png" loading="lazy">
                 </div>
                 <div class="coldasphalt-info">
                     <div class="coldasphalt-info-text">
